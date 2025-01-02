@@ -15554,7 +15554,10 @@ textContainer.style.height = '300px'; // Max height to trigger scroll
 textContainer.style.margin = '20px auto';
 textContainer.style.border = '3px solid #000'; // Thick black border like a computer screen frame
 textContainer.style.borderRadius = '0'; // No rounded corners, flat screen style
-textContainer.style.backgroundColor = '#D3D3D3'; // Light gray for the screen background
+textContainer.style.backgroundColor = '#D3D3D3'; // Light gray for the screen background (fallback color)
+textContainer.style.backgroundImage = 'url("https://i.imgur.com/5CUW6dY.png")'; // Add background image
+textContainer.style.backgroundSize = 'cover'; // Ensure the image covers the entire container
+textContainer.style.backgroundPosition = 'center'; // Center the image
 textContainer.style.padding = '20px';
 textContainer.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
 textContainer.style.overflowY = 'auto'; // Auto scroll when content overflows
@@ -15563,6 +15566,7 @@ textContainer.style.display = 'block'; // Block layout for better scrolling beha
 textContainer.style.fontFamily = 'Courier New, monospace'; // Monospaced font for the terminal look
 textContainer.style.fontSize = '14px'; // Classic size for text on old computer screens
 textContainer.style.color = '#000'; // Black text for readability
+
 // Apply the scrollbar styles (for modern browsers)
 textContainer.style.scrollbarWidth = 'thin'; // For Firefox
 textContainer.style.scrollbarColor = '#0000FF #D3D3D3'; // Blue scrollbar with gray background for Firefox
@@ -15590,6 +15594,7 @@ style.innerHTML = `
 `;
 document.head.appendChild(style);
 parentDiv.appendChild(textContainer);
+
     // Function to render content for the current page
     function renderPage(pageIndex) {
         textContainer.innerHTML = ''; // Clear previous content
@@ -16036,9 +16041,9 @@ question_insert("gore_question_3_feinstein", {
             "likelihood": 1
         }
     });
-    question_insert("gore_question_7_vp_biden", {
+    question_insert("gore_question_7_senator_biden", {
       "model": "campaign_trail.question",
-        "pk":  "gore_question_7_senator_biden",
+        "pk":  "gore_question_8_afghan_government",
         "fields": {
             "priority": 0,
             "description": "The legitimate government of Afghanistan (the Islamic State of Afghanistan) is on the verge of collapse. What will you do to ensure that Afghanistan’s Pro-American government doesn't fall apart and cause a full civil war? Many are calling for you to escalate this into a full-scale invasion of Afghanistan to stop the Taliban for this reason. \n",
@@ -16143,9 +16148,9 @@ question_insert("gore_question_3_zeller", {
             "likelihood": 1
         }
     });
-    question_insert("gore_question_7_vp_biden", {
+    question_insert("gore_question_7_senator_biden", {
       "model": "campaign_trail.question",
-        "pk":  "gore_question_7_senator_biden",
+        "pk":  "gore_question_8_afghan_government",
         "fields": {
             "priority": 0,
             "description": "The legitimate government of Afghanistan (the Islamic State of Afghanistan) is on the verge of collapse. What will you do to ensure that Afghanistan’s Pro-American government doesn't fall apart and cause a full civil war? Many are calling for you to escalate this into a full-scale invasion of Afghanistan to stop the Taliban for this reason. \n",
@@ -16250,9 +16255,9 @@ question_insert("gore_question_3_kerry", {
             "likelihood": 1
         }
     });
-    question_insert("gore_question_7_vp_biden", {
+    question_insert("gore_question_7_senator_biden", {
       "model": "campaign_trail.question",
-        "pk":  "gore_question_7_senator_biden",
+        "pk":  "gore_question_8_afghan_government",
         "fields": {
             "priority": 0,
             "description": "The legitimate government of Afghanistan (the Islamic State of Afghanistan) is on the verge of collapse. What will you do to ensure that Afghanistan’s Pro-American government doesn't fall apart and cause a full civil war? Many are calling for you to escalate this into a full-scale invasion of Afghanistan to stop the Taliban for this reason. \n",
@@ -16357,9 +16362,9 @@ question_insert("gore_question_5_cuomo", {
             "likelihood": 1
         }
     });
-    question_insert("gore_question_7_vp_biden", {
+    question_insert("gore_question_7_senator_biden", {
       "model": "campaign_trail.question",
-        "pk":  "gore_question_7_senator_biden",
+        "pk":  "gore_question_8_afghan_government",
         "fields": {
             "priority": 0,
             "description": "The legitimate government of Afghanistan (the Islamic State of Afghanistan) is on the verge of collapse. What will you do to ensure that Afghanistan’s Pro-American government doesn't fall apart and cause a full civil war? Many are calling for you to escalate this into a full-scale invasion of Afghanistan to stop the Taliban for this reason. \n",
