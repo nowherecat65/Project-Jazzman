@@ -580,28 +580,64 @@ background-color: #DDE7FE;
     }
   }
   
-  class Playlist {
-    constructor() {
-      this.songs = [];
-      this.currentSongIndex = 0;
-    }
-  
-    addSong(song) {
-      this.songs.push(song);
-    }
-  
-    getCurrentSong() {
-      return this.songs[this.currentSongIndex];
-    }
-  
-    playNext() {
-      this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
-    }
-  
-    playPrevious() {
-      this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
-    }
+  // Update the Playlist class
+class Playlist {
+  constructor() {
+    this.songs = [];
+    this.currentSongIndex = 0;
+    this.randomizeEnabled = false; // New flag for randomization
   }
+
+  addSong(song) {
+    this.songs.push(song);
+  }
+
+  getCurrentSong() {
+    return this.songs[this.currentSongIndex];
+  }
+
+  playNext() {
+    if (this.randomizeEnabled && this.currentSongIndex === 0) {
+      this.randomizeAfterFirst();
+    }
+    this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+  }
+
+  playPrevious() {
+    this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+  }
+
+  randomizeAfterFirst() {
+    const firstSong = this.songs[0];
+    const restOfSongs = this.songs.slice(1);
+    for (let i = restOfSongs.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [restOfSongs[i], restOfSongs[j]] = [restOfSongs[j], restOfSongs[i]];
+    }
+    this.songs = [firstSong, ...restOfSongs];
+  }
+}
+
+// Add the button to the UI
+function setupRandomizeButton() {
+  const randomizeButton = document.createElement("button");
+  randomizeButton.id = "randomizeButton";
+  randomizeButton.textContent = "Randomize Songs";
+  randomizeButton.style.margin = "10px";
+
+  randomizeButton.addEventListener("click", function () {
+    playlist.randomizeEnabled = !playlist.randomizeEnabled;
+    alert(
+      playlist.randomizeEnabled
+        ? "Randomization after 'Don't Stop' is enabled."
+        : "Randomization after 'Don't Stop' is disabled."
+    );
+  });
+
+  const playerContainer = document.getElementById("player");
+  playerContainer.appendChild(randomizeButton);
+}
+
   window.Playlist=Playlist
   window.Song=Song
   
@@ -1060,7 +1096,7 @@ volumeLabel.style.height = "50px";  // Increase the height
     }
     #mp3Player {
       margin-left: 0;  /* Ensure there's no extra margin on the left */
-      margin-right: 225px;
+      margin-right: 125px;
       align-items: center;
       /* No need for absolute positioning here */
       width: 300px;   /* Your preferred width */
@@ -1080,6 +1116,7 @@ volumeLabel.style.height = "50px";  // Increase the height
   const gameWindow_player = document.getElementById("game_window");
   //use this function directly or put it in an event listener to start the music on the press of a certain button
   setupMusicPlayer();
+  setupRandomizeButton();
 
 
 RecReading=true
