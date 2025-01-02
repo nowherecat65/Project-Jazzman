@@ -455,6 +455,18 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": "clinton_2nd_term_question_2",
+        "fields": {
+            "priority": 0,
+            "description": "Despite your victory just a few months ago, you’ve barely made a dent in Gingrich’s Coalition, keeping both the Senate and House still under his rule. You’ve arrived at the House chamber to give your first State of the Union address to the barely changed partisan Congress that has fought you tooth and nail over anything and anywhere they can during your first term. What could you possibly hope to say to bring them across the aisle?\n",
+            "likelihood": 1
+        }
+    },
+
+    // Cutoff between Clinton and Gore questions
+
+    {
+        "model": "campaign_trail.question",
         "pk": "insert_bill_dies",
         "fields": {
             "priority": -1,
@@ -477,15 +489,6 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 0,
             "description": "It's been a few weeks since you selected Joe Biden as VP and we have a new development, Mr. President. We have found more information on the assassin, Osama Bin Laden; his goal is to end what he calls ‘American Imperialism’ in the Middle East. It is believed he has fled his assumed hideout in Sudan and is currently in Afghanistan. You know what to do.\n",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": "insert_clinton_has_lived",
-        "fields": {
-            "priority": 0,
-            "description": "if you are seeing this, Bill Clinton has lived!",
             "likelihood": 1
         }
     },
@@ -1104,6 +1107,38 @@ campaignTrail_temp.answers_json = [
             "description": "I want to give a speech at our campaign headquarters, in Little Rock. We’ve made good progress since 1992, but the journey is far, far from over. Together, we can keep pushing forward towards a stronger, fairer America for all who call this great nation home. \n"
         }
     },
+     {
+        "model": "campaign_trail.answer",
+        "pk": 220001,
+        "fields": {
+            "question": "clinton_2nd_term_question_2",
+            "description": "We must protect our environment in every community. I urge you to pass my proposal to make big polluters live by a simple rule: If you pollute our environment, you should pay to clean it up."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 220002,
+        "fields": {
+            "question": "clinton_2nd_term_question_2",
+            "description": "Over the last four years, we have brought new economic growth by investing in our people, expanding our exports, cutting our deficits, and creating over 11 million new jobs, a four-year record. Now we must keep our economy the strongest in the world. We here tonight have a historic opportunity. Let this Congress be the Congress that finally balances the budget."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 220003,
+        "fields": {
+            "question": "clinton_2nd_term_question_2",
+            "description": "We must pursue a deeper dialogue with China for the sake of our interests and our ideals. An isolated China is not good for America. I will go to China, and I have invited China's President to come here, not because we agree on everything, but because engaging China is the best way to work on our common challenges like ending nuclear testing, and to deal frankly with our fundamental differences like human rights."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 220004,
+        "fields": {
+            "question": "clinton_2nd_term_question_2",
+            "description": "My fellow Americans, we must never, ever believe that our diversity is a weakness, it is our greatest strength. Americans speak every language and know every country. People on every continent can look to us and see the reflection of their own great potential, and they always will, as long as we strive to give all of our citizens, whatever their background, an opportunity to achieve their own greatness."
+        }
+    },
 	
 	// Seperation between "regular" questions and "stored" questions.
 	
@@ -1291,14 +1326,6 @@ campaignTrail_temp.answers_json = [
             "description": "Alright, it’s time to get to work. I’ll do everything I can to push forward as many bills as possible in these next few months. We’ve got a lot to tackle, and I’m determined to make progress for the American people."
         }
     },	
-	{
-        "model": "campaign_trail.answer",
-        "pk": 99999.5,
-        "fields": {
-            "question": "12818914", // ??? I have no idea what this is, -Naimina OS
-            "description": "My God, how on Earth can someone support this? If you look closely at the bill, you will see that it is just a disgusting and disgraceful Islamophobic dogwhistle. Call Gingrich and tell him that I am incredibly disappointed by his support of this atrocity. \n"
-        }
-    },
     {
         "model": "campaign_trail.answer",
         "pk": 35001.5,
@@ -10084,6 +10111,46 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 77,
             "global_multiplier": -0.03
         }
+    },
+        {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272221,
+        "fields": {
+            "answer": 220001,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272223,
+        "fields": {
+            "answer": 220002,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272226,
+        "fields": {
+            "answer": 220003,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1272230,
+        "fields": {
+            "answer": 220004,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.01
+        }
     }
 ]
 
@@ -13801,6 +13868,42 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 77,
             "answer_feedback": "The Islamic State of Afghanistan is still the Islamic State of Afghanistan, so it hardly makes sense to continue supporting it. The only problem is that in retaliation to your actions, the official government of Afghanistan has blocked American military access to US troops. \n"
         }
+    },
+     {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272219,
+        "fields": {
+            "answer": 220001,
+            "candidate": 77,
+            "answer_feedback": "You would think Newt Gingrich is the last person that would agree with you when it comes to solving climate change, but you should know better than to judge a book by it’s cover. He’s takes your plan with great interest, and hopes to work out a strong green bill to your desk ASAP! Bringing you a great feeling of whiplash for the rest of the week.\n\n\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272222,
+        "fields": {
+            "answer": 220002,
+            "candidate": 77,
+            "answer_feedback": "Unanimous applause. If the forecast is as true as they say it is, then America is on its way to an economic surplus the likes of which it has not seen in a long time Bill. Think of the mandate you would have if this were to happen before the midterms!\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272225,
+        "fields": {
+            "answer": 220003,
+            "candidate": 77,
+            "answer_feedback": "China will always be a hot-button issue when it comes to radical reformists, human rights activists, and populist protectionists; they don’t know the genius of reforming China with the market. The freer the market, the freer the country, stupid! They'll learn eventually.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1272229,
+        "fields": {
+            "answer": 220004,
+            "candidate": 77,
+            "answer_feedback": "The One America Initiative is born. An advisory board to help identify, develop, and implement solutions to problems in areas in which race has a substantial impact, such as education, economic opportunity, housing, health care, and the justice system. Only men the likes of David Duke could oppose such a step forward from America’s first Black president.\n"
+        }
     }
 ]
 
@@ -14541,10 +14644,10 @@ resetVariables(resetCondition);
         question_insert("insert_bill_lives", 
         {
               "model": "campaign_trail.question",
-        "pk": "insert_clinton_has_lived",
+        "pk": "clinton_2nd_term_question_2",
         "fields": {
             "priority": 0,
-            "description": "if you are seeing this, Bill Clinton has lived!",
+            "description": "Despite your victory just a few months ago, you’ve barely made a dent in Gingrich’s Coalition, keeping both the Senate and House still under his rule. You’ve arrived at the House chamber to give your first State of the Union address to the barely changed partisan Congress that has fought you tooth and nail over anything and anywhere they can during your first term. What could you possibly hope to say to bring them across the aisle?\n",
             "likelihood": 1
         }
         }
@@ -14769,6 +14872,18 @@ PublicSupport += 1;
     //APEC Summit CYOA
     if (ans == 45002.5) {
     FPWin +=1;
+    }
+    //2nd Term CYOA
+    //State of the Union Adress CYOA
+    if (ans == 220001){
+    PublicSupport += 1;
+    }
+    if (ans == 220002){
+    PublicSupport += 3;
+    DOMWin += 1;
+    }
+    if (ans == 220004){
+    PublicSupport += 2;
     }
     //BEGINING OF GORE CYOA
 
@@ -15404,7 +15519,7 @@ if (ans == 20001.1) {
 
     let relationsDiv = document.createElement('div');
     relationsDiv.id = 'relations_view';
-    relationsDiv.style.height = '100vh'; // Use viewport height for better mobile scaling
+    relationsDiv.style.height = '100%';
     relationsDiv.style.backgroundColor = '#fff'; // Use white background for retro feel
     relationsDiv.style.padding = '20px';
     relationsDiv.style.fontFamily = "'Courier New', monospace"; // Retro font
@@ -15545,7 +15660,7 @@ function setupRelationsArea(parentDiv, toggleDiv) {
        // Create the header
     let headerDiv = createHeader(parentDiv, toggleDiv, page_list);
     parentDiv.appendChild(headerDiv);
-
+parentDiv.style.backgroundImage = 'url("https://i.imgur.com/pySkSD7.png")'; // Add background image
     // Create the container for the page content
    // For the body content, create a retro-looking content box
 const textContainer = document.createElement('div');
@@ -15555,7 +15670,6 @@ textContainer.style.margin = '20px auto';
 textContainer.style.border = '3px solid #000'; // Thick black border like a computer screen frame
 textContainer.style.borderRadius = '0'; // No rounded corners, flat screen style
 textContainer.style.backgroundColor = '#D3D3D3'; // Light gray for the screen background (fallback color)
-textContainer.style.backgroundImage = 'url("https://i.imgur.com/5CUW6dY.png")'; // Add background image
 textContainer.style.backgroundSize = 'cover'; // Ensure the image covers the entire container
 textContainer.style.backgroundPosition = 'center'; // Center the image
 textContainer.style.padding = '20px';
