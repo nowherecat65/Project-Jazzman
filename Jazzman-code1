@@ -8,7 +8,7 @@ campaignTrail_temp.election_json = [
           "summary": "<p>William Jefferson Clinton, Governor of Arkansas, has risen from leading a small southern state to taking his rightful place on the world stage. Gliding through town halls and stages across the country, he shared a hopeful, modern vision, a ''third way'' forward. By bringing together the diverse strands of America, he created a great sail, a grand coalition, that propelled his ship to victory over the once-popular George Bush. \n</p><p>Now, Clinton sits in the same office once held by his hero, John F. Kennedy, before his assassination. Like Kennedy, Clinton must navigate scandals and challenges, both at home and abroad, to prove he is the charismatic, modern president the nation needs, not just a clown for tabloid headlines. He must show the American people that the boy born in Hope, to a widow, is capable of leading the free world.</p>",
           "image_url": "https://i.imgur.com/sq2U3xs.png",
           "winning_electoral_vote_number": 270,
-          "advisor_url": "https://i.imgur.com/ywlvpUa.png",
+          "advisor_url": "https://i.imgur.com/g5moPwD.png",
           "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
           "has_visits": 1,
           "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
@@ -34,7 +34,7 @@ campaignTrail_temp.candidate_json = [
           "color_hex": "#0910B5",
           "secondary_color_hex": "#73A4FD",
           "is_active": 1,
-          "image_url": "https://i.imgur.com/AaVCqyq.png",
+          "image_url": "https://i.imgur.com/boYi00h.png",
           "electoral_victory_message": "<h3>Congratulations! Al Gore has won the 2000 election.</h3><p>This victory is a testament to how popular you were! Congrats dude.</p>",
           "electoral_loss_message": "<h3>Sorry! Al Gore has lost the 2000 election.</h3><p>At least you were a two-term president</p>",
           "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>",
@@ -57,7 +57,7 @@ campaignTrail_temp.candidate_json = [
           "color_hex": "#CD0B0A",
           "secondary_color_hex": "#DC5B5A",
           "is_active": 0,
-          "image_url": "",
+          "image_url": "https://i.imgur.com/X4Lp3xC.png",
           "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
           "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
           "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
@@ -126,7 +126,7 @@ campaignTrail_temp.candidate_json = [
           "color_hex": "#0000f5",
           "secondary_color_hex": "#FFA0A0",
           "is_active": 0,
-          "image_url": "https://i.imgur.com/1teHMON.png",
+          "image_url": "https://i.imgur.com/sbMsxIV.png",
           "electoral_victory_message": "''",
           "electoral_loss_message": "''",
           "no_electoral_majority_message": "''",
@@ -231,7 +231,7 @@ campaignTrail_temp.candidate_json = [
      "model": "campaign_trail.candidate",
      "pk": 83,
      "fields": {
-         "first_name": "Diane",
+         "first_name": "Dianne",
          "last_name": "Feinstein",
          "election": 9,
          "party": "Democrat",
@@ -245,7 +245,7 @@ campaignTrail_temp.candidate_json = [
          "electoral_victory_message": "''",
          "electoral_loss_message": "''",
          "no_electoral_majority_message": "''",
-         "description_as_running_mate": "<p>Diane Feinstein has a long history in politics, even if she only was main stream in the start of this decade. She was first President of the San Francisco Board of Supervisors until George Moscone was assassinated, where she became mayor of San Francisco. Feinstein was seen as a relatively moderate mayor throughout her 10 years of leading the city. After being term-limited in 1987, she didn't do too much until 1990 where she ran for governor, but she lost against senator Pete Wilson.</p></p>Feinstein ran in a special election to find out who would fill out the remainder of Wilson's term. As a senator Feinstein has pushed for many progressive ideals, which might get progressives to back you, but she might be to liberal for more moderate Democrat's. Feinstein could also help with the female vote and the Jewish vote. If you pick Feinstein then she will be the first female vice president and the first Jewish vice president.",
+         "description_as_running_mate": "<p>Dianne Feinstein has a long history in politics, even if she only was mainstream in the start of this decade. She was first President of the San Francisco Board of Supervisors until George Moscone was assassinated, where she became mayor of San Francisco. Feinstein was seen as a relatively moderate mayor throughout her 10 years of leading the city. After being term-limited in 1987, she didn't do too much until 1990 where she ran for governor, but she lost against Senator, Pete Wilson.</p></p>Feinstein ran in a special election to find out who would fill out the remainder of Wilson's term. As a Senator Feinstein has pushed for many progressive ideals, which might get progressives to back you, but she might be too liberal for more moderate Democrats. Feinstein could also help with the female vote and the Jewish vote. If you pick Feinstein then she will be the first female vice president and the first Jewish vice president.",
          "candidate_score": 0,
          "running_mate": true
      }
@@ -468,7 +468,7 @@ jet_data = {
   "windowColor": "#ffffff",
   "containerColor": "#ffffff",
   "innerWindowColor": "#5987F8",
-  "bannerImageUrl": "https://i.imgur.com/lFNOJ2r.png",
+  "bannerImageUrl": "https://i.imgur.com/l7HIMBt.png",
   "backgroundImageUrl": "https://i.imgur.com/qQ0B4wr.jpeg",
   "endingTextColor": "#000000",
   "customQuote": "",
@@ -515,7 +515,7 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 $(".container")[0].style.backgroundColor = "#ffffff";
 
 
-document.getElementById("header").src = "https://i.imgur.com/lFNOJ2r.png";
+document.getElementById("header").src = "https://i.imgur.com/l7HIMBt.png";
 
 
 document.body.background = "https://i.imgur.com/qQ0B4wr.jpeg";
@@ -1121,4 +1121,95 @@ volumeLabel.style.height = "50px";  // Increase the height
 
 RecReading=true
 e.collect_results=true;
-//#endcode
+campaignTrail_temp.achievements = {
+    "His Turn" : {
+        "image" : "https://i.imgur.com/t7TjxVT.png",
+        "description" : "Face off against Bob Dole in 1996.",
+        "cannotBeCheated" : true
+    },
+  "Pitchfork Pat" : {
+        "image" : "https://i.imgur.com/A3FoXsb.png",
+        "description" : "Face off against Pat Buchanan in 1996.",
+        "cannotBeCheated" : true
+    },
+    "Easy as ABC" : {
+      "image" : "https://i.imgur.com/g2iUWoo.png",
+      "description" : "Face off against Lamar Alexander in 1996.",
+      "cannotBeCheated" : true
+  },
+  "Porno-Gramm" : {
+    "image" : "https://i.imgur.com/1QNzvAz.png",
+    "description" : "Face off against Phil Gramm in 1996.",
+    "cannotBeCheated" : true
+  },
+  "Snarlin' Arlen" : {
+    "image" : "https://i.imgur.com/11s3UqU.png",
+    "description" : "Face off against Arlen Specter in 1996.",
+    "cannotBeCheated" : true
+  },
+  "Standing Firm" : {
+    "image" : "https://i.imgur.com/amwniwL.png",
+    "description" : "Face off against Dan Quayle in 2000.",
+    "cannotBeCheated" : true
+  },
+  "The Professor" : {
+    "image" : "https://i.imgur.com/WJdknWs.png",
+    "description" : "Face off against Newt Gingrich in 2000.",
+    "cannotBeCheated" : true
+  },
+  "More of the Same" : {
+    "image" : "https://i.imgur.com/5aDlzwa.png",
+    "description" : "Face off against George H.W. Bush in 2000.",
+    "cannotBeCheated" : true
+  },
+  "Mistakes Were Made" : {
+    "image" : "https://i.imgur.com/Wzedkcr.png",
+    "description" : "Face off against Oliver North in 2000.",
+    "cannotBeCheated" : true
+  },
+  "The Yellow Ross of Texas" : {
+    "image" : "https://i.imgur.com/PjY3QFH.png",
+    "description" : "Face off against Ross Perot in 2000.",
+    "cannotBeCheated" : true
+  },
+  "Surviving at the Top" : {
+    "image" : "https://i.imgur.com/Urtn1gM.png",
+    "description" : "Face off against Donald Trump in 2000.",
+    "cannotBeCheated" : true
+  },
+  "Multiple Choice" : {
+    "image" : "https://i.imgur.com/fV8ahCd.png",
+    "description" : "Face off against Mitt Romney in 2000.",
+    "cannotBeCheated" : true
+  },
+  "Rage Against the Machine" : {
+    "image" : "https://i.imgur.com/fSViPG5.png",
+    "description" : "Face off against Steve Forbes in 2000.",
+    "cannotBeCheated" : true
+  },
+  "Is Our Children Learning?" : {
+    "image" : "https://i.imgur.com/AOZhWVo.png",
+    "description" : "Face off against George W. Bush in 2000.",
+    "cannotBeCheated" : true
+  },
+  "Two for the Price of One" : {
+    "image" : "https://i.imgur.com/wyR8gSw.png",
+    "description" : "Face off against Elizabeth Dole in 2000.",
+    "cannotBeCheated" : true
+  },
+  "Fortunate Son" : {
+    "image" : "https://i.imgur.com/ZtR1zQW.png",
+    "description" : "Face off against Jeb Bush in 2000.",
+    "cannotBeCheated" : true
+  },
+  "Maverick" : {
+    "image" : "https://i.imgur.com/frE7TSH.png",
+    "description" : "Face off against John McCain in 2000.",
+    "cannotBeCheated" : true
+  },
+  "Heartbreak Hotel" : {
+    "image" : "https://i.imgur.com/dXkXpk2.png",
+    "description" : "Lose reelection.",
+    "cannotBeCheated" : true
+  }
+  }
