@@ -13948,6 +13948,7 @@ var PublicSupport = 8
 var HillaryRelationship = 4
 var LibSocial = 0
 var DoleNom = 0
+var GrammNom = 0
 var BuchananNom = 0
 var SpecterNom = 0
 var LamarNom = 0
@@ -14009,7 +14010,23 @@ cyoAdventure = function(a) {
         update_EV_dict();
         campaignTrail_temp.question_number = 49;
         console.log(Lamarwin = true);
-	} else if (ans == 210001 && ev_dict["77"] < 269 && SpecterNom == 1) {
+    } else if (ans == 210001 && ev_dict["77"] < 269 && GrammNom == 1) {
+        Lamarwin=true;
+        update_EV_dict();
+        campaignTrail_temp.question_number = 49;
+        
+        console.log(Lamarwin = true);
+    } else if (ans == 210002 && ev_dict["77"] < 269 && GrammNom == 1) {
+        Lamarwin=true;
+        update_EV_dict();
+        campaignTrail_temp.question_number = 49;
+        console.log(Lamarwin = true);
+    } else if (ans == 210003 && ev_dict["77"] < 269 && GrammNom == 1) {
+        Lamarwin=true;
+        update_EV_dict();
+        campaignTrail_temp.question_number = 49;
+        console.log(Lamarwin = true);
+    } else if (ans == 210001 && ev_dict["77"] < 269 && SpecterNom == 1) {
         Specterwin=true;
         update_EV_dict();
         campaignTrail_temp.question_number = 49;
@@ -15083,6 +15100,28 @@ campaignTrail_temp.candidate_json[1]["fields"].last_name = "Specter";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#CE6B6B";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
 campaignTrail_temp.candidate_json[1]["fields"].first_name = "Arlen";
+
+//Gramm CYOA
+} else if (LibSocial == 1 && SlimGOPCongress == 1 && ans == 170001){
+    GrammNom += 1;
+    campaignTrail_temp.candidate_json[1]["fields"].last_name = "Gramm";
+    campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B9353E";
+    campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/NxU555l.png";
+    campaignTrail_temp.candidate_json[1]["fields"].first_name = "Phil";
+}
+if (LibSocial == 1 && SlimGOPCongress == 1 && ans == 170002){
+    GrammNom += 1;
+campaignTrail_temp.candidate_json[1]["fields"].last_name = "Gramm";
+campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B9353E";
+campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/NxU555l.png";
+campaignTrail_temp.candidate_json[1]["fields"].first_name = "Phil";
+}
+if(LibSocial == 1 && SlimGOPCongress == 1 && ans == 170003){
+    GrammNom += 1;
+campaignTrail_temp.candidate_json[1]["fields"].last_name = "Gramm";
+campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B9353E";
+campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
+campaignTrail_temp.candidate_json[1]["fields"].first_name = "Phil";
 
 } else if (LibSocial == 3 && GOPSupermajority == 1 && ans == 170001){
     LamarNom += 1;
