@@ -623,7 +623,17 @@ function setupRandomizeButton() {
   const randomizeButton = document.createElement("button");
   randomizeButton.id = "randomizeButton";
   randomizeButton.textContent = "Randomize Songs";
-  randomizeButton.style.margin = "10px";
+
+  // Style the button to appear near the bottom of the screen
+  randomizeButton.style.position = "fixed";
+  randomizeButton.style.bottom = "20px"; // Adjust the distance from the bottom
+  randomizeButton.style.right = "20px"; // Adjust the distance from the right side
+  randomizeButton.style.padding = "10px 20px";
+  randomizeButton.style.backgroundColor = "#007BFF"; // Button color
+  randomizeButton.style.color = "#fff"; // Text color
+  randomizeButton.style.border = "none";
+  randomizeButton.style.borderRadius = "5px";
+  randomizeButton.style.cursor = "pointer";
 
   randomizeButton.addEventListener("click", function () {
     playlist.randomizeEnabled = !playlist.randomizeEnabled;
@@ -634,8 +644,8 @@ function setupRandomizeButton() {
     );
   });
 
-  const playerContainer = document.getElementById("player");
-  playerContainer.appendChild(randomizeButton);
+  // Append the button to the body instead of playerContainer
+  document.body.appendChild(randomizeButton);
 }
 
   window.Playlist=Playlist
@@ -1096,7 +1106,7 @@ volumeLabel.style.height = "50px";  // Increase the height
     }
     #mp3Player {
       margin-left: 0;  /* Ensure there's no extra margin on the left */
-      margin-right: 125px;
+      margin-right: 200px;
       align-items: center;
       /* No need for absolute positioning here */
       width: 300px;   /* Your preferred width */
