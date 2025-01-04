@@ -614,7 +614,7 @@ campaignTrail_temp.questions_json = [
         "pk":  "gore_question_8_afghan_government",
         "fields": {
             "priority": 0,
-            "description": "The legitimate government of Afghanistan (the Islamic State of Afghanistan) is on the verge of collapse. What will you do to ensure that Afghanistan’s Pro-American government doesn't fall apart and cause a full civil war? Many are calling for you to escalate this into a full-scale invasion of Afghanistan to stop the Taliban for this reason. \n",
+            "description": "The legitimate government of Afghanistan is on the verge of collapse. What will you do to ensure that Afghanistan’s Pro-American government doesn't fall apart and cause a full civil war? Many are calling for you to escalate this into a full-scale invasion of Afghanistan to stop the Taliban for this reason. \n",
             "likelihood": 1
         }
     }
@@ -1541,7 +1541,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10001.1,
         "fields": {
             "question": "gore_question_1",
-            "description": "The United States of America, we are. United we stand, divided we fall. During an era as dark as the one we are entering right now, we shall always remember that we are here today because people United. \n"
+            "description": "The United States of America, we are. United we stand, divided we fall. During an era as dark as the one we are entering right now, we should always remember that we are here today because people United. \n"
         }
     },
     {
@@ -1549,7 +1549,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10002.1,
         "fields": {
             "question": "gore_question_1",
-            "description": "I'm so pissed right now. We need to find and punish the person responsible for the death of one of America’s greatest heroes. We shall take a moment to remember what a fantastic man President Bill Clinton was. \n"
+            "description": "I'm so pissed right now. We need to find and punish the person responsible for the death of one of America’s greatest heroes. We should take a moment to remember what a fantastic man President Bill Clinton was. \n"
         }
     },
     {
@@ -1629,7 +1629,7 @@ campaignTrail_temp.answers_json = [
         "pk": 40003.1,
         "fields": {
             "question": "gore_question_4",
-            "description": "Honestly, I have a gut feeling that he's in the southern part of the country, near Kandahar, so we shall send tens of thousands of troops to the area to overwhelm and outnumber the enemy. We need to end this war as quickly as possible. \n"
+            "description": "Honestly, I have a gut feeling that he's in the southern part of the country, near Kandahar, so send tens of thousands of troops to the area to overwhelm and outnumber the enemy. We need to end this war as quickly as possible. \n"
         }
     },
     {
@@ -15211,6 +15211,7 @@ if(ans == 170003){
 //Pat Buchanan CYOA
 } else if (LibSocial == 2 && GOPSupermajority == 1 && ans == 170001){
     BuchananNom += 1;
+    ctsAchievement("Pitchfork Pat");
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Buchanan";
     campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#800020";
     campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
@@ -15221,6 +15222,7 @@ if(ans == 170003){
 }
 if (LibSocial == 2 && GOPSupermajority == 1 && ans == 170002){
     BuchananNom += 1;
+    ctsAchievement("Pitchfork Pat");
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Buchanan";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#800020";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
@@ -15231,6 +15233,7 @@ campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#EAB3A6";
 }
 if(LibSocial == 2 && GOPSupermajority == 1 && ans == 170003){
     BuchananNom += 1;
+    ctsAchievement("Pitchfork Pat");
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Buchanan";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#800020";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
@@ -15242,6 +15245,7 @@ campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#EAB3A6";
 //Specter CYOA
 } else if (LibSocial == 2 && RepublicanRevolution == 1 && ans == 170001){
     SpecterNom += 1;
+    ctsAchievement("Snarlin' Arlen");
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Specter";
     campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#CE6B6B";
     campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/NxU555l.png";
@@ -15249,6 +15253,7 @@ campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#EAB3A6";
 }
 if (LibSocial == 2 && RepublicanRevolution == 1 && ans == 170002){
     SpecterNom += 1;
+    ctsAchievement("Snarlin' Arlen");
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Specter";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#CE6B6B";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/NxU555l.png";
@@ -15256,6 +15261,7 @@ campaignTrail_temp.candidate_json[1]["fields"].first_name = "Arlen";
 }
 if(LibSocial == 2 && RepublicanRevolution == 1 && ans == 170003){
     SpecterNom += 1;
+    ctsAchievement("Snarlin' Arlen");
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Specter";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#CE6B6B";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/oxmpDO8.png";
@@ -15264,6 +15270,7 @@ campaignTrail_temp.candidate_json[1]["fields"].first_name = "Arlen";
 //Gramm CYOA
 } else if (LibSocial == 1 && SlimGOPCongress == 1 && ans == 170001){
     GrammNom += 1;
+    ctsAchievement("Porno-Gramm");
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Gramm";
     campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B9353E";
     campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/jR55oZB.jpeg";
@@ -15271,6 +15278,7 @@ campaignTrail_temp.candidate_json[1]["fields"].first_name = "Arlen";
 }
 if (LibSocial == 1 && SlimGOPCongress == 1 && ans == 170002){
     GrammNom += 1;
+    ctsAchievement("Porno-Gramm");
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Gramm";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B9353E";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/jR55oZB.jpeg";
@@ -15278,6 +15286,7 @@ campaignTrail_temp.candidate_json[1]["fields"].first_name = "Phil";
 }
 if(LibSocial == 1 && SlimGOPCongress == 1 && ans == 170003){
     GrammNom += 1;
+    ctsAchievement("Porno-Gramm");
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Gramm";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B9353E";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/jR55oZB.jpeg";
@@ -15285,6 +15294,7 @@ campaignTrail_temp.candidate_json[1]["fields"].first_name = "Phil";
 
 } else if (LibSocial == 3 && GOPSupermajority == 1 && ans == 170001){
     LamarNom += 1;
+    ctsAchievement("Easy as ABC");
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Alexander";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B2232F";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/ASUAmNe.png";
@@ -15292,6 +15302,7 @@ campaignTrail_temp.candidate_json[1]["fields"].first_name = "Lamar";
 }
 if (LibSocial == 3 && GOPSupermajority == 1 && ans == 170002){
     LamarNom += 1;
+    ctsAchievement("Easy as ABC");
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Alexander";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B2232F";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/ASUAmNe.png";
@@ -15299,6 +15310,7 @@ campaignTrail_temp.candidate_json[1]["fields"].first_name = "Lamar";
 }
 if (LibSocial == 3 && GOPSupermajority == 1 && ans == 170003){
     LamarNom += 1;
+    ctsAchievement("Easy as ABC");
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Alexander";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B2232F";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/ASUAmNe.png";
@@ -15331,6 +15343,7 @@ if (ans == 170003){
 }
     if (e.question_number+1 == 14){
      if (e.player_answers.includes(40002) && (110004) && GotHealthcare == 1){
+        ctsAchievement("Counterrevolution");
             DemCongress -= 1;
             SlimGOPCongress += 1;
             Legacy += 1;
@@ -15348,6 +15361,7 @@ if (ans == 170003){
             );
             console.log("Richards Beat Bush")
         } else if (e.player_answers.includes(40002) &&  e.player_answers.includes(110003) && GotHealthcare == 1){
+            ctsAchievement("Counterrevolution");
             DemCongress -= 1;
             SlimGOPCongress += 1;
             Legacy += 1;
@@ -15365,6 +15379,7 @@ if (ans == 170003){
             );
             console.log("Richards Beat Bush")
         } else if (e.player_answers.includes(20001) &&  e.player_answers.includes(110002) && GotHealthcare == 1){
+            ctsAchievement("Counterrevolution");
             DemCongress -= 1;
             SlimGOPCongress += 1;
             Legacy += 1;
@@ -15445,6 +15460,7 @@ if (ans == 170003){
         );    
         console.log("Republican Revolution")
         } else if (NAFTA == 1 && GotHealthcare == 1){
+            ctsAchievement("Counterrevolution");
             DemCongress -= 1;
             SlimGOPCongress += 1;
             Legacy += 1;
@@ -15562,6 +15578,7 @@ question_insert("question_20_iraq_airstrikes",
         );
                 } else {
                 DoleNom += 1;
+                ctsAchievement("His Turn");
                     question_insert("question_17_yugoslavia", 
                     {
                         "model": "campaign_trail.question",
@@ -15623,6 +15640,7 @@ if (Dolewin === true && Buchananwin === false && Specterwin === false && Lamarwi
   );
 billLoss.addSong(billLossSong);
 changePlaylist(billLoss);
+ctsAchievement("Heartbreak Hotel");
      return "<h3>If your seeing this, Bob Dole won.</h3><p>Get ready for Dolemaxxing!</p></p>";
 } else if (Buchananwin === true && Specterwin === false && Dolewin === false && Lamarwin === false && Grammwin === false) {
     //If you want to enable replacing the image based upon your performance, copy from here....
@@ -15644,6 +15662,7 @@ changePlaylist(billLoss);
   );
 billLoss.addSong(billLossSong);
 changePlaylist(billLoss);
+ctsAchievement("Heartbreak Hotel");
      return "<h3>If your seeing this, Pat Buchanan won.</h3><p>Get ready for Buchananmaxxing!</p></p>";
 } else if (Buchananwin === false && Specterwin === true && Dolewin === false && Lamarwin === false && Grammwin === false) {
     //If you want to enable replacing the image based upon your performance, copy from here....
@@ -15665,6 +15684,7 @@ changePlaylist(billLoss);
   );
 billLoss.addSong(billLossSong);
 changePlaylist(billLoss);
+ctsAchievement("Heartbreak Hotel");
     return "<h3>If your seeing this, Arlen Specter won.</h3><p>Get ready for PA SENATOR!</p></p>";
     } else if (Lamarwin === true && Specterwin === false && Dolewin === false && Buchananwin === false && Grammwin === false) {
     //If you want to enable replacing the image based upon your performance, copy from here....
@@ -15686,6 +15706,7 @@ changePlaylist(billLoss);
   );
 billLoss.addSong(billLossSong);
 changePlaylist(billLoss);
+ctsAchievement("Heartbreak Hotel");
 return "<h3>If your seeing this, Lamar Alexander won.</h3><p>Get ready for Alexandermaxxing!</p></p>";
 } else if (Lamarwin === false && Specterwin === false && Dolewin === false && Buchananwin === false && Grammwin === true) {
     //If you want to enable replacing the image based upon your performance, copy from here....
@@ -15707,6 +15728,7 @@ return "<h3>If your seeing this, Lamar Alexander won.</h3><p>Get ready for Alexa
   );
 billLoss.addSong(billLossSong);
 changePlaylist(billLoss);
+ctsAchievement("Heartbreak Hotel");
 return "<h3>If your seeing this, Phil Gramm won.</h3><p>Get ready for Grammmaxxing!</p></p>";
 } else {
 return "<h3>That's odd. The mod seems broken.</h3><p>Contact the creator of the mod. Congrats if you won, better luck next time if you lost.</p>"
@@ -15860,29 +15882,29 @@ function setupRelationsArea(parentDiv, toggleDiv) {
           page_list[0][13] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Steve Forbes</span>`; // Style ExpectedOpponent
       } else if (ans == 3426) {
           page_list[0][13] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Steve Forbes</span>`; // Style ExpectedOpponent
-      } if (LibSocial == 2 && GOPSupermajority == 1 && ans == 3365) {
+      } if (LibSocial == 2 && GOPSupermajority == 1 && ans == 160002) {
           page_list[0][13] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Pat Buchanan</span>`; // Style ExpectedOpponent
-      } else if (LibSocial == 2 && GOPSupermajority == 1 && ans == 12631) {
+      } else if (LibSocial == 2 && GOPSupermajority == 1 && ans == 160003) {
           page_list[0][13] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Pat Buchanan</span>`; // Style ExpectedOpponent
-        } if (LibSocial == 3 && GOPSupermajority == 1 && ans == 3365) {
+        } if (LibSocial == 3 && GOPSupermajority == 1 && ans == 160002) {
           page_list[0][13] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Lamar Alexander</span>`; // Style ExpectedOpponent
-      } else if (LibSocial == 3 && GOPSupermajority == 1 && ans == 12631) {
+      } else if (LibSocial == 3 && GOPSupermajority == 1 && ans == 160003) {
           page_list[0][13] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Lamar Alexander</span>`; // Style ExpectedOpponent
-      } else if (RepublicanRevolution == 1 && ans == 3365){ 
+      } else if (RepublicanRevolution == 1 && ans == 160002){ 
           page_list[0][13] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Bob Dole</span>`; // Style ExpectedOpponent
-      } else if (LibSocial >= 1 && RepublicanRevolution == 1 && ans == 12631){ 
+      } else if (LibSocial >= 1 && RepublicanRevolution == 1 && ans == 160003){ 
           page_list[0][13] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Bob Dole</span>`; // Style ExpectedOpponent
-      } else if (SlimGOPCongress == 1 && ans == 3365){ 
+      } else if (SlimGOPCongress == 1 && ans == 160002){ 
           page_list[0][13] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Bob Dole</span>`; // Style ExpectedOpponent
-      } else if (SlimGOPCongress == 1 && ans == 12631){ 
+      } else if (SlimGOPCongress == 1 && ans == 160003){ 
           page_list[0][13] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Bob Dole</span>`; // Style ExpectedOpponent
-      }    else if (LibSocial <= 1 && GOPSupermajority == 1 && ans == 3365){ 
+      }    else if (LibSocial <= 1 && GOPSupermajority == 1 && ans == 160002){ 
           page_list[0][13] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Bob Dole</span>`; // Style ExpectedOpponent
-      } else if (LibSocial <= 1 && GOPSupermajority == 1 && ans == 12631){ 
+      } else if (LibSocial <= 1 && GOPSupermajority == 1 && ans == 160003){ 
           page_list[0][13] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Bob Dole</span>`; // Style ExpectedOpponent
-      } else if (LibSocial == 2 && RepublicanRevolution == 1 && ans == 3365) {
+      } else if (LibSocial == 2 && RepublicanRevolution == 1 && ans == 160002) {
           page_list[0][13] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Arlen Specter</span>`; // Style ExpectedOpponent
-    } else if (LibSocial == 2 && RepublicanRevolution == 1 && ans == 12631) {
+    } else if (LibSocial == 2 && RepublicanRevolution == 1 && ans == 160003) {
           page_list[0][13] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Arlen Specter</span>`; // Style ExpectedOpponent
         } if (WarScore <= 0 && page_list[0][6] == "War Situation:") {
         page_list[0][7] = `<span style="font-weight: bold; color: red; font-size: 24px;"> Dire</span>`; // Style WarSituation
@@ -16296,7 +16318,7 @@ let potential_running_mate_pks = e.running_mate_json
         "pk":  "gore_question_8_afghan_government",
         "fields": {
             "priority": 0,
-            "description": "The legitimate government of Afghanistan (the Islamic State of Afghanistan) is on the verge of collapse. What will you do to ensure that Afghanistan’s Pro-American government doesn't fall apart and cause a full civil war? Many are calling for you to escalate this into a full-scale invasion of Afghanistan to stop the Taliban for this reason. \n",
+            "description": "The legitimate government of Afghanistan is on the verge of collapse. What will you do to ensure that Afghanistan’s Pro-American government doesn't fall apart and cause a full civil war? Many are calling for you to escalate this into a full-scale invasion of Afghanistan to stop the Taliban for this reason. \n",
             "likelihood": 1
         }
     });
@@ -16404,7 +16426,7 @@ question_insert("gore_question_3_feinstein", {
         "pk":  "gore_question_8_afghan_government",
         "fields": {
             "priority": 0,
-            "description": "The legitimate government of Afghanistan (the Islamic State of Afghanistan) is on the verge of collapse. What will you do to ensure that Afghanistan’s Pro-American government doesn't fall apart and cause a full civil war? Many are calling for you to escalate this into a full-scale invasion of Afghanistan to stop the Taliban for this reason. \n",
+            "description": "The legitimate government of Afghanistan is on the verge of collapse. What will you do to ensure that Afghanistan’s Pro-American government doesn't fall apart and cause a full civil war? Many are calling for you to escalate this into a full-scale invasion of Afghanistan to stop the Taliban for this reason. \n",
             "likelihood": 1
         }
     });
@@ -16511,7 +16533,7 @@ question_insert("gore_question_3_zeller", {
         "pk":  "gore_question_8_afghan_government",
         "fields": {
             "priority": 0,
-            "description": "The legitimate government of Afghanistan (the Islamic State of Afghanistan) is on the verge of collapse. What will you do to ensure that Afghanistan’s Pro-American government doesn't fall apart and cause a full civil war? Many are calling for you to escalate this into a full-scale invasion of Afghanistan to stop the Taliban for this reason. \n",
+            "description": "The legitimate government of Afghanistan is on the verge of collapse. What will you do to ensure that Afghanistan’s Pro-American government doesn't fall apart and cause a full civil war? Many are calling for you to escalate this into a full-scale invasion of Afghanistan to stop the Taliban for this reason. \n",
             "likelihood": 1
         }
     });
@@ -16618,7 +16640,7 @@ question_insert("gore_question_3_kerry", {
         "pk":  "gore_question_8_afghan_government",
         "fields": {
             "priority": 0,
-            "description": "The legitimate government of Afghanistan (the Islamic State of Afghanistan) is on the verge of collapse. What will you do to ensure that Afghanistan’s Pro-American government doesn't fall apart and cause a full civil war? Many are calling for you to escalate this into a full-scale invasion of Afghanistan to stop the Taliban for this reason. \n",
+            "description": "The legitimate government of Afghanistan is on the verge of collapse. What will you do to ensure that Afghanistan’s Pro-American government doesn't fall apart and cause a full civil war? Many are calling for you to escalate this into a full-scale invasion of Afghanistan to stop the Taliban for this reason. \n",
             "likelihood": 1
         }
     });
@@ -16725,7 +16747,7 @@ question_insert("gore_question_5_cuomo", {
         "pk":  "gore_question_8_afghan_government",
         "fields": {
             "priority": 0,
-            "description": "The legitimate government of Afghanistan (the Islamic State of Afghanistan) is on the verge of collapse. What will you do to ensure that Afghanistan’s Pro-American government doesn't fall apart and cause a full civil war? Many are calling for you to escalate this into a full-scale invasion of Afghanistan to stop the Taliban for this reason. \n",
+            "description": "The legitimate government of Afghanistan is on the verge of collapse. What will you do to ensure that Afghanistan’s Pro-American government doesn't fall apart and cause a full civil war? Many are calling for you to escalate this into a full-scale invasion of Afghanistan to stop the Taliban for this reason. \n",
             "likelihood": 1
         }
     });
