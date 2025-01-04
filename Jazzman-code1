@@ -1232,14 +1232,14 @@ campaignTrail_temp.achievements = {
 "description" : "Get impeached.",
 "cannotBeCheated" : true
 },
-"Placeholder Name" : {
+"What the hell happened?" : {
 "image" : "https://i.imgur.com/s3dty5t.png",
 "description" : "Placeholder description. This is for triggering the Gore route.",
 "cannotBeCheated" : true
 },
 "Counterrevolution" : {
 "image" : "https://i.imgur.com/3XKoZdw.png",
-"description" : "Take back the house.",
+"description" : "Stop the Republican Revolution from happening.",
 "cannotBeCheated" : true
 }
 }
