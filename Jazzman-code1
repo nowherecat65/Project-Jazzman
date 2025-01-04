@@ -1133,49 +1133,49 @@ RecReading=true
 e.collect_results=true;
 campaignTrail_temp.achievements = {
   "His Turn" : {
-      "image" : "https://i.imgur.com/t7TjxVT.png",
-      "description" : "Face off against Bob Dole in 1996.",
-      "cannotBeCheated" : true
-  },
-"Pitchfork Pat" : {
-      "image" : "https://i.imgur.com/A3FoXsb.png",
-      "description" : "Face off against Pat Buchanan in 1996.",
-      "cannotBeCheated" : true
-  },
-  "Easy as ABC" : {
-    "image" : "https://i.imgur.com/g2iUWoo.png",
-    "description" : "Face off against Lamar Alexander in 1996.",
+    "image" : "https://i.imgur.com/YkgRwhg.png",
+    "description" : "Face off against Bob Dole in 1996.",
     "cannotBeCheated" : true
 },
-"Porno-Gramm" : {
-  "image" : "https://i.imgur.com/1QNzvAz.png",
-  "description" : "Face off against Phil Gramm in 1996.",
+"Pitchfork Pat" : {
+    "image" : "https://i.imgur.com/2IZEN4z.png",
+    "description" : "Face off against Pat Buchanan in 1996.",
+    "cannotBeCheated" : true
+},
+"Easy as ABC" : {
+  "image" : "https://i.imgur.com/g2iUWoo.png",
+  "description" : "Face off against Lamar Alexander in 1996.",
   "cannotBeCheated" : true
+},
+"Porno-Gramm" : {
+"image" : "https://i.imgur.com/1QNzvAz.png",
+"description" : "Face off against Phil Gramm in 1996.",
+"cannotBeCheated" : true
 },
 "Snarlin' Arlen" : {
-  "image" : "https://i.imgur.com/11s3UqU.png",
-  "description" : "Face off against Arlen Specter in 1996.",
-  "cannotBeCheated" : true
+"image" : "https://i.imgur.com/11s3UqU.png",
+"description" : "Face off against Arlen Specter in 1996.",
+"cannotBeCheated" : true
 },
 "Standing Firm" : {
-  "image" : "https://i.imgur.com/amwniwL.png",
-  "description" : "Face off against Dan Quayle in 2000.",
-  "cannotBeCheated" : true
+"image" : "https://i.imgur.com/amwniwL.png",
+"description" : "Face off against Dan Quayle in 2000.",
+"cannotBeCheated" : true
 },
-"The Professor" : {
-  "image" : "https://i.imgur.com/WJdknWs.png",
-  "description" : "Face off against Newt Gingrich in 2000.",
-  "cannotBeCheated" : true
+"King of the Hill" : {
+"image" : "https://i.imgur.com/WJdknWs.png",
+"description" : "Face off against Newt Gingrich in 2000.",
+"cannotBeCheated" : true
 },
 "More of the Same" : {
-  "image" : "https://i.imgur.com/5aDlzwa.png",
-  "description" : "Face off against George H.W. Bush in 2000.",
-  "cannotBeCheated" : true
+"image" : "https://i.imgur.com/5aDlzwa.png",
+"description" : "Face off against George H.W. Bush in 2000.",
+"cannotBeCheated" : true
 },
 "Mistakes Were Made" : {
-  "image" : "https://i.imgur.com/Wzedkcr.png",
-  "description" : "Face off against Oliver North in 2000.",
-  "cannotBeCheated" : true
+"image" : "https://i.imgur.com/Wzedkcr.png",
+"description" : "Face off against Oliver North in 2000.",
+"cannotBeCheated" : true
 },
 "The Yellow Ross of Texas" : {
   "image" : "https://i.imgur.com/PjY3QFH.png",
@@ -1183,43 +1183,63 @@ campaignTrail_temp.achievements = {
   "cannotBeCheated" : true
 },
 "Surviving at the Top" : {
-  "image" : "https://i.imgur.com/Urtn1gM.png",
-  "description" : "Face off against Donald Trump in 2000.",
-  "cannotBeCheated" : true
+"image" : "https://i.imgur.com/Urtn1gM.png",
+"description" : "Face off against Donald Trump in 2000.",
+"cannotBeCheated" : true
 },
 "Multiple Choice" : {
-  "image" : "https://i.imgur.com/fV8ahCd.png",
-  "description" : "Face off against Mitt Romney in 2000.",
-  "cannotBeCheated" : true
+"image" : "https://i.imgur.com/fV8ahCd.png",
+"description" : "Face off against Mitt Romney in 2000.",
+"cannotBeCheated" : true
 },
 "Rage Against the Machine" : {
-  "image" : "https://i.imgur.com/fSViPG5.png",
-  "description" : "Face off against Steve Forbes in 2000.",
-  "cannotBeCheated" : true
+"image" : "https://i.imgur.com/fSViPG5.png",
+"description" : "Face off against Steve Forbes in 2000.",
+"cannotBeCheated" : true
 },
 "Is Our Children Learning?" : {
-  "image" : "https://i.imgur.com/AOZhWVo.png",
-  "description" : "Face off against George W. Bush in 2000.",
-  "cannotBeCheated" : true
+"image" : "https://i.imgur.com/AOZhWVo.png",
+"description" : "Face off against George W. Bush in 2000.",
+"cannotBeCheated" : true
 },
 "Two for the Price of One" : {
-  "image" : "https://i.imgur.com/wyR8gSw.png",
-  "description" : "Face off against Elizabeth Dole in 2000.",
-  "cannotBeCheated" : true
+"image" : "https://i.imgur.com/wyR8gSw.png",
+"description" : "Face off against Elizabeth Dole in 2000.",
+"cannotBeCheated" : true
 },
 "Fortunate Son" : {
-  "image" : "https://i.imgur.com/ZtR1zQW.png",
-  "description" : "Face off against Jeb Bush in 2000.",
-  "cannotBeCheated" : true
+"image" : "https://i.imgur.com/ZtR1zQW.png",
+"description" : "Face off against Jeb Bush in 2000.",
+"cannotBeCheated" : true
 },
 "Maverick" : {
-  "image" : "https://i.imgur.com/frE7TSH.png",
-  "description" : "Face off against John McCain in 2000.",
-  "cannotBeCheated" : true
+"image" : "https://i.imgur.com/frE7TSH.png",
+"description" : "Face off against John McCain in 2000.",
+"cannotBeCheated" : true
 },
 "Heartbreak Hotel" : {
-  "image" : "https://i.imgur.com/dXkXpk2.png",
-  "description" : "Lose reelection.",
-  "cannotBeCheated" : true
+"image" : "https://i.imgur.com/dXkXpk2.png",
+"description" : "Lose reelection.",
+"cannotBeCheated" : true
+},
+"Repeat Offender" : {
+"image" : "https://i.imgur.com/JMxieHy.png",
+"description" : "Dispatch a demagogue twice over.",
+"cannotBeCheated" : true
+},
+"Vast Right-Wing Conspiracy" : {
+"image" : "https://i.imgur.com/TOpqwOh.png",
+"description" : "Get impeached.",
+"cannotBeCheated" : true
+},
+"Placeholder Name" : {
+"image" : "https://i.imgur.com/s3dty5t.png",
+"description" : "Placeholder description. This is for triggering the Gore route.",
+"cannotBeCheated" : true
+},
+"Counterrevolution" : {
+"image" : "https://i.imgur.com/3XKoZdw.png",
+"description" : "Take back the house.",
+"cannotBeCheated" : true
 }
 }
