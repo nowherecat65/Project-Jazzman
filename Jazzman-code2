@@ -80,7 +80,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_2_wtc_bombing",
         "fields": {
             "priority": 1,
-            "description": "A month has passed, and it still feels surreal to truly be in the White House, to actually be the President. Already, you’ve faced a setback with a fiasco dubbed ''Nannygate'' over appointing an attorney general. However, you quickly rebounded by signing the Family and Medical Leave Act. As you’re eating lunch, along with a leftover box of chocolates Hillary gave you for Valentine’s Day, your childhood friend and Chief of Staff, Mack McLarty, rushes in. ''Bill, the World Trade Center has just been bombed.'' What’s your first course of action?",
+            "description": "A month has passed, and it still feels surreal to truly be in the White House, to actually be the President. Already, you’ve faced a setback with a fiasco dubbed ''Nannygate'' over appointing an attorney general. However, you quickly rebounded by signing the Family and Medical Leave Act. As you’re eating lunch, along with a leftover box of chocolates Hillary gave you for Valentine’s Day, Mack McLarty, rushes in. ''Bill, the World Trade Center has just been bombed.'' What’s your first course of action?",
             "likelihood": 1
         }
     },
@@ -107,7 +107,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_5_healthcare_task_force",
         "fields": {
             "priority": 2,
-            "description": "Your number one goal, as you emphasized over, and over during your campaign, is healthcare reform. Who will you appoint to lead your Healthcare Task Force?",
+            "description": "Your first few months in Washington have been... busy, to say the least. You're laying back in the Oval Office, thinking about one of your biggest campaign promises, one of Hillary's greatest dreams since you met her back at Harvard, the choice to your heart is obvious, but your mind tells you she has no expirence to run any show, let alone a legacy defining moment. Regardless, you have a choice. Who are you going to let run this massive healthcare reform?",
             "likelihood": 1
         }
     },
@@ -116,7 +116,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_6_dont_show_dont_tell",
         "fields": {
             "priority": 2,
-            "description": "Your plans to allow members of the homosexual community to serve openly in the military have faced significant resistance from military leadership, as expected, but the backlash has been stronger than anticipated. Now, party leaders are threatening to overturn any executive order implementing such a policy. It seems the plan is dead until Colin Powell presents you with a compromise: recruiters would not ask about an individual's sexual orientation, but the military would retain the right to discharge those who are openly gay. How will you proceed?",
+            "description": "You just can't catch a fucking break, can you? Your plans to allow members of the homosexual community to serve openly in the military have faced significant resistance from military leadership, as you expected, however, your being blasted from St. Louis to Baton Rouge. Now, party leaders are threatening to overturn any executive order implementing such a policy. You were gearing for a major domestic loss until General Colin Powell presents you with a godsent compromise: recruiters would not ask about an individual's sexual orientation, but the military would retain the right to discharge those who are openly gay. It sounds good, but then comes the issue of pissing off the liberals and gay folk who voted for you.",
             "likelihood": 1
         }
     },
@@ -125,7 +125,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_7_crime",
         "fields": {
             "priority": 2,
-            "description": "Alright, Mr. President, yet another issue you’ve inherited from the Bush administration is the high crime rate. It skyrocketed under Reagan and remains significantly higher than it was 13 years ago. What’s the plan to address this?",
+            "description": "Well, everyday at this point, your uncovering yet another issue you’ve inherited from the Bush administration, no wonder you kicked his ass so badly. The crime rate skyrocketed under Reagan and got historically worse under 41, marking our highest crime rate in US history just 3 years ago. Reno's been urging for some sort of reform, and you're finally weighing your options. What's your choice?.",
             "likelihood": 1
         }
     },
@@ -134,7 +134,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_8_somalia",
         "fields": {
             "priority": 2,
-            "description": "The Somali people have turned against the U.S. and UNOSOM II forces following a botched raid on a villa owned by Warlord Mohamed Aideed, which resulted in the deaths of many innocent women, children, and community leaders. The incident has sparked outrage from human rights organizations, labeling it a massacre. It’s clear that we must quickly change tactics to salvage what little support remains among the Somali population, otherwise, the situation could escalate unpredictably.",
+            "description": "The Somali people have turned against the U.S. and UNOSOM II forces following a botched raid on a villa owned by Warlord Mohamed Aideed, which resulted in the deaths of many innocent women, children, and community leaders. The incident has well... rightfully sparked outrage from human rights organizations, labeling it a massacre. It’s clear to you that you must quickly change tactics to salvage what little support remains among the Somali population, otherwise, the situation could escalate unpredictably.",
             "likelihood": 1
         }
     },
@@ -143,7 +143,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_9_nafta",
         "fields": {
             "priority": 2,
-            "description": "It’s finally time to sign the North American Free Trade Agreement (NAFTA), a landmark, and bipartisan deal designed to lower tariffs and eliminate trade barriers between the United States, Mexico, and Canada. The ink on the agreement feels heavier than paper, it carries the weight of the entire continent... Do you have any comments as history waits for your words?",
+            "description": "It’s finally time to sign the North American Free Trade Agreement, a landmark, and bipartisan deal designed to lower tariffs and eliminate trade barriers between the United States, Mexico, and Canada. Besides a little push back from Perot and the Midwest, the agreement sees almost universal approval. Your taking some credit from 41 as well, who really got the ground running for this, so that's a plus. The ink on the agreement feels heavier than paper, it carries the weight of the entire continent.",
             "likelihood": 1
         }
     },
@@ -152,7 +152,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_10_foreign_intervention",
         "fields": {
             "priority": 3,
-            "description": "Although the world looks calm and peaceful, that is very much not the case. From genocide, to brutal civil war, the world seemingly cares very little about the suffering in the underdeveloped world. But not you, you care, don’t you? What do you care about the most?",
+            "description": "Although the world looks calm and peaceful so far into the Post-Soviet era, you know damn well that's far from the truth. From genocides, to brutal civil war, fellow world leaders, particularly in third world countries, could care less about the suffering of their people. At least less than you, not you, you care about the average person on the street, you care about stopping dictators, poverty and suffering. You just need to pick and choose your battles.",
             "likelihood": 1
         }
     },
@@ -161,7 +161,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_11_midterm_prep",
         "fields": {
             "priority": 3,
-            "description": "Just two years into your presidency, America is already yearning for change. The midterms of ‘94 are fast approaching, and your advisors are sounding the alarm bells. They warn that the '93 gubernatorial losses in New Jersey and Virginia weren’t flukes but a clear warning sign. To help steer the ship, you've brought Dick Morris, a political Svengali, onto your team. How do you turn the tide and stop this slide? ",
+            "description": "Just two years into your presidency, America is already yearning for change. The midterms of ‘94 are fast approaching, and Carville's already sounding the alarm. He's screaming that the '93 gubernatorial losses in New Jersey and Virginia weren’t just flukes, but a clear warning sign. To help steer the ship, you've decided to contact Dick Morris, your good friend who helped you win the Arkansas Governorship in '78. He's working around the clock to fix out a scenario in which we win the midterms, and you've came down to four realistic options. What's your decision?",
             "likelihood": 1
         }
     },
@@ -170,7 +170,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_12_mexico_bailout",
         "fields": {
             "priority": 3,
-            "description": "Mr. President, chaos has erupted in Mexico. The government has devalued the peso by abandoning its exchange rate policy, causing its value to plummet overnight. Now, the Mexican president is urgently requesting American intervention. Protectionists and anti-NAFTA activists are blaming this on our free trade agreement with Mexico, while others are refusing to support a full government bailout.",
+            "description": "Well shit, even after the circus that was the midterms, Christopher and Albright have informed you of the chaos erupting in Mexico. The government has devalued the peso by abandoning its exchange rate policy, causing its value to plummet overnight. Now, the Mexican president is urgently requesting American intervention. The strength of the recently signed NAFTA is really being put to the test early, huh? Protectionists and anti-NAFTA activists are blaming the agreement, while others are refusing to support a full government bailout. How are you going to respond?",
             "likelihood": 1
         }
     },
@@ -179,7 +179,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_13_budget",
         "fields": {
             "priority": 3,
-            "description": "Tomorrow, the Senate will vote on the increasingly polarizing Balanced Budget Amendment. You can't really win on this issue, as liberal Democrats in Congress are growing more and more negative towards you, and Republicans simply refuse to play ball with you. What's your strategy here? ",
+            "description": "Tomorrow, the Senate will vote on the increasingly polarizing and ever unpopular Balanced Budget Amendment. You know you really can't win on this issue, as liberal Democrats in Congress are growing more and more negative towards you, and Republicans simply refuse to play ball with you. Your realizing your gonna have to make a sudden move here if you want to kill the amendment. What's your strategy here? ",
             "likelihood": 1
         }
     },
@@ -188,7 +188,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_14_oklahoma_bombing",
         "fields": {
             "priority": 3,
-            "description": "Mr. President, on the second anniversary of the end of the Siege of Waco, the Alfred P. Murrah Federal Building in Oklahoma City has been attacked by a truck bomb, and the 24/7 news coverage is escalating rapidly, and aggressively. What is your response to this tragedy?",
+            "description": "It's April 19th 1995. Your out with your family, trying to enjoy one of the few days you get to spend with them. All is well until you get a call from Reno, she tells you the Alfred P. Murrah Federal Building in Oklahoma City has been attacked by a truck bomb, and the 24/7 news coverage is escalating rapidly, and aggressively. Just as you hang up the call, you and Hillary are immedietely back in D.C. as soon as you hopped into Air Force One. What is your response to this horrific tragedy?",
             "likelihood": 1
         }
     },
@@ -206,7 +206,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_16_monica",
         "fields": {
             "priority": 3,
-            "description": "You're behind the resolute desk, the weight of your office pressing down, as staff and the Vice President gather. ''Mr. President,'' one says, ''we need to map out the re-election strategy. I’m confident we’ll win, but things shift fast. We don’t want to end up like Dewey, blindsided... Wait, what are you looking at?'' The room falls silent, all eyes on you as your focus drifts for a moment. ",
+            "description": "You're behind the resolute desk, the weight of your office pressing down, as the staff and the Vice President gather. ''Mr. President,'' Dick Morris says, ''we need to map out the re-election strategy. I’m confident we’ll win.'' Al chips in,''But things shift fast. We don’t want to end up like Dewey, blindsided...'' Your not listening. Someone catches your eye, and you can't stop looking. ''Wait, what are you looking at?'' The room falls silent, all eyes on you as your focus drifts for a moment. ",
             "likelihood": 1
         }
     },
@@ -233,7 +233,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_19_pr_and_wo_act",
         "fields": {
             "priority": 0,
-            "description": "After months of negotiations with Congressional Democrats and Republicans on welfare reform, the moment of decision has arrived. During your 1992 campaign, you promised to ''end welfare as we know it,'' and the GOP is holding you to that pledge. You’ve vetoed two previous welfare bills, but on this latest one, you’ve worked with Newt Gingrich to craft something more reasonable. Now, the ''Personal Responsibility and Work Opportunity Act of 1996'' sits on your desk, awaiting your signature. What’s your decision?",
+            "description": "After months of negotiations with Congressional Democrats and Republicans on welfare reform, the moment of decision has arrived. During your 1992 campaign, you promised to ''end welfare as we know it,'' and the GOP is holding you to that pledge. You’ve vetoed two previous welfare bills, but on this latest one, you’ve worked with Newt Gingrich to craft something more reasonable. Now, the ''Personal Responsibility and Work Opportunity Act'' sits on your desk, awaiting your signature. What’s your decision?",
             "likelihood": 1
         }
     },
@@ -242,7 +242,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_20_iraq_airstrikes",
         "fields": {
             "priority": 0,
-            "description": "Iraq, under Saddam Hussein, has escalated military aggression against Kurdish forces in Northern Iraq, violating no-fly zone agreements. Some Senators, cabinet officials, and military leaders are calling for airstrikes to enforce the zones and prevent further violations. What's your response, Mr. President?",
+            "description": "Iraq, under that kook Saddam Hussein, has escalated military aggression against Kurdish forces in Northern Iraq, violating no-fly zone agreements. Some Senators, cabinet officials, and military leaders are calling for airstrikes to enforce the zones and prevent further violations. Will you give in to the demands?",
             "likelihood": 1
         }
     },
@@ -251,7 +251,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_21_1996_election",
         "fields": {
             "priority": -1,
-            "description": "It's the morning of November 4th, 1996. Look how far you've come since 1992, now running for re-election in the same position your opponent was in when they lost to you. You're ahead in the polls, but then again, so was Bush in '92. With that in mind, what will be your final message to the American people as they head to the polls tomorrow?",
+            "description": "It's the morning of November 4th, 1996. You can't stop thinking about how far you and Hillary have came since 1978. Once a bright young Attorney General hoping to become his states Governor, now running for re-election as president, in the same position 41 was in when he lost to you. You've thought of the relief of reliving that winning feeling again, but the pain of reliviing that bitter losing feeling, and all the tears you cried back in 1980. With that in mind, what will be your final message to the American people as they head to the polls tomorrow?",
             "likelihood": 1
         }
     },
@@ -12891,7 +12891,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 10004,
             "candidate": 77,
-            "answer_feedback": "You salute President Bush, and the stage, and crowd erupts in applause. Later, you discover a letter he left behind in the Oval Office, written just for you, and, it's more touching than you would've expected. It reads… https://images.app.goo.gl/Ni1nfTHX5jFGQ75e8"
+            "answer_feedback": "You salute President Bush, and the stage, and crowd erupts in applause. Later, you discover a letter he left behind in the Oval Office, written just for you, and, it's more touching than you would've expected. It reads…"
         }
     },
     {
@@ -15578,7 +15578,7 @@ question_insert("question_20_iraq_airstrikes",
         );
                 } else {
                 DoleNom += 1;
-                ctsAchievement("His Turn");
+                ctsAchievement("Soul Man");
                     question_insert("question_17_yugoslavia", 
                     {
                         "model": "campaign_trail.question",
@@ -16774,6 +16774,67 @@ console.log(ev_dict); // Logs the ev_dict object
         HillaryRelationship = 0;
     }
 }
+function getTooltips(str) {
+    let matches = [];
+
+    tooltipList.forEach((tooltip, index) => {
+        // Adjust the regex to match searchString potentially surrounded by “ and followed by optional punctuation
+       let regex = new RegExp(`(?<=\\b|\\s|^|“)${tooltip.searchString}(?=[.,;!?]?\\b|\\s|”|$)`, 'g');
+
+
+        let match;
+        while ((match = regex.exec(str)) !== null) {
+            matches.push({
+                start: match.index + (match[0].startsWith('“') ? 1 : 0), // Adjust for potential starting “
+                end: match.index + match[0].length - (match[0].endsWith('”') ? 1 : 0) - (match[2] ? 1 : 0), 
+                tooltipIndex: index
+            });
+        }
+    });
+
+    // Sort by starting position; if two start at the same position, longer match comes first
+    matches.sort((a, b) => a.start - b.start || b.end - b.start - (a.end - a.start));
+
+    // Filter out overlaps
+    for (let i = 0; i < matches.length - 1; ) {
+        if (matches[i + 1].start < matches[i].end) {
+            matches.splice(i + 1, 1); // Remove the next match since it overlaps
+        } else {
+            i++; // Move to next match
+        }
+    }
+
+    return matches;
+}
+function applyTooltips(str) {
+    const matches = getTooltips(str);
+    let result = '';
+    let lastIndex = 0;
+
+    matches.forEach(match => {
+        const tooltip = tooltipList[match.tooltipIndex];
+        result += str.slice(lastIndex, match.start);
+        result += `<span class='mytooltip'>${tooltip.searchString}<span class='mytooltiptext'>${tooltip.explanationText}</span></span>`;
+        lastIndex = match.end;
+    });
+
+    result += str.slice(lastIndex); // Add the remainder of the original string
+    return result;
+}
+
+function applyTooltipsToObject(obj) {
+    for (let key in obj) {
+        if (typeof obj[key] === 'string') {
+            obj[key] = applyTooltips(obj[key]);
+        } else if (typeof obj[key] === 'object') {
+            applyTooltipsToObject(obj[key]); // Recursive call
+        }
+    }
+}
+
+applyTooltipsToObject(campaignTrail_temp.questions_json);
+applyTooltipsToObject(campaignTrail_temp.answers_json);
+applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
   function question_insert(insertafter_pk,question) {
       let foundpk = false;
       for (x in campaignTrail_temp.questions_json) {
