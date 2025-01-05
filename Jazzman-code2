@@ -15839,7 +15839,7 @@ if (Dolewin === true && Buchananwin === false && Specterwin === false && Lamarwi
   const billLossSong = new Song(
     "Yesterday",
     "The Beatles",
-    "https://audio.jukehost.co.uk/NIx8W6qWTSBid3bnz7Ao91EHpn8Kvh0F"
+    "https://audio.jukehost.co.uk/IdJGTg3MS3Zms0asqg2llSUV3TWW7KuY"
   );
 billLoss.addSong(billLossSong);
 changePlaylist(billLoss);
@@ -15861,7 +15861,7 @@ ctsAchievement("Heartbreak Hotel");
   const billLossSong = new Song(
     "Yesterday",
     "The Beatles",
-    "https://audio.jukehost.co.uk/NIx8W6qWTSBid3bnz7Ao91EHpn8Kvh0F"
+    "https://audio.jukehost.co.uk/IdJGTg3MS3Zms0asqg2llSUV3TWW7KuY"
   );
 billLoss.addSong(billLossSong);
 changePlaylist(billLoss);
@@ -15883,7 +15883,7 @@ ctsAchievement("Heartbreak Hotel");
   const billLossSong = new Song(
     "Yesterday",
     "The Beatles",
-    "https://audio.jukehost.co.uk/NIx8W6qWTSBid3bnz7Ao91EHpn8Kvh0F"
+    "https://audio.jukehost.co.uk/IdJGTg3MS3Zms0asqg2llSUV3TWW7KuY"
   );
 billLoss.addSong(billLossSong);
 changePlaylist(billLoss);
@@ -15905,7 +15905,7 @@ ctsAchievement("Heartbreak Hotel");
   const billLossSong = new Song(
     "Yesterday",
     "The Beatles",
-    "https://audio.jukehost.co.uk/NIx8W6qWTSBid3bnz7Ao91EHpn8Kvh0F"
+    "https://audio.jukehost.co.uk/IdJGTg3MS3Zms0asqg2llSUV3TWW7KuY"
   );
 billLoss.addSong(billLossSong);
 changePlaylist(billLoss);
@@ -15927,7 +15927,7 @@ return "<h3>If your seeing this, Lamar Alexander won.</h3><p>Get ready for Alexa
   const billLossSong = new Song(
     "Yesterday",
     "The Beatles",
-    "https://audio.jukehost.co.uk/NIx8W6qWTSBid3bnz7Ao91EHpn8Kvh0F"
+    "https://audio.jukehost.co.uk/IdJGTg3MS3Zms0asqg2llSUV3TWW7KuY"
   );
 billLoss.addSong(billLossSong);
 changePlaylist(billLoss);
