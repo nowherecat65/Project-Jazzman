@@ -1328,7 +1328,7 @@ campaignTrail_temp.achievements = {
   },
   "Counterrevolution" : {
     "image" : "https://i.imgur.com/3XKoZdw.png",
-    "description" : "Keep control of Congress.",
+    "description" : "Blunt the Republican Revolution.",
     "cannotBeCheated" : true
   }
   }
