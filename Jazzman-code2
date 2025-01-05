@@ -15412,7 +15412,7 @@ if(ans == 170003){
     campaignTrail_temp.candidate_json[1]["fields"].first_name = "Bob";
 
 //Pat Buchanan CYOA
-} else if (LibSocial == 2 && GOPSupermajority == 1 && ans == 170001){
+} else if (LibSocial == 1 && GOPSupermajority == 1 && ans == 170001){
     BuchananNom += 1;
     ctsAchievement("Pitchfork Pat");
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Buchanan";
@@ -15423,7 +15423,7 @@ if(ans == 170003){
     campaignTrail_temp.candidate_json[3]["fields"].first_name = "Christine Todd";
     campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#EAB3A6";
 }
-if (LibSocial == 2 && GOPSupermajority == 1 && ans == 170002){
+if (LibSocial == 1 && GOPSupermajority == 1 && ans == 170002){
     BuchananNom += 1;
     ctsAchievement("Pitchfork Pat");
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Buchanan";
@@ -15434,7 +15434,7 @@ campaignTrail_temp.candidate_json[3]["fields"].last_name = "Whitman";
 campaignTrail_temp.candidate_json[3]["fields"].first_name = "Christine Todd";
 campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#EAB3A6";
 }
-if(LibSocial == 2 && GOPSupermajority == 1 && ans == 170003){
+if(LibSocial == 1 && GOPSupermajority == 1 && ans == 170003){
     BuchananNom += 1;
     ctsAchievement("Pitchfork Pat");
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Buchanan";
