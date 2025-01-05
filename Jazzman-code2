@@ -7812,7 +7812,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 400015,
             "candidate": 77,
             "affected_candidate": 77,
-            "global_multiplier": -0.024
+            "global_multiplier": -0.0251
         }
     },
     {
@@ -7822,7 +7822,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 400015,
             "candidate": 77,
             "affected_candidate": 78,
-            "global_multiplier": 0.021
+            "global_multiplier": 0.0175
         }
     },
     {
@@ -7832,7 +7832,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 400015,
             "candidate": 77,
             "affected_candidate": 79,
-            "global_multiplier": 0.011
+            "global_multiplier": 0.0118
         }
     },
     {
@@ -12685,7 +12685,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 400015,
             "candidate": 77,
-            "answer_feedback": "Well, this seriously blew up in your face, Mr. Hubbell. The former Mayor of Little Rock and one of your top advisors, with his close ties to you, is hurting you bad. He’s being pulled into the Whitewater abyss, and his entire reputation, his very being, it’s being melted away. With a bruise on your face, you end up having to appoint Janie Shores, the associate judge from Alabama. "
+            "answer_feedback": "Shit. Your selection of Mayor Hubbell is hurting you bad! He’s being pulled into the Whitewater abyss, and his entire reputation, his very being, it’s being slowly melted away. With a bruise on your face, you end up having to appoint Janie Shores, the associate judge on the Alabama Supreme Court. "
         }
     },
     {
