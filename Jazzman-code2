@@ -104,6 +104,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": "question_4andahalf_supremecourt",
+        "fields": {
+            "priority": 2,
+            "description": "Associate Justice on the Supreme Court, Byron 'Whizzer' White has announced his intention to retire. The Jack Kennedy appointee is considered a liberal and perhaps the last of an ideological generation of judges. You've had a few private discussions with some in your cabinet, including the Vice President, but ultimately, the choice remains firmly in your hands. What are you thinking, sir? ",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": "question_5_healthcare_task_force",
         "fields": {
             "priority": 2,
@@ -715,6 +724,38 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": "question_4_waco",
             "description": "If you think this is the right call, Janet, then you have my support. I trust your judgment, you’ve thought this through, and I know you’ll do what’s best."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 400012,
+        "fields": {
+            "question": "question_4andahalf_supremecourt",
+            "description": "I'm going to go with Ruth Bader Ginsburg. She's a Carter appointee, and a person that liberals will love. But more importantly, she's someone that most folks, across the spectrum, can feel good about."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 400013,
+        "fields": {
+            "question": "question_4andahalf_supremecourt",
+            "description": "I don’t care what they’re saying. Lawrence Tribe is nothing short of a genius, probably the best legal mind of his generation. This decision sets a tone for my presidency. We’re moving forward, in America and this is the direction we need to take."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 400015,
+        "fields": {
+            "question": "question_4andahalf_supremecourt",
+            "description": "I'm going with Webster Hubbell. I know we had him in mind for Associate Attorney General, and I’m sure Janet wouldn’t mind, haha... -He’s someone I can trust, and, you know, he’s a good ol' boy from back home. He’s got the right instincts and the right heart for the job "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 400014,
+        "fields": {
+            "question": "question_4andahalf_supremecourt",
+            "description": "I don't want any damn story about this in the press. Let's go with Gilbert S. Merritt, that Carter appointee on the Sixth Circuit. I think he can bring some Republicans in the Senate on our side, and it could generate some goodwill. "
         }
     },
     {
@@ -7736,6 +7777,66 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 1161,
+        "fields": {
+            "answer": 400012,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.003
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1161,
+        "fields": {
+            "answer": 400013,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.003
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1161,
+        "fields": {
+            "answer": 400014,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1161,
+        "fields": {
+            "answer": 400015,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.024
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1161,
+        "fields": {
+            "answer": 400015,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.021
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1161,
+        "fields": {
+            "answer": 400015,
+            "candidate": 77,
+            "affected_candidate": 79,
+            "global_multiplier": 0.011
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 1199,
         "fields": {
             "answer": 150001,
@@ -10799,6 +10900,46 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
+        "pk": 12605,
+        "fields": {
+            "answer": 400012,
+            "issue": 28,
+            "issue_score": 0.3,
+            "issue_importance": 1.7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12605,
+        "fields": {
+            "answer": 400013,
+            "issue": 28,
+            "issue_score": 0.61,
+            "issue_importance": 1.7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12605,
+        "fields": {
+            "answer": 400014,
+            "issue": 28,
+            "issue_score": -0.15,
+            "issue_importance": 1.7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12605,
+        "fields": {
+            "answer": 400015,
+            "issue": 31,
+            "issue_score": 0.7,
+            "issue_importance": 1.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
         "pk": 12640,
         "fields": {
             "answer": 170003,
@@ -12237,6 +12378,28 @@ campaignTrail_temp.answer_score_state_json = [
     },
     {
         "model": "campaign_trail.answer_score_state",
+        "pk": 12592,
+        "fields": {
+            "answer": 400014,
+            "state": 212,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "state_multiplier": -0.0051
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12592,
+        "fields": {
+            "answer": 400014,
+            "state": 212,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "state_multiplier": 0.0051
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
         "pk": 12593,
         "fields": {
             "answer": 130002,
@@ -12487,6 +12650,42 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 40002,
             "candidate": 77,
             "answer_feedback": "Months pass, and nearly all of the Davidians eventually surrender to authorities. Only Koresh's most devoted followers remain by his side. When the hostage team's patience runs out, they perish with him."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 709,
+        "fields": {
+            "answer": 400012,
+            "candidate": 77,
+            "answer_feedback": "Judge Ginsburg, of the United States Court of Appeals for D.C., is a unifying and largely moderate choice. As the second woman on the Court, she's also a historic appointment! Good going, Mr. President! You've threaded the needle."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 709,
+        "fields": {
+            "answer": 400013,
+            "candidate": 77,
+            "answer_feedback": "Wow! Though he's not quite considered a radical, Mr. Tribe, a long-time Harvard professor, is definitely seen as a liberal pick, especially for you! Apparently, the Vice President had some reservations about the choice, but honestly, who cares?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 709,
+        "fields": {
+            "answer": 400014,
+            "candidate": 77,
+            "answer_feedback": "Judge Merritt is, yes, respected on the Sixth Circuit, but the press and the wacky right are now pointing to the numerous Jewish groups slamming his inquiry into the Justice Department's handling of the extradition of John Demjanjuk, a Nazi war criminal convicted by an Israeli court. It looks like he'll scrape by, but Jesus Christ."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 709,
+        "fields": {
+            "answer": 400015,
+            "candidate": 77,
+            "answer_feedback": "Well, this seriously blew up in your face, Mr. Hubbell. The former Mayor of Little Rock and one of your top advisors, with his close ties to you, is hurting you bad. He’s being pulled into the Whitewater abyss, and his entire reputation, his very being, it’s being melted away. With a bruise on your face, you end up having to appoint Janie Shores, the associate judge from Alabama. "
         }
     },
     {
