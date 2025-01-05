@@ -15083,6 +15083,10 @@ resetVariables(resetCondition);
     if (ans == 30001){
     LibSocial += 1;
     }
+    //lawrence tribe appointed to the supreme court
+    if (ans == 400013){
+    LibSocial += 1;
+    }
     //Somalia CYOA
     if (ans == 80001){
     PublicSupport -= 1;
