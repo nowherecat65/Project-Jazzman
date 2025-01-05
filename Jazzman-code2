@@ -14066,8 +14066,8 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
-campaignTrail_temp.candidate_image_url = "https://i.imgur.com/eEER4kN.png";
-campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/uMSHyKC.png";
+campaignTrail_temp.candidate_image_url = "https://i.imgur.com/EhgUdYa.png";
+campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/N32Z4Xj.png";
 campaignTrail_temp.candidate_last_name = "";
 campaignTrail_temp.running_mate_last_name = "";
 
@@ -14077,9 +14077,9 @@ campaignTrail_temp.jet_data = [{
     "banner_enabled": true,
     "banner_data": {
         "canName": "",
-        "canImage": "https://i.imgur.com/eEER4kN.png",
+        "canImage": "https://i.imgur.com/EhgUdYa.png",
         "runName": "",
-        "runImage": "https://i.imgur.com/uMSHyKC.png"
+        "runImage": "https://i.imgur.com/N32Z4Xj.png"
     },
     "cyoa_enabled": true,
     "cyoa_data": {}
