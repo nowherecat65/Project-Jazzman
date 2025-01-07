@@ -518,7 +518,7 @@ $(".container")[0].style.backgroundColor = "#ffffff";
 document.getElementById("header").src = "https://i.imgur.com/l7HIMBt.png";
 
 
-document.body.background = "https://i.imgur.com/qQ0B4wr.jpeg";
+document.body.background = "https://i.imgur.com/qdLCZsr.png";
 
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#5987F8!important;}</style>";
@@ -627,9 +627,18 @@ tooltipList = [
 {searchString: "Teddy", explanationText: "<img src=https://i.imgur.com/ZFHKQzR.png> The last one"},
 {searchString: "Mitchell", explanationText: "<img src=https://i.imgur.com/nWX8n4C.png> Senate Majority leader"},
 {searchString: "Foley", explanationText: "<img src=https://i.imgur.com/HwIHJSl.png> Speaker of the House"},
-{searchString: "Joe Biden", explanationText: "<img src=https://i.imgur.com/N6IefAg.png> Veteran Senator of Deleware"},
+{searchString: "Newt Gingrich", explanationText: "<img src=https://i.imgur.com/Ei2Sihc.png> Satan Himself"},
+{searchString: "Gingrich", explanationText: "<img src=https://i.imgur.com/Ei2Sihc.png> Satan Himself"},
+{searchString: "Ruth Bader Ginsburg", explanationText: "<img src=https://i.imgur.com/RdjGCLF.png> United States Court of Appeals for the District of Columbia Circuit Judge"},
+{searchString: "Laurence Tribe", explanationText: "<img src=https://i.imgur.com/lU8VTVk.png> Liberal pick"},
+{searchString: "Webster Hubbell", explanationText: "<img src=https://i.imgur.com/hIKTq8a.png> Former Mayor of Little Rock"},
+{searchString: "Gilbert S. Merritt", explanationText: "<img src=https://i.imgur.com/bpYD7le.png> Chief Judge of the United States Court of Appeals for the Sixth Circuit"},
+{searchString: "Janie Shores", explanationText: "<img src=https://i.imgur.com/hLUe3ls.png> Backup plan"},
+{searchString: "Joe Biden", explanationText: "<img src=https://i.imgur.com/BwnvA8m.png> Veteran Senator of Deleware"},
 // Foreign people
 {searchString: "Yeltsin", explanationText: "<img src=https://i.imgur.com/AJsNeXT.png> Friend or Foe?"},
+{searchString: "Boris Yeltsin", explanationText: "<img src=https://i.imgur.com/AJsNeXT.png> Friend or Foe?"},
+{searchString: "Boris", explanationText: "<img src=https://i.imgur.com/AJsNeXT.png> Friend or Foe?"},
 {searchString: "Kim Il Sung", explanationText: "<img src=https://i.imgur.com/emeK8AL.png> Scum of Earth"},
 {searchString: "Rwanda", explanationText: "<img src=https://i.imgur.com/2v7euOP.png> Sickening"},
 {searchString: "Raoul Cédras", explanationText: "<img src=https://i.imgur.com/kT6VMfP.png> Dictator"},
