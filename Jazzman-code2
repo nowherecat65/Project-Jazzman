@@ -15644,7 +15644,7 @@ if (ans == 170003){
     campaignTrail_temp.candidate_json[3]["fields"].image_url = "https://i.imgur.com/1tw9fG2.jpeg";
     campaignTrail_temp.candidate_json[3]["fields"].first_name = "H. Ross";
 }
-    if (e.question_number+1 == 14){
+    if (e.question_number+1 == 15){
      if (e.player_answers.includes(40002) && (110004) && GotHealthcare == 1){
         ctsAchievement("Counterrevolution");
             DemCongress -= 1;
