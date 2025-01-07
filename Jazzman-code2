@@ -221,6 +221,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": "question_16.5_jones_case",
+        "fields": {
+            "priority": 0,
+            "description": "Well, it's been a week since you've done what you've had to do with Monica. You can't save your mind from the racing thoughts. What were you thinking??? How could you cheat on your own Wife, a woman that's been so loyal to you for all those years, oh wait, don't play dumb. This isn't the first time, and you know it. You're still fighting the Paula Jones case in court, hoping the Supreme Court doesn't catch wind. You feel like the best course is to settle, but you feel like paying her off would just enable any suspicions on said matter to be true, God forbid if your actions with Ms. Lewinsky come to light. What are you going to do?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": "question_17_yugoslavia",
         "fields": {
             "priority": 3,
@@ -1198,7 +1207,31 @@ campaignTrail_temp.answers_json = [
             "description": "My fellow Americans, we must never, ever believe that our diversity is a weakness, it is our greatest strength. Americans speak every language and know every country. People on every continent can look to us and see the reflection of their own great potential, and they always will, as long as we strive to give all of our citizens, whatever their background, an opportunity to achieve their own greatness."
         }
     },
-	
+	 {
+        "model": "campaign_trail.answer",
+        "pk": 230001,
+        "fields": {
+            "question": "question_16.5_jones_case",
+            "description": "Of course I'm gonna fight it! Why would I pay her off when all that'll bring is slander to my name and unnecessary attention to an incident that's long behind me? The last thing we'll do is bring validity to the claims by settling with her."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 230002,
+        "fields": {
+            "question": "question_16.5_jones_case",
+            "description": "We can end this fiasco without paying any money at all. Remind her she's not just dealing with the \"Arkansas Governor\" anymore. She's talkin' to the President. I'll have Starr get me into contact with Mrs. Jones, and I'll persuade her to drop the case."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 230003,
+        "fields": {
+            "question": "question_16.5_jones_case",
+            "description": "Look, she has us beat. Do you know how bad this is gonna look if the Supreme Court picks it up? Plus i've got enough on my plate already. I'm runnin' a country for God's sake. We'll do a settlement as long as it's for a reasonable amount."
+        }
+    },
+
 	// Seperation between "regular" questions and "stored" questions.
 	
     {
@@ -10384,6 +10417,36 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 77,
             "global_multiplier": -0.02
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12621,
+        "fields": {
+            "answer": 230001,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.0004893839
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12622,
+        "fields": {
+            "answer": 230002,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.0004893839
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12623,
+        "fields": {
+            "answer": 230003,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.0045678
+        }
     }
 ]
 
@@ -14260,7 +14323,34 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 85011.5,
             "candidate": 77,
-            "answer_feedback": "It seems like this is shaping up to be a relatively tame contest. Governor Gramm is more than happy to slam you, but you don't seem willing to take the bait. This might just be smart, sir."
+            "answer_feedback": "It seems like this is shaping up to be a relatively tame contest. Senator Gramm is more than happy to slam you, but you don't seem willing to take the bait. This might just be smart, sir."
+        }
+    },
+     {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12618,
+        "fields": {
+            "answer": 230001,
+            "candidate": 77,
+            "answer_feedback": "After a talk with Starr, you decide to keep fighting. You look at yourself in the mirror, you think back to that day. You think you're a sick womanizing bastard, but it's you. You have to make more excuses for yourself because it's you. You're married, have a daughter, and you're a role model for 250 million people. You've considered coming clean so many times you can't count, but you know you can't. You sit and think of what it could look like if you're not careful. Hopefully, it never comes to that."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12619,
+        "fields": {
+            "answer": 230002,
+            "candidate": 77,
+            "answer_feedback": "It takes Starr a day of talking and getting redirected but he can finally get you on the phone with her. It takes you 2 hours of talking and begging and manipulation and whining for you to understand she wouldn't drop the case. You try thinking of a settlement but she's already hung up. I guess it's better to come back to this later."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12620,
+        "fields": {
+            "answer": 230003,
+            "candidate": 77,
+            "answer_feedback": "Starr gets you on fairly quickly when your intentions are revealed. and it takes 20 minutes or so to reach an agreement. As soon as you hang up, you feel a massive rock lifted off your back, not all of them, just one. Sure, the GOP can see this as an admission of guilt, but you can close that chapter of your life for good now. "
         }
     }
 ]
@@ -14304,6 +14394,7 @@ var RepublicanRevolution = 0
 var GOPSupermajority = 0
 var PublicSupport = 8
 var HillaryRelationship = 4
+var JonesSettled = 0
 var LibSocial = 0
 var DoleNom = 0
 var GrammNom = 0
@@ -15254,6 +15345,7 @@ PublicSupport += 1;
     FPWin +=1;
     }
     //2nd Term CYOA
+
     //State of the Union Adress CYOA
     if (ans == 220001){
     PublicSupport += 1;
@@ -15264,6 +15356,14 @@ PublicSupport += 1;
     }
     if (ans == 220004){
     PublicSupport += 2;
+    }
+    //Paula Jones CYOA
+    if (ans == 230002){
+    PublicSupport -= 1;
+    }
+    if (ans == 230003){
+    PublicSupport -= 2;
+    JonesSettled += 1;
     }
     //BEGINING OF GORE CYOA
 
