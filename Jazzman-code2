@@ -748,7 +748,7 @@ campaignTrail_temp.answers_json = [
         "pk": 400013,
         "fields": {
             "question": "question_4andahalf_supremecourt",
-            "description": "I don’t care what they’re saying. Lawrence Tribe is nothing short of a genius, probably the best legal mind of his generation. This decision sets a tone for my presidency. We’re moving forward, in America and this is the direction we need to take."
+            "description": "I don’t care what they’re saying. Laurence Tribe is nothing short of a genius, probably the best legal mind of his generation. This decision sets a tone for my presidency. We’re moving forward, in America and this is the direction we need to take."
         }
     },
     {
@@ -15174,7 +15174,7 @@ resetVariables(resetCondition);
     if (ans == 30001){
     LibSocial += 1;
     }
-    //lawrence tribe appointed to the supreme court
+    //Laurence Tribe appointed to the supreme court
     if (ans == 400013){
     LibSocial += 1;
     }
@@ -15855,7 +15855,7 @@ question_insert("question_20_iraq_airstrikes",
             }
         }
         );
-                } else if (LibSocial == 1 && SlimGOPCongress){
+                } else if (LibSocial == 1 && SlimGOPCongress == 1){
                 question_insert("question_17_yugoslavia", 
                 {
                     "model": "campaign_trail.question",
