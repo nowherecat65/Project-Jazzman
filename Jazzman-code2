@@ -14569,7 +14569,7 @@ cyoAdventure = function(a) {
         
     }
     //Russia Question Inserter
-        if (ans == 3493) {
+        if (ans == 10001) {
         question_insert("question_9_nafta", 
         {
                 "model": "campaign_trail.question",
@@ -16017,33 +16017,116 @@ function updateHistoricalData(newVpTable, newHexColors, newNames, newEvs, newPvs
     HistPVP = newPvps;
 }
 
+// constructs endings based on header and pages
+construct = (a = 1) => {
+	
+e.page = e.page + a < e.pages.length ? e.page + a : 0
+let html = e.header;
+html += e.pages[e.page] + "<br>";
+if (e.page > 0) {
+
+html += `<button onclick='endingConstructor(a = -1)'>Back</button>`
+}
+if (e.page < e.pages.length - 1) {
+
+html += `<button onclick='endingConstructor(a = 1)'>Next</button>`
+}
+
+for (i in e.executable) {
+if (e.executable[i][0] == e.page) {
+    e.executable[i][1]();
+	
+}
+}
+
+if (e.image == true)
+setTimeout(()=>{
+  candImg = $(".person_image")[0]
+  if (candImg) {
+    candImg.remove()
+	console.log("TRYING");
+    $("#final_results_description")[0].style = `
+      text-align:left;
+      width: 72%;
+	  height:71%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+	  overflow: auto;
+      color: #000000
+    `
+	 console.log("RESULTS UPDATED");
+  }
+}, 10)
+else if (e.image)
+setTimeout(()=>{
+  candImg = $(".person_image")[0];
+  if (candImg) {
+    candImg.src = e.image;
+	console.log("TRYING");
+    $("#final_results_description")[0].style = `
+      text-align:left;
+      width: 72%;
+	  height:71%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+	  overflow: auto;
+      color: #000000
+    `
+	 console.log("RESULTS UPDATED");
+  }		
+}, 10)
+
+return html;
+}
+
+endingConstructor = (a = 1) => {
+$("#final_results_description")[0].innerHTML = construct(a);
+}
+
+// ENDINGS -- this is slightly more reliable than the ending code method
+
+e.multiple_endings = true;
+
+e.header = "<h1>error</h1>";
+e.pages = ["<p>This is an error handler</p>"];
+e.page = 0;
+
 endingPicker = (out, totv, aa, quickstats) => {
-
-used=false
-
-// Astro's Ending Template
-
-// Template 1 - Simple 1v1 races
-
+    orderID = [aa[0].candidate, aa[1].candidate, aa[2].candidate, aa[3].candidate];
 //out = "win", "loss", or "tie" for your candidate
 //totv = total votes in entire election
 //aa = all final overall results data
-//quickstats = relevant data on candidate performance (format: your candidate's electoral vote count, your candidate's popular vote share, your candidate's raw vote total)
+//quickstat = relevant data on candidate performance (format: your candidate's electoral vote count, your candidate's popular vote share, your candidate's raw vote total)
 
-//quickstats[0] is the default, and it tracks your electoral vote count.
-
+/*
+e.header = "<h2></h2>"
+e.pages = ["<p></p>",
+        "<p></p>"]
+*/
+e.pages = []
+e.header = "";
+e.executable = []
+nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
 if (Dolewin === true && Buchananwin === false && Specterwin === false && Lamarwin === false && Grammwin === false) {
-  //If you want to enable replacing the image based upon your performance, copy from here....
-    if (used != true) {
-        setInterval(function () {
-            used = true;
-            imgg = document.getElementsByClassName("person_image")[0];
-            if (imgg != null) {
-                imgg.src = "https://i.imgur.com/0SS7DVk.png";
-            }
-        }, 100);
-    }
-    // to here!
+  e.pages.push(`<h3>''CNN CAN NOW PROJECT BOB DOLE THE 43RD PRESIDENT OF THE UNITED STATES, DEFATING PRESIDENT CLINTON''</h3>
+          <p> That was that. All the hard work, effort and progres you made, gone in one night. You sat in a corner of the ballroom at the Excelsior Hotel in Little Rock, staring blankly at the television screen. Around, you could hear aides whisper quietly, some avoiding your gaze, others casting anxious glances in your direction. The party had started with cautious optimism. Sure, the economy had its ups and downs, and the Republicans had hammered you relentlessly on Whitewater and your personal scandals, but there had been hope. Now, that hope was gone.<br><br>The screen flickered with images of cheering crowds in Kansas, in Indiana, in Ohio—states that had been expected to lean Republican but had turned out in force for the GOP. The electoral map was painted a harsh red across the Midwest and much of the South, with only a few splashes of blue along the coasts and in Illinois. It didn’t matter how much he won by, it was still decisive enough to leave no doubt, at least in your own mind, that you were a failiure. States that you won easily in ’92, flipped. The ''Third Way Democrat'' movement that you spearheaded seems to be permanently dead.<br><br>You rubbed your temple, trying to find some sort of moment for relaxation. The moments of triumph from four years ago seemed distant now. The young, energetic candidate who had promised to build a bridge to the 21st century was now a man weighed down by defeats and mistakes, real and perceived. You were confident, maybe too confident. You’d told yourself that the debates had gone well, that the voters cared more about jobs and health care than your personal life. But in the end, you weren’t been able to overcome the relentless drumbeat of Republican attacks or the weariness of an electorate ready for change.<br><br>Hillary sat beside you, her hand resting on your knee. She was quiet, but her presence steadied you, as it always has. You glanced at her, seeing in her eyes a mixture of sorrow and determination. ''She’ gonna keep fightin’, that’s my girl.'', you said in your head. She always did.<br><br>You took a deep breath and stood, smoothing your tie. You knew what you had to do. It wasn’t the first time you faced defeat, but it was the hardest. As you walked to the stage, you could feel the weight of the moment pressing down on you. You made a simple speech about accepting the results of the election, and continuing the fight, even outside of the Oval Office. Although the crowd cheered, you felt as if it was almost out of pitty. You still felt like there was work to do, and that the American people cut you short. As you left the stage, the applause fading behind you, you couldn’t shake the feeling that your time in the spotlight had come to an end.<br></p>`)
+          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
+//e.image = ""
+e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/fGttGCn.png'})])
+e.pages.push(`<h3>''PRESIDENT DOLE TO NOT RUN FOR REELECTION''</h3>
+              <p> To nobody’s surprise, the oldest man ever elected president announced earlier today he would not seek a 2nd term, seeing as he would be an unprecedented 81 years old at the end of it. Dole’s term has been medicore at best, currently sitting at a 46% approval rating. Duing his term, he passed the Tax Code Reform Act of 1997, which simplified tax codes while also providing a tax cut to middle class Americans.<br></p>Although he wasn’t Clinton-Gingrich level of relationship with Congress, they haven’t agreed on everything, mostly due to his push for entitlement reform, and Democrats in congress showed increased resistance and hostility towards President Dole’s attempts at welfare reform. The economy has made significant gains, and many consider Dole’s leadership ''steady yet boring.'' VP Kemp has began his own campaign for the White House, but is sure to face a heavy contest in the primaries, with big Republicans like Jeb Bush, John McCain, Steve Forbes and others heading potential competition.<br></p><br></p>`)
+    //e.image = ""
+    e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/2KXbG6F.png'})])
+    e.pages.push(`<h3>Yes She Can: Why Hillary Clinton will win the 2000 election.</h3>
+          <p> While Bill’s been enjoying his retirement, Hillary has been working hard to fight for you and me. Ever since she won the NY Senate race two years back, she’s been one of the most active Senators on Capitol Hill. She’s opposed President Dole every step of the way, including being the loudest voice against his failed welfare reforms, and spearheading the Democratic gains in the midterms.<br></p> You see, Hillary isn’t like your average First Lady, she’s determined, she’s focused, she’s a fighter, and she thinks outside of the box. Even though she’s only been a Senator for two years, she already has what it takes to become our Commander-In-Chief, especially compared to the innefective leadership we’ve seen under our current leader, who is thankfully not running again. She also understands that the tech boom was the backbone of our economic recovery, and promises to keep investing in newer and brighter resources.<br></p> When Hillary runs for the Democratic Nomination, support her as much as you can, go from door to door getting people registered to make history. A vote for Hillary is a vote for diversity, leadership and history.<br></p> - Robert J. Winkle<br></p><br></p>`)
+          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
+//e.image = ""
+e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/ztrv307.png'})])
+e.pages.push(`<h3>American History USA</h3>
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2000</option></select><br><img src=https://i.imgur.com/OS3IPJH.png>	<br>Vice President Jack Kemp attempts to unite his party following a contentius primary, while Senator Hillary Clinton needs to differentiate herself from her failed husband, while also driving mass female turnout.<br>Vice President Kemp is riding of the coattails of a relatively average Bob Dole presidency, and must bring his party together if he wants any chance of continuing the last 20 years of Republican dominance.<br>Hillary Clinton must beat the odds, and become the first female president, while also balancing comparisons to her husband and his one term in office.<br><button>Continue</button></p>`)
+e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
     const billLoss = new Playlist();
   const billLossSong = new Song(
     "Yesterday",
@@ -16053,7 +16136,6 @@ if (Dolewin === true && Buchananwin === false && Specterwin === false && Lamarwi
 billLoss.addSong(billLossSong);
 changePlaylist(billLoss);
 ctsAchievement("Heartbreak Hotel");
-     return "<h3>If your seeing this, Bob Dole won.</h3><p>Get ready for Dolemaxxing!</p></p>";
 } else if (Buchananwin === true && Specterwin === false && Dolewin === false && Lamarwin === false && Grammwin === false) {
     //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
@@ -16145,6 +16227,7 @@ return "<h3>If your seeing this, Phil Gramm won.</h3><p>Get ready for Grammmaxxi
 } else {
 return "<h3>That's odd. The mod seems broken.</h3><p>Contact the creator of the mod. Congrats if you won, better luck next time if you lost.</p>"
 }
+return construct(0);
 }
 
 campaignTrail_temp.multiple_endings=true
