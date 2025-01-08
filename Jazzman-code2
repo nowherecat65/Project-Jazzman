@@ -15908,6 +15908,115 @@ question_insert("question_20_iraq_airstrikes",
             
 	}
     }
+let vpName = "Monica Lewinsky Error";
+vpTable = {
+    "Bill Clinton" : "Al Gore",
+    "Al Gore" : vpName,
+
+    "Bob Dole" : "Jack Kemp",
+    "Pat Buchanan" : "Pete Wilson",
+    "Lamar Alexander" : "John Kasich",
+    "Phil Gramm" : "Tommy Thompson",
+    "Arlen Specter" : "Carroll Campbell",
+
+    "Dan Quayle" : "John Ashcroft",
+    "Newt Gingrich" : "John Engler",
+    "George H.W. Bush" : "Tom Ridge",
+    "Oliver North" : "Don Nickles",
+    "Donald Trump" : "George Voinovich",
+    "Mitt Romney" : "Thad Cochran",
+    "Steve Forbes" : "Orrin Hatch",
+    "George W. Bush" : "Dick Cheney",
+    "Elizabeth Dole" : "Connie Mack III",
+    "Jeb Bush" : "Christine Todd Whitman",
+    "John McCain" : "Chuck Hagel",
+
+    "Ralph Nader" : "Winona LaDuke",
+    "H. Ross Perot" : "Pat Choate",
+    "Patrick Buchanan" : "Ezola Foster",
+    "John Hagelin" : "Nat Goldhaber",
+    "Lowell Weicker" : "Dominic Cortese", 
+}
+vpTableHistorical = {
+    "Bill Clinton" : "Al Gore",
+    "Bob Dole" : "Jack Kemp",
+    "H. Ross Perot" : "Pat Choate",
+    "Ralph Nader" : "Winona LaDuke",
+}
+HistHexcolour=["#0910B5","#E4463E","#800080","#00C100"];
+HistName=["Bill Clinton","Bob Dole","H. Ross Perot","Ralph Nader"];
+HistEV=[379,159,0,0];
+HistPV=["47,402,357","39,198,755","8,085,402","685,297"];
+HistPVP=["49.2%","40.7%","8.4%","0.7%"];
+
+function onGameWindowChangeCandidates() {
+    const resultsTableHolder = document.getElementById("overall_details_container");
+
+    if (!resultsTableHolder || resultsTableHolder.classList.contains("done")) {
+        return;
+    }
+
+    resultsTableHolder.classList.add("done");
+
+    const resultsTable = resultsTableHolder.childNodes[3].childNodes[3].children[0];
+
+    for (let i = 0; i < resultsTable.children.length; i++) {
+        const row = resultsTable.children[i];
+        let name = row.firstChild.innerText;
+        row.insertCell(1);
+        if (name) {
+            name = name.replaceAll("-", "").trim();
+        }
+
+        if (i == 0) {
+            row.children[1].innerHTML = `<span style="font-weight:bold">Running Mate</span>`;
+        } else {
+            row.children[1].innerHTML = vpTable[name];
+        }
+    }
+
+    const resultsTableHistorical = resultsTableHolder.childNodes[5].childNodes[3].children[0];
+
+    for (let i = 0; i < resultsTableHistorical.children.length; i++) {
+        const row = resultsTableHistorical.children[i];
+        let name = row.childNodes[1].innerText;
+        row.insertCell(1);
+        if (name) {
+            name = name.replaceAll("-", "").trim();
+        }
+
+        if (i == 0) {
+            row.children[1].innerHTML = `<span style="font-weight:bold">Running Mate</span>`;
+        } else {
+            row.children[1].innerHTML = vpTableHistorical[name];
+        }
+    }
+
+    // Add CSS to increase row spacing
+    const styleElem = document.createElement('style');
+    styleElem.textContent = `
+        #overall_details_container table tr {
+            line-height: 1.5; /* Adjust line height as needed */
+        }
+    `;
+    document.head.appendChild(styleElem);
+}
+
+const gameWindowNode = document.getElementById("game_window");
+const candidateWatcherConfig = { attributes: true, childList: true, subtree: true };
+
+const candidateObserver = new MutationObserver(onGameWindowChangeCandidates);
+candidateObserver.observe(gameWindowNode, candidateWatcherConfig);
+
+function updateHistoricalData(newVpTable, newHexColors, newNames, newEvs, newPvs, newPvps) {
+    vpTableHistorical = newVpTable;
+    HistHexcolour = newHexColors;
+    HistName = newNames;
+    HistEV = newEvs;
+    HistPV = newPvs;
+    HistPVP = newPvps;
+}
+
 endingPicker = (out, totv, aa, quickstats) => {
 
 used=false
