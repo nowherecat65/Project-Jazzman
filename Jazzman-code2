@@ -71,7 +71,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_1_inauguration",
         "fields": {
             "priority": 0,
-            "description": " Yesterday, you knelt at the grave of your hero, John F. Kennedy, in Arlington Cemetery. After placing a white rose, you silently vowed to continue the work he began. Today, having taken the oath of office administered by Chief Justice Rehnquist, you stand ready to deliver your inaugural address to the American people. What message will you share on this historic day? \n \n",
+            "description": "Yesterday, you knelt at the grave of your hero, John F. Kennedy, in Arlington Cemetery. After placing a white rose, you silently vowed to continue the work he began. Today, having taken the oath of office administered by Chief Justice Rehnquist, you stand ready to deliver your inaugural address to the American people. What message will you share on this historic day? \n \n",
             "likelihood": 1
         }
     },
@@ -2133,11 +2133,8 @@ campaignTrail_temp.answers_json = [
             "description": "On the issue of Climate Change, you've always been in support. Although you're by no means one of those tree hugging hippies, you can still understand the common-sense essence of wanting a better tomorrow. After sending Al to UN in order to figure out a resolve, you've finally sat down to read the agreement he brokered. The \"Kyoto Protocol\" looks to involve the worlds 36 richest countries, while providing enviornment-friendly economic aid to the lesser developed ones. It sounds good, but you know 90% of Republicans aren't agreeing to this. Most of them are either not informed correctly, or are completely pissed off that China isn't apart of it.",
             "likelihood": 1
         }
-    }
-]
-
-campaignTrail_temp.answers_json = [
-    {
+    },
+	    {
         "model": "campaign_trail.answer",
         "pk": 85012.5,
         "fields": {
@@ -2184,8 +2181,9 @@ campaignTrail_temp.answers_json = [
             "question": "clinton_2nd_term_question_3_slim_gop",
             "description": "Let's take a different angle on this. Those big companies, they're spending a lot of money to convince these congresspeople to go against our protocal. What if we did the same? Spend as much money as they are lobbying and convincing congressmen and women to vote yes."
         }
-    }
+    },
 ]
+
 
 campaignTrail_temp.states_json = [
     {
