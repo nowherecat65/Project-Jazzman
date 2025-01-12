@@ -80,7 +80,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_2_wtc_bombing",
         "fields": {
             "priority": 1,
-            "description": "A month has passed, and it still feels surreal to truly be in the White House, to actually be the President. Already, you’ve faced a setback with a fiasco dubbed ''Nannygate'' over appointing an attorney general. However, you quickly rebounded by signing the Family and Medical Leave Act. As you’re eating lunch, along with a leftover box of chocolates Hillary gave you for Valentine’s Day, Mack McLarty, rushes in. ''Bill, the World Trade Center has just been bombed.'' What’s your first course of action?",
+            "description": "A month has passed, and it still feels surreal to be in the White House, to actually be the President. You're starting to get used to it all. As you’re eating lunch, along with a leftover box of chocolates Hillary gave you for Valentine’s Day, Mack McLarty, rushes in, his face truly pale. He creeps over to you and whispers ''Bill, the World Trade Center has just been bombed.'' What’s your first course of action?",
             "likelihood": 1
         }
     },
@@ -485,7 +485,7 @@ campaignTrail_temp.questions_json = [
         "pk": "insert_bill_lives",
         "fields": {
             "priority": -1,
-            "description": "Congratulations, Mr. President. You’ve made history, becoming the first Democrat since FDR to win re-election. Despite some tensions within the coalition, your party is riding high, thanks to the fumes of your victory. Mr President! I know it’s only been a few weeks, but it’s time for the APEC Summit in Manila, Philippines. Will you go?\n",
+            "description": "The euphoria from your victory is still fresh in your mind. You’ve made history, becoming the first Democrat since FDR to win re-election. Despite some tensions within the coalition, your party is riding high, thanks to the fumes of your victory. Mr President! I know it’s only been a few weeks, but it’s time for the APEC Summit in Manila, Philippines. Will you go?\n",
             "likelihood": 1
         }
     },
@@ -498,6 +498,24 @@ campaignTrail_temp.questions_json = [
             "likelihood": 1
         }
     },
+    {
+        "model": "campaign_trail.question",
+        "pk": "clinton_2nd_term_question_3",
+        "fields": {
+            "priority": 0,
+            "description": "On the issue of Climate Change, you've always been in support. Although you're by no means one of those tree hugging hippies, you can still understand the common-sense essence of wanting a better tomorrow. After sending Al to UN in order to figure out a resolve, you've finally sat down to read the agreement he brokered. The \"Kyoto Protocol\" looks to involve the worlds 36 richest countries, while providing enviornment-friendly economic aid to the lesser developed ones. It sounds good, but you know 90% of Republicans aren't agreeing to this. Most of them are either not informed correctly, or are completely pissed off that China isn't apart of it.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": "clinton_2nd_term_question_3_slim_gop",
+        "fields": {
+            "priority": 0,
+            "description": "On the issue of Climate Change, you've always been in support. Although you're by no means one of those tree hugging hippies, you can still understand the common-sense essence of wanting a better tomorrow. After sending Al to UN in order to figure out a resolve, you've finally sat down to read the agreement he brokered. The \"Kyoto Protocol\" looks to involve the worlds 36 richest countries, while providing enviornment-friendly economic aid to the lesser developed ones. It sounds good, but you know 90% of Republicans aren't agreeing to this. Most of them are either not informed correctly, or are completely pissed off that China isn't apart of it.",
+            "likelihood": 1
+        }
+    },
 
     // Cutoff between Clinton and Gore questions
 
@@ -506,7 +524,7 @@ campaignTrail_temp.questions_json = [
         "pk": "insert_bill_dies",
         "fields": {
             "priority": -1,
-            "description": "Congratulations, Mr. President. You’ve made history, becoming the first Democrat since FDR to win re-election. Despite some tensions within the coalition, your party is riding high, thanks to the fumes of your victory. Mr President! I know it’s only been a few weeks, but it’s time for the APEC Summit in Manila, Philippines. Will you go?\n",
+            "description": "The euphoria from your victory is still fresh in your mind. You’ve made history, becoming the first Democrat since FDR to win re-election. Despite some tensions within the coalition, your party is riding high, thanks to the fumes of your victory. Mr President! I know it’s only been a few weeks, but it’s time for the APEC Summit in Manila, Philippines. Will you go?\n",
             "likelihood": 1
         }
     },
@@ -772,7 +790,7 @@ campaignTrail_temp.answers_json = [
         "pk": 40002,
         "fields": {
             "question": "question_4_waco",
-            "description": "When I was Governor of Arkansas, we dealt with a CSA militia. All it took was a simple blockade, and they surrendered without any bloodshed. So let me ask you: what’s wrong with waiting them out? We’ve got time, and I’ll take patience over tragedy any day."
+            "description": "When I was Governor of Arkansas, we dealt with a CSA militia. All it took was a simple blockade, and they surrendered without any bloodshed. So here's my deal; what’s wrong with waiting them out? We’ve got time, and I’ll take patience over tragedy any day."
         }
     },
     {
@@ -780,7 +798,7 @@ campaignTrail_temp.answers_json = [
         "pk": 40003,
         "fields": {
             "question": "question_4_waco",
-            "description": "Did I hear CS gas has been authorized? And with children still inside that building? I won’t stand for it. You go back and tell them the gas is off the table, no exceptions, no circumstances. Our boys are trained for this."
+            "description": "Woah, hold on for a second. Did I hear CS gas has been authorized? And with children still inside that building? I won’t stand for it. You go back and tell them the gas is off the table, no exceptions, no circumstances. Our boys are trained for this."
         }
     },
     {
@@ -828,7 +846,7 @@ campaignTrail_temp.answers_json = [
         "pk": 60002,
         "fields": {
             "question": "question_6_dont_show_dont_tell",
-            "description": "I made a promise to these folks, and I intend to keep it. I’m not backing down now. I’m giving the order, and that’s the last word on it."
+            "description": "We're not bending the knee. I made a promise to these folks, and I intend to keep it. I’m not backing down now. I’m giving the order, and that’s the last word on it."
         }
     },
     {
@@ -2096,6 +2114,75 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": "candidate_intro_gramm",
             "description": "I want to address the American people from my hometown of Hope, Arkansas, and talk about the real efforts we’ve made. I’ve got respect for Senator Gramm, but let’s ask: are you better off now than four years ago? Are his ideas, tax cuts for the wealthy, deregulation, and less investment in working families, really the path to a stronger, secure future?"
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": "clinton_2nd_term_question_3",
+        "fields": {
+            "priority": 0,
+            "description": "On the issue of Climate Change, you've always been in support. Although you're by no means one of those tree hugging hippies, you can still understand the common-sense essence of wanting a better tomorrow. After sending Al to UN in order to figure out a resolve, you've finally sat down to read the agreement he brokered. The \"Kyoto Protocol\" looks to involve the worlds 36 richest countries, while providing enviornment-friendly economic aid to the lesser developed ones. It sounds good, but you know 90% of Republicans aren't agreeing to this. Most of them are either not informed correctly, or are completely pissed off that China isn't apart of it.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": "clinton_2nd_term_question_3_slim_gop",
+        "fields": {
+            "priority": 0,
+            "description": "On the issue of Climate Change, you've always been in support. Although you're by no means one of those tree hugging hippies, you can still understand the common-sense essence of wanting a better tomorrow. After sending Al to UN in order to figure out a resolve, you've finally sat down to read the agreement he brokered. The \"Kyoto Protocol\" looks to involve the worlds 36 richest countries, while providing enviornment-friendly economic aid to the lesser developed ones. It sounds good, but you know 90% of Republicans aren't agreeing to this. Most of them are either not informed correctly, or are completely pissed off that China isn't apart of it.",
+            "likelihood": 1
+        }
+    }
+]
+
+campaignTrail_temp.answers_json = [
+    {
+        "model": "campaign_trail.answer",
+        "pk": 85012.5,
+        "fields": {
+            "question": "clinton_2nd_term_question_3",
+            "description": "I don't think there's much convincing to do. Gingrich may talk big, but I know that when it really comes down to it, he'll value the safety of our planet rather than the economic situation of the preposal. Does he really wanna be remembered on the wrong side of history?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 85013.5,
+        "fields": {
+            "question": "clinton_2nd_term_question_3",
+            "description": "I'm gonna send Al back to UN to craft up a new agreement, and I'll make sure he puts countries like China in this time. We can't risk having a disadvantage against them."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 85014.5,
+        "fields": {
+            "question": "clinton_2nd_term_question_3",
+            "description": "Let's take a different angle on this. Those big companies, they're spending a lot of money to convince these congresspeople to go against our protocal. What if we did the same? Spend as much money as they are lobbying and convincing congressmen and women to vote yes."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 85015.5,
+        "fields": {
+            "question": "clinton_2nd_term_question_3_slim_gop",
+            "description": "I don't think there's much convincing to do. Gingrich may talk big, but I know that when it really comes down to it, he'll value the safety of our planet rather than the economic situation of the preposal. Does he really wanna be remembered on the wrong side of history?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 85016.5,
+        "fields": {
+            "question": "clinton_2nd_term_question_3_slim_gop",
+            "description": "I'm gonna send Al back to UN to craft up a new agreement, and I'll make sure he puts countries like China in this time. We can't risk having a disadvantage against them."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 85017.5,
+        "fields": {
+            "question": "clinton_2nd_term_question_3_slim_gop",
+            "description": "Let's take a different angle on this. Those big companies, they're spending a lot of money to convince these congresspeople to go against our protocal. What if we did the same? Spend as much money as they are lobbying and convincing congressmen and women to vote yes."
         }
     }
 ]
@@ -10447,6 +10534,66 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 77,
             "global_multiplier": -0.0045678
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12638,
+        "fields": {
+            "answer": 85012.5,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12642,
+        "fields": {
+            "answer": 85013.5,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12645,
+        "fields": {
+            "answer": 85014.5,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12649,
+        "fields": {
+            "answer": 85015.5,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12652,
+        "fields": {
+            "answer": 85016.5,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12655,
+        "fields": {
+            "answer": 85017.5,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.01
+        }
     }
 ]
 
@@ -14352,6 +14499,60 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 77,
             "answer_feedback": "Starr gets you on fairly quickly when your intentions are revealed. and it takes 20 minutes or so to reach an agreement. As soon as you hang up, you feel a massive rock lifted off your back, not all of them, just one. Sure, the GOP can see this as an admission of guilt, but you can close that chapter of your life for good now. "
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12636,
+        "fields": {
+            "answer": 85012.5,
+            "candidate": 77,
+            "answer_feedback": "As it turns out, you severely underestiamted the unpopularity of the protocol in Washington. The Senate in response passed the Byrd-Hagel resolution, stating nothing of the sorts should be passed unless developing countries, honestly just China, were included. Seems Newt is glad with being on the wrong side. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12641,
+        "fields": {
+            "answer": 85013.5,
+            "candidate": 77,
+            "answer_feedback": "Al reluctantly. rushes back to UN, knowing how much of a waste of time this will be for the international community. the \"Lugano Protocol\" is even more as ambitious than Kyoto was, as it includes every country in the world. The international community is raging, and the GOP still rejects this resolution 70-25, claiming it will \"hurt the U.S. economy.\""
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12643,
+        "fields": {
+            "answer": 85014.5,
+            "candidate": 77,
+            "answer_feedback": "Smart, but it's way too late for that. Most congresspeople have already been convinced by the corporations, and it's still shot down. The good news is you've started a talk on Washington about Climate Change, one that might last way beyond your presidency."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12648,
+        "fields": {
+            "answer": 85015.5,
+            "candidate": 77,
+            "answer_feedback": "As it turns out, you severely underestiamted the unpopularity of the protocol in Washington. The Senate in response passed the Byrd-Hagel resolution, stating nothing of the sorts should be passed unless developing countries, honestly just China, were included. Seems Newt is glad with being on the wrong side. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12651,
+        "fields": {
+            "answer": 85016.5,
+            "candidate": 77,
+            "answer_feedback": "Al reluctantly. rushes back to UN, knowing how much of a waste of time this will be for the international community. the \"Lugano Protocol\" is even more as ambitious than Kyoto was, as it includes every country in the world. The international community is raging, and the GOP still rejects this resolution 70-25, claiming it will \"hurt the U.S. economy.\""
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12654,
+        "fields": {
+            "answer": 85017.5,
+            "candidate": 77,
+            "answer_feedback": "Given the slim majority on the hill, it passed! You smile from ear to ear when you see Gingrich's defeated announcement on TV."
+        }
     }
 ]
 
@@ -14993,7 +15194,7 @@ campaignTrail_temp.candidate_json[3]["fields"].first_name = "The";
         "pk": "insert_bill_lives",
         "fields": {
             "priority": 0,
-            "description": "Congratulations, Mr. President. You’ve made history, becoming the first Democrat since FDR to win re-election. Despite some tensions within the coalition, your party is riding high, thanks to the fumes of your victory. I know it’s only been a few weeks, but it’s time for the APEC Summit in Manila, Philippines. Will you go?\n",
+            "description": "The euphoria from your victory is still fresh in your mind. You’ve made history, becoming the first Democrat since FDR to win re-election. Despite some tensions within the coalition, your party is riding high, thanks to the fumes of your victory. I know it’s only been a few weeks, but it’s time for the APEC Summit in Manila, Philippines. Will you go?\n",
             "likelihood": 1
             }
         }
@@ -15018,7 +15219,7 @@ campaignTrail_temp.candidate_json[3]["fields"].first_name = "The";
         "pk": "insert_bill_dies",
         "fields": {
             "priority": 0,
-            "description": "Congratulations, Mr. President. You’ve made history, becoming the first Democrat since FDR to win re-election. Despite some tensions within the coalition, your party is riding high, thanks to the fumes of your victory. I know it’s only been a few weeks, but it’s time for the APEC Summit in Manila, Philippines. Will you go?\n",
+            "description": "The euphoria from your victory is still fresh in your mind. You’ve made history, becoming the first Democrat since FDR to win re-election. Despite some tensions within the coalition, your party is riding high, thanks to the fumes of your victory. I know it’s only been a few weeks, but it’s time for the APEC Summit in Manila, Philippines. Will you go?\n",
             "likelihood": 1
             }
         }
@@ -15119,7 +15320,33 @@ resetVariables(resetCondition);
         }
         }
         );
+        if (SlimGOPCongress == 1) {
+            question_insert("clinton_2nd_term_question_2", 
+                {
+                    "model": "campaign_trail.question",
+                    "pk": "clinton_2nd_term_question_3_slim_gop",
+                    "fields": {
+                        "priority": 0,
+                        "description": "On the issue of Climate Change, you've always been in support. Although you're by no means one of those tree hugging hippies, you can still understand the common-sense essence of wanting a better tomorrow. After sending Al to UN in order to figure out a resolve, you've finally sat down to read the agreement he brokered. The \"Kyoto Protocol\" looks to involve the worlds 36 richest countries, while providing enviornment-friendly economic aid to the lesser developed ones. It sounds good, but you know 90% of Republicans aren't agreeing to this. Most of them are either not informed correctly, or are completely pissed off that China isn't apart of it.",
+                        "likelihood": 1
+                    }
+                }
+                );
+        
+    }else{
+        question_insert("clinton_2nd_term_question_2", 
+            {
+                "model": "campaign_trail.question",
+                "pk": "clinton_2nd_term_question_3",
+                "fields": {
+                    "priority": 0,
+                    "description": "On the issue of Climate Change, you've always been in support. Although you're by no means one of those tree hugging hippies, you can still understand the common-sense essence of wanting a better tomorrow. After sending Al to UN in order to figure out a resolve, you've finally sat down to read the agreement he brokered. The \"Kyoto Protocol\" looks to involve the worlds 36 richest countries, while providing enviornment-friendly economic aid to the lesser developed ones. It sounds good, but you know 90% of Republicans aren't agreeing to this. Most of them are either not informed correctly, or are completely pissed off that China isn't apart of it.",
+                    "likelihood": 1
+                }
+            }
+            );
     }
+}
 //WTC Bombing CYOA
    if (ans ==  20001){
    DOMWin += 1;
