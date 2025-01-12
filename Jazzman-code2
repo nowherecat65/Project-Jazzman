@@ -116,7 +116,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_5_healthcare_task_force",
         "fields": {
             "priority": 2,
-            "description": "Your first few months in Washington have been... busy, to say the least. You're laying back in the Oval Office, thinking about one of your biggest campaign promises, one of Hillary's greatest dreams since you met her back at Harvard, the choice to your heart is obvious, but your mind tells you she has no expirence to run any show, let alone a legacy defining moment. Regardless, you have a choice. Who are you going to let run this massive healthcare reform?",
+            "description": "Your first few months in Washington have been... busy, to say the least. You're laying back in the Oval Office, thinking about one of your biggest campaign promises, one of Hillary's greatest dreams since you met her back at Yale, the choice to your heart is obvious, but your mind tells you she has no expirence to run any show, let alone a legacy defining moment. Regardless, you have a choice. Who are you going to let run this massive healthcare reform?",
             "likelihood": 1
         }
     },
