@@ -15186,6 +15186,7 @@ campaignTrail_temp.candidate_json[3]["fields"].last_name = "Reformists";
 campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#800080";
 campaignTrail_temp.candidate_json[3]["fields"].image_url = "https://i.imgur.com/IqY9z3j.png";
 campaignTrail_temp.candidate_json[3]["fields"].first_name = "The";
+updateHistoricalData(newVpTableHistorical, newHistHexcolour, newHistName, newHistEV, newHistPV, newHistPVP);
     question_insert("question_21_1996_election", 
         {
             "model": "campaign_trail.question",
@@ -16139,7 +16140,7 @@ vpTable = {
     "Al Gore" : vpName,
 
     "Bob Dole" : "Jack Kemp",
-    "Pat Buchanan" : "Pete Wilson",
+    "Patrick Buchanan" : "Pete Wilson",
     "Lamar Alexander" : "John Kasich",
     "Phil Gramm" : "Tommy Thompson",
     "Arlen Specter" : "Carroll Campbell",
@@ -16153,12 +16154,13 @@ vpTable = {
     "Steve Forbes" : "Orrin Hatch",
     "George W. Bush" : "Dick Cheney",
     "Elizabeth Dole" : "Connie Mack III",
-    "Jeb Bush" : "Christine Todd Whitman",
+    "Jeb Bush" : "Fred Thompson",
     "John McCain" : "Chuck Hagel",
 
     "Ralph Nader" : "Winona LaDuke",
     "H. Ross Perot" : "Pat Choate",
-    "Patrick Buchanan" : "Ezola Foster",
+    "Christine Todd Whitman" : "David Boren",
+    "Pat Buchanan" : "Ezola Foster",
     "John Hagelin" : "Nat Goldhaber",
     "Lowell Weicker" : "Dominic Cortese", 
 }
@@ -16173,6 +16175,17 @@ HistName=["Bill Clinton","Bob Dole","H. Ross Perot","Ralph Nader"];
 HistEV=[379,159,0,0];
 HistPV=["47,402,357","39,198,755","8,085,402","685,297"];
 HistPVP=["49.2%","40.7%","8.4%","0.7%"];
+
+newVpTableHistorical = {
+    "George W. Bush" : "Dick Cheney",
+    "Al Gore" : "Joe Lieberman",
+    "Ralph Nader" : "Winona LaDuke", 
+};
+newHistHexcolour=["#BF0D3E","#45818E","#00C100"];
+newHistName=["George W. Bush","Al Gore","Ralph Nader"];
+newHistEV=[271,266,0];
+newHistPV=["50,456,002","50,999,897","2,882,955"];
+newHistPVP=["47.9%","48.4%","2.7%"];
 
 function onGameWindowChangeCandidates() {
     const resultsTableHolder = document.getElementById("overall_details_container");
