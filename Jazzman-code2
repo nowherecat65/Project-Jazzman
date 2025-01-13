@@ -16484,24 +16484,6 @@ if (ans == 20001.1) {
     newButton.innerHTML = 'Government';
     newButton.addEventListener('click', openRelationsView);
     newButton.style.marginLeft = "25px";
-
-    // Apply the red and blue color scheme to the button
-    newButton.style.backgroundColor = '#FF0000'; // Red background
-    newButton.style.color = '#FFFFFF'; // White text color
-    newButton.style.border = '2px solid #0000FF'; // Blue border
-    newButton.style.transition = 'background-color 0.3s, border 0.3s'; // Smooth transitions for hover effects
-
-    // Add hover effects to change colors
-    newButton.addEventListener('mouseover', function() {
-        newButton.style.backgroundColor = '#0000FF'; // Change to blue on hover
-        newButton.style.border = '2px solid #FF0000'; // Change border to red
-    });
-
-    newButton.addEventListener('mouseout', function() {
-        newButton.style.backgroundColor = '#FF0000'; // Change back to red when not hovering
-        newButton.style.border = '2px solid #0000FF'; // Change border back to blue
-    });
-
     refButton.insertAdjacentElement('afterend', newButton);
 }
     // Function to open the Administration Relations View
