@@ -792,9 +792,9 @@ function setupRandomizeButton() {
     );
   
     const song3 = new Song(
-      "Seems Hard",
-      "The Cardigans",
-      "https://audio.jukehost.co.uk/Kn4YXWqNQ01ABgMAJWsgcYZiMvwKpapf"
+      "Wannabe",
+      "Spice Girls",
+      "https://audio.jukehost.co.uk/5ZE6KnMqAS9ukmP5TwvvmSoFzIuozOjO"
     );
   
     const song4 = new Song(
@@ -808,38 +808,42 @@ function setupRandomizeButton() {
       "Fleetwood Mac",
       "https://audio.jukehost.co.uk/lEeD3Y8rRhxnn7eJgYMHxeBGwJ3LYh3j"
     );
-  
     const song6 = new Song(
+    "Seems Hard",
+    "The Cardigans",
+    "https://audio.jukehost.co.uk/Kn4YXWqNQ01ABgMAJWsgcYZiMvwKpapf"
+  );
+    const song7 = new Song(
       "In My Life",
       "The Beatles",
       "https://audio.jukehost.co.uk/Awqc2QRizsPgyopz0kgBdpnbBHvpeOyr"
     );
   
-    const song7 = new Song(
+    const song8 = new Song(
       "Underground",
       "Ben Folds Five",
       "https://audio.jukehost.co.uk/72JQKSbz7R0rWYCumPitIxZxaDqHqfmT"
     );
 
-    const song8 = new Song(
+    const song9 = new Song(
       "Macarena",
       "Los Del Rio",
       "https://audio.jukehost.co.uk/dZTZX8Z6AU5XAnHk8M3AGyIVMJPrPdRs"
     );
 
-    const song9 = new Song(
+    const song10 = new Song(
     "Go Your Own Way",
     "Fleetwood Mac",
     "https://audio.jukehost.co.uk/1VK4UhrKRBbbd5kozuyW2WQBm2eWmUxr"
     );
     
-    const song10 = new Song(
+    const song11 = new Song(
     "A Song For You",
     "Leon Russell",
     "https://audio.jukehost.co.uk/10sbgg4yzHdGQFz241gS8du6rVFLZOVf"
     );
 
-    const song11 = new Song(
+    const song12 = new Song(
       "Everything You Know Is Wrong",
       "Weird Al Yankovic",
       "https://audio.jukehost.co.uk/SPIHfPTBVrdg3Xe4eW9aAbSCQeBtcbzC"
@@ -856,6 +860,7 @@ function setupRandomizeButton() {
     playlist.addSong(song9);
     playlist.addSong(song10);
     playlist.addSong(song11);
+    playlist.addSong(song12);
   
     const playerContainer = document.createElement("div");
     playerContainer.id = "player";
