@@ -1641,7 +1641,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10002.1,
         "fields": {
             "question": "gore_question_1",
-            "description": "I'm so pissed right now. We need to find and punish the person responsible for the death of one of America’s greatest heroes. We should take a moment to remember what a fantastic man President Bill Clinton was. \n"
+            "description": "Fuck this shit. We need to find and punish the person responsible for the death of one of America’s greatest heroes. We should take a moment to remember what a fantastic man President Bill Clinton was. The men who took Bill will never have another sleepful night in their lives ever again! \n"
         }
     },
     {
@@ -1649,7 +1649,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10003.1,
         "fields": {
             "question": "gore_question_1",
-            "description": "Look, let's forget Bill for a second. How is his teenage daughter gonna grow up without either of her parents? go into foster care? It's not fair. I want the person who did this to know they didn't just take our Commander-In-Chief, but a father, husband, son, and friend."
+            "description": "Let's forget Bill for a second, although i can't deny he was a great man. How is his teenage daughter gonna grow up without either of her parents? Go into foster care? It's not fair. I want the person who did this to know they didn't just take our Commander-In-Chief, but a father, husband, son, and friend."
         }
     },
     {
@@ -1657,7 +1657,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10004.1,
         "fields": {
             "question": "gore_question_1",
-            "description": "We will honor the legacy Bill Clinton left, while also addressing the problems that face our nation, and what my agenda will be as President."
+            "description": "Sure, the people need time to grieve, but we need to keep Washington moving. We will honor the legacy Bill Clinton left, while also addressing the problems that face our nation, and what my agenda will be as President."
         }
     },
     {
@@ -14000,7 +14000,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 200001,
             "candidate": 77,
-            "answer_feedback": "The strikes were aimed primarily at military targets, but in the end, they don't accomplish much, other than scaring Saddam a bit and giving the press something positive to report.  "
+            "answer_feedback": "The strikes were aimed primarily at military targets and were a success, but in the end, they don't accomplish much, other than scaring Saddam, but at least it gives you some great press in the papers"
         }
     },
     {
@@ -14009,7 +14009,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 200002,
             "candidate": 77,
-            "answer_feedback": "What happened to your balls, sir? The press is roundly comparing you to… Jimmy fucking Carter. Vacillating, and weak. What a terrible week to be President. \n"
+            "answer_feedback": "Perry is furious when he hears the news, and the press is having a field day slandering your indecisiveness. They're calling you vacillating and weak. You knew you made a mistake and authorized another bombing, but the damage had already been done.\n"
         }
     },
     {
@@ -14018,7 +14018,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 200003,
             "candidate": 77,
-            "answer_feedback": "Despite your hopes, the press focuses relentlessly on the civilian impact of your strikes against Iraq, eagerly showing the tearful faces of injured children. For fuck's sake."
+            "answer_feedback": "The strikes, were successful. However, the American people are appaled as to why you would chose civilian areas. The press focuses relentlessly on the civilian impact of your strikes against Iraq, eagerly showing the tearful faces of injured children. For fuck's sake."
         }
     },
     {
@@ -14031,6 +14031,7 @@ campaignTrail_temp.answer_feedback_json = [
         }
     },
     {
+        //Cutoff between Clinton and Gore Feedback
         "model": "campaign_trail.answer_feedback",
         "pk": 1272223,
         "fields": {
@@ -14045,7 +14046,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 10001.1,
             "candidate": 77,
-            "answer_feedback": "This speech goes down as one of the greatest in the nation's history."
+            "answer_feedback": "There is no word or statement that describes the adreneline that went through your body when you made this speech. You knew the true magnitude of every word you said, and you felt a cold shiver down your spine when you spoke. The leaving ovation from everyone on the floor lasted around 20 minutes, a haunting reminder of the mantle you've just taken."
         }
     },
     {
@@ -14054,7 +14055,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 10002.1,
             "candidate": 77,
-            "answer_feedback": "People are CLAMORING for revenge in a time like this, and they're happy to see you with that same rage."
+            "answer_feedback": "Gingrich makes it clear to you that he''ll put aside politics to find out who did this. After the agreement, your approval rating soars up to 96%, as you have the fragile trust of all Americans in your hands. The trust that defines legacy."
         }
     },
     {
@@ -14063,7 +14064,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 10003.1,
             "candidate": 77,
-            "answer_feedback": "Chelsea appreciates you saying that you'll be there for her, but you can tell she's still sad. No amount of money, shelter, or condolences you give her will ever bring back her mother and father."
+            "answer_feedback": "Chelsea appreciates you saying that you'll be there for her, but you can tell she'll never heal. No amount of money, shelter, or condolences you give her will ever bring back her mother and father. In deep thought about it, you almost even shed a tear."
         }
     },
     {
@@ -14072,7 +14073,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 10004.1,
             "candidate": 77,
-            "answer_feedback": "Everything is fine until you start talking about climate change. People accuse you of politicizing Clinton's death, but no one seems to care."
+            "answer_feedback": "Everything is fine until you start talking about climate change. Some accuse you of politicizing Clinton's death, but no one seems to care."
         }
     },
     {
@@ -15791,21 +15792,21 @@ campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/
 campaignTrail_temp.candidate_json[1]["fields"].first_name = "Arlen";
 
 //Gramm CYOA
-} else if (SlimGOPCongress == 1 && ans == 170001){
+} else if (LibSocial == 2 && SlimGOPCongress == 1 && ans == 170001){
     GrammNom += 1;
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Gramm";
     campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B9353E";
     campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/jR55oZB.jpeg";
     campaignTrail_temp.candidate_json[1]["fields"].first_name = "Phil";
 }
-if (SlimGOPCongress == 1 && ans == 170002){
+if (LibSocial == 2 && SlimGOPCongress == 1 && ans == 170002){
     GrammNom += 1;
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Gramm";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B9353E";
 campaignTrail_temp.candidate_json[1]["fields"].image_url = "https://i.imgur.com/jR55oZB.jpeg";
 campaignTrail_temp.candidate_json[1]["fields"].first_name = "Phil";
 }
-if(SlimGOPCongress == 1 && ans == 170003){
+if(LibSocial == 2 && SlimGOPCongress == 1 && ans == 170003){
     GrammNom += 1;
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Gramm";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#B9353E";
