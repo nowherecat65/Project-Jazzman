@@ -792,9 +792,9 @@ function setupRandomizeButton() {
     );
   
     const song3 = new Song(
-      "Take Five",
-      "Paul Desmond",
-      "https://audio.jukehost.co.uk/Iyw0AOUb34dJQugmqoBMdr4ISxxtW6e5"
+      "Seems Hard",
+      "The Cardigans",
+      "https://audio.jukehost.co.uk/Kn4YXWqNQ01ABgMAJWsgcYZiMvwKpapf"
     );
   
     const song4 = new Song(
@@ -816,9 +816,9 @@ function setupRandomizeButton() {
     );
   
     const song7 = new Song(
-      "Desafinado",
-      "João Gilberto & Stan Getz",
-      "https://audio.jukehost.co.uk/2tKooBxyZvKJhmWMsHG4TNpvoBVGMz2I"
+      "Underground",
+      "Ben Folds Five",
+      "https://audio.jukehost.co.uk/72JQKSbz7R0rWYCumPitIxZxaDqHqfmT"
     );
 
     const song8 = new Song(
