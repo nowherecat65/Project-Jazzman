@@ -619,6 +619,7 @@ campaignTrail_temp.election_json = [
   {searchString: "President Bush", explanationText: "<img src=https://i.imgur.com/j08BQZl.png> Respectful predecessor"},
   {searchString: "41", explanationText: "<img src=https://i.imgur.com/j08BQZl.png> Respectful predecessor"},
   {searchString: "Old Man Bush", explanationText: "<img src=https://i.imgur.com/j08BQZl.png> Respectful predecessor"},
+  {searchString: "Al", explanationText: "<img src=https://i.imgur.com/sRpuZdK.png> Closest thing to a friend politics ever gave me"},
   {searchString: "Perot", explanationText: "<img src=https://i.imgur.com/RrU68s7.png> Helped me win"},
   {searchString: "the Gipper", explanationText: "<img src=https://i.imgur.com/c6h5VXl.png> California Cowboy"},
   {searchString: "Reagan", explanationText: "<img src=https://i.imgur.com/c6h5VXl.png> California Cowboy"},
@@ -1265,9 +1266,9 @@ campaignTrail_temp.election_json = [
       "description" : "Face off against Arlen Specter in 1996.",
       "cannotBeCheated" : true
     },
-    "General Commotion" : {
-      "image" : "https://i.imgur.com/hAmHLjA.png",
-      "description" : "Face off against Colin Powell in 1996.",
+    "The End of History" : {
+      "image" : "https://i.imgur.com/rLfD4G2.png",
+      "description" : "Face off against Pete Wilson in 1996.",
       "cannotBeCheated" : true
     },
     "Standing Firm" : {
