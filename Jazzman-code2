@@ -257,7 +257,16 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": "question_20_iraq_airstrikes",
+        "pk": "question_20_internet",
+        "fields": {
+            "priority": 0,
+            "description": "As the American Public begins to transition technologies and in the Last Election before the New Millennium, a new way of expressing ideologies and opinions has arisen being the Internet. While the Internet is still a relatively new Commercial item for many Americans, our Administration should take a stand on our plans for the American internet. What is our stance, Mr. President?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": "question_21_iraq_airstrikes",
         "fields": {
             "priority": 0,
             "description": "Iraq, under that kook Saddam Hussein, has escalated military aggression against Kurdish forces in Northern Iraq, violating no-fly zone agreements. Some Senators, cabinet officials, and military leaders are calling for airstrikes to enforce the zones and prevent further violations. Will you give in to the demands?",
@@ -266,7 +275,7 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": "question_21_1996_election",
+        "pk": "question_22_1996_election",
         "fields": {
             "priority": -1,
             "description": "It's the morning of November 4th, 1996. You can't stop thinking about how far you've came since 1978. Once a bright young Attorney General hoping to become his states Governor, now running for re-election as president, in the same position 41 was in when he lost to you. You've thought of the relief of reliving that winning feeling again, but the pain of reliving that bitter losing feeling, and all the tears you cried back in 1980. With that in mind, what will be your final message to the American people as they head to the polls tomorrow?",
@@ -1149,7 +1158,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 200001,
         "fields": {
-            "question": "question_20_iraq_airstrikes",
+            "question": "question_21_iraq_airstrikes",
             "description": "You bet. It's simple, really, we cannot let Saddam get away with this. You have my full authorization to conduct decisive, targeted strikes, focused, strategic, and deep enough to send an unmistakable message: the United States does not tolerate threats to global peace. \n"
         }
     },
@@ -1157,7 +1166,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 200002,
         "fields": {
-            "question": "question_20_iraq_airstrikes",
+            "question": "question_21_iraq_airstrikes",
             "description": "Well, you know, obviously, we stand against what Saddam has done, it’s unacceptable and destabilizing, but I’ve got to say, a military strike right now doesn’t feel proportional to the situation. Let’s take a step back, folks. "
         }
     },
@@ -1165,7 +1174,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 200003,
         "fields": {
-            "question": "question_20_iraq_airstrikes",
+            "question": "question_21_iraq_airstrikes",
             "description": "You bet. We are going to bomb the shit out of Iraq, we cannot let Saddam get away with this. You have my full authorization to carry out decisive military strikes, targeting Baghdad and other key areas. The United States and its allies will not stand by and let this happen."
         }
     },
@@ -1173,7 +1182,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 210001,
         "fields": {
-            "question": "question_21_1996_election",
+            "question": "question_22_1996_election",
             "description": "I’ve been saying this forever, in this election, we need voter turnout to be huge. I will deliver a speech in front of the White House calling for everyone to get out and vote. "
         }
     },
@@ -1181,7 +1190,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 210002,
         "fields": {
-            "question": "question_21_1996_election",
+            "question": "question_22_1996_election",
             "description": "It's time to defend our administration’s decisions. I will send Former Senate Majority Leader Mitchell out to campaign over the last few days. I will then send Robert Byrd to his home state of West Virginia to prevent the Republican shift happening in that state. \n"
         }
     },
@@ -1189,7 +1198,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 210003,
         "fields": {
-            "question": "question_21_1996_election",
+            "question": "question_22_1996_election",
             "description": "I want to give a speech at our campaign headquarters, in Little Rock. We’ve made good progress since 1992, but the journey is far, far from over. Together, we can keep pushing forward towards a stronger, fairer America for all who call this great nation home. \n"
         }
     },
@@ -1247,6 +1256,38 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": "question_16.5_jones_case",
             "description": "Look, she has us beat. Do you know how bad this is gonna look if the Supreme Court picks it up? Plus i've got enough on my plate already. I'm running a country for God's sake. We'll do a settlement as long as it's for a reasonable amount."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 240001,
+        "fields": {
+            "question": "question_20_internet",
+            "description": "I believe that if we can foster new technologies and invest our money wisely into said Technologies, we will be able to advance freely as a society. Speaking of investing, why don’t we create a new Campaign website to reach out to voters with the Internet?\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 240002,
+        "fields": {
+            "question": "question_20_internet",
+            "description": "Listen, I'm all for supportin' the next generation of how we communicate, but I really don't think we should set up a campaign website. For now, we'll keep silent on the Internet and instead we'll have our surrogates to take the stand on it.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 240003,
+        "fields": {
+            "question": "question_20_internet",
+            "description": "Why don’t we take a tour of one of these giant Server facilities in the East Coast? They store all the information and ability of these so called “Computers” as I have heard.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 240004,
+        "fields": {
+            "question": "question_20_internet",
+            "description": "I believe that the Internet is a dangerous weapon that can be used to both our advantage and disadvantage. I think we should take the position of Senator Jay Rockefeller and we should put regulations on the Web.\n"
         }
     },
 
@@ -10592,6 +10633,126 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 77,
             "global_multiplier": 0.01
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12639,
+        "fields": {
+            "answer": 240001,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12640,
+        "fields": {
+            "answer": 240001,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12641,
+        "fields": {
+            "answer": 240001,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12643,
+        "fields": {
+            "answer": 240002,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12644,
+        "fields": {
+            "answer": 240002,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12645,
+        "fields": {
+            "answer": 240002,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12649,
+        "fields": {
+            "answer": 240003,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12650,
+        "fields": {
+            "answer": 240003,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12651,
+        "fields": {
+            "answer": 240003,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12655,
+        "fields": {
+            "answer": 240004,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12656,
+        "fields": {
+            "answer": 240004,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12657,
+        "fields": {
+            "answer": 240004,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.07
+        }
     }
 ]
 
@@ -11534,6 +11695,36 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 30,
             "issue_score": -0.01,
             "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12646,
+        "fields": {
+            "answer": 240001,
+            "issue": 28,
+            "issue_score": 0.4,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12647,
+        "fields": {
+            "answer": 240002,
+            "issue": 28,
+            "issue_score": -0.3,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12653,
+        "fields": {
+            "answer": 240003,
+            "issue": 28,
+            "issue_score": 0.7,
+            "issue_importance": 2
         }
     }
 ]
@@ -14552,6 +14743,42 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 77,
             "answer_feedback": "Given the slim majority on the hill, it passed! You smile from ear to ear when you see Gingrich's defeated announcement on TV."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12638,
+        "fields": {
+            "answer": 240001,
+            "candidate": 77,
+            "answer_feedback": "cg96.com releases on the World Wide Web on July 10th of 1996 and it is an instant hit with Online voters. This is going to be an unexpected boon to the Campaign and to your popularity with more Educated Voters that own a Computer.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12642,
+        "fields": {
+            "answer": 240002,
+            "candidate": 77,
+            "answer_feedback": "This is effective at delaying this until 2000 but of course with Surrogates, they make occasional gaffes."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12648,
+        "fields": {
+            "answer": 240003,
+            "candidate": 77,
+            "answer_feedback": "The President of the United States touring a server warehouse? Many Tech Nerds never thought that they would ever see the day, this does allow for you to get support from the Educated Voter but takes time away from the Congress.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12654,
+        "fields": {
+            "answer": 240004,
+            "candidate": 77,
+            "answer_feedback": "Rockefeller and his Blue Dog Democratic colleagues support your moves to put regulations on the Internet, it also allows for you to expand your support among Moderates and Independents in the Democratic Party.\n"
+        }
     }
 ]
 
@@ -15188,7 +15415,7 @@ campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#800080";
 campaignTrail_temp.candidate_json[3]["fields"].image_url = "https://i.imgur.com/IqY9z3j.png";
 campaignTrail_temp.candidate_json[3]["fields"].first_name = "The";
 updateHistoricalData(newVpTableHistorical, newHistHexcolour, newHistName, newHistEV, newHistPV, newHistPVP);
-    question_insert("question_21_1996_election", 
+    question_insert("question_22_1996_election", 
         {
             "model": "campaign_trail.question",
         "pk": "insert_bill_lives",
@@ -15213,7 +15440,7 @@ campaignTrail_temp.candidate_json[3]["fields"].last_name = "Reformists";
 campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#800080";
 campaignTrail_temp.candidate_json[3]["fields"].image_url = "https://i.imgur.com/IqY9z3j.png";
 campaignTrail_temp.candidate_json[3]["fields"].first_name = "The";
-    question_insert("question_21_1996_election", 
+    question_insert("question_22_1996_election", 
         {
             "model": "campaign_trail.question",
         "pk": "insert_bill_dies",
@@ -15523,6 +15750,14 @@ PublicSupport -= 1;
     if (ans == 160003){
     BangedMonica += 1;
     }
+    //Paula Jones CYOA
+    if (ans == 230002){
+    PublicSupport -= 1;
+    }
+    if (ans == 230003){
+    PublicSupport -= 2;
+    JonesSettled += 1;
+    }
     //End of the Bosnian War CYOA
     if (ans == 170001){
     PublicSupport += 1;
@@ -15554,6 +15789,20 @@ PublicSupport += 1;
     PublicSupport -= 2;
     LEGWin -= 1;
     }
+    //Internet CYOA
+    if (ans == 240001){
+    PublicSupport += 2;
+    }
+    if (ans == 240002){
+    PublicSupport -= 1;
+    }
+    if (ans == 240002){
+    PublicSupport -= 1;
+    LEGWin -= 1;
+    }
+    if (ans == 240004){
+    PublicSupport += 1;
+    }
     //Desert Strike CYOA
     if (ans == 200001){
     PublicSupport -= 1;
@@ -15583,14 +15832,6 @@ PublicSupport += 1;
     }
     if (ans == 220004){
     PublicSupport += 2;
-    }
-    //Paula Jones CYOA
-    if (ans == 230002){
-    PublicSupport -= 1;
-    }
-    if (ans == 230003){
-    PublicSupport -= 2;
-    JonesSettled += 1;
     }
     //BEGINING OF GORE CYOA
 
@@ -16008,7 +16249,7 @@ if (ans == 170003){
                     }
                 
                 );
-question_insert("question_20_iraq_airstrikes", 
+question_insert("question_21_iraq_airstrikes", 
         {
                     "model": "campaign_trail.question",
         "pk": "debate_buchanan",
@@ -16034,7 +16275,7 @@ question_insert("question_20_iraq_airstrikes",
                     }
                 
                 );
-                    question_insert("question_20_iraq_airstrikes", 
+                    question_insert("question_21_iraq_airstrikes", 
         {
                     "model": "campaign_trail.question",
         "pk": "debate_alexander",
@@ -16059,7 +16300,7 @@ question_insert("question_20_iraq_airstrikes",
                     }
                 
                 );
-question_insert("question_20_iraq_airstrikes", 
+question_insert("question_21_iraq_airstrikes", 
         {
                     "model": "campaign_trail.question",
         "pk": "debate_specter",
@@ -16083,7 +16324,7 @@ question_insert("question_20_iraq_airstrikes",
                     }
                 
                 );
-                question_insert("question_20_iraq_airstrikes", 
+                question_insert("question_21_iraq_airstrikes", 
         {
                     "model": "campaign_trail.question",
         "pk": "debate_forbes",
@@ -16108,7 +16349,7 @@ question_insert("question_20_iraq_airstrikes",
                         }
                     
                     );
-                    question_insert("question_20_iraq_airstrikes", 
+                    question_insert("question_21_iraq_airstrikes", 
         {
                     "model": "campaign_trail.question",
         "pk": "debate_forbes",
@@ -17541,7 +17782,13 @@ function applyTooltipsToObject(obj) {
         }
     }
 }
-
+function modifytooltip(searchstring, newtooltip) {
+    for (let x in tooltipList) {
+        if (tooltipList[x]["searchString"] == searchstring) {
+            tooltipList[x]["explanationText"] = newtooltip;
+        };
+    }
+}
 applyTooltipsToObject(campaignTrail_temp.questions_json);
 applyTooltipsToObject(campaignTrail_temp.answers_json);
 applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
