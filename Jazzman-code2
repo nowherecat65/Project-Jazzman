@@ -107,7 +107,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_4andahalf_supremecourt",
         "fields": {
             "priority": 2,
-            "description": "Associate Justice on the Supreme Court, Byron 'Whizzer' White has announced his intention to retire. The Jack Kennedy appointee is considered a liberal and perhaps the last of an ideological generation of judges. You've had a few private discussions with some in your cabinet, including the Vice President, but ultimately, the choice remains firmly in your hands. What are you thinking, sir? ",
+            "description": "Associate Justice Byron 'Whizzer' White has announced his intention to retire. The Jack Kennedy appointee is considered a liberal and perhaps the last of an ideological generation of judges. You've had a few private discussions with some in your cabinet, including the Vice President, but ultimately, the choice remains firmly in your hands. What are you thinking, sir? ",
             "likelihood": 1
         }
     },
@@ -116,7 +116,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_5_healthcare_task_force",
         "fields": {
             "priority": 2,
-            "description": "Your first few months in Washington have been... busy, to say the least. You're laying back in the Oval Office, thinking about one of your biggest campaign promises, one of Hillary's greatest dreams since you met her back at Yale, the choice to your heart is obvious, but your mind tells you she has no expirence to run any show, let alone a legacy defining moment. Regardless, you have a choice. Who are you going to let run this massive healthcare reform?",
+            "description": "Your first few months in Washington have been... busy, to say the least. You're laying back in the Oval Office, thinking about one of your biggest campaign promises, one of Hillary's greatest dreams since you met her back at Yale, the choice to your heart is obvious, but your mind tells you she has no experience to run any show, let alone a legacy-defining moment. Regardless, you have a choice. Who are you going to let run this massive healthcare reform?",
             "likelihood": 1
         }
     },
@@ -125,7 +125,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_6_dont_show_dont_tell",
         "fields": {
             "priority": 2,
-            "description": "Your plans to allow members of the homosexual community to serve openly in the military have faced significant resistance from military leadership, as you expected, however, your being blasted from St. Louis to Baton Rouge. Now, party leaders are threatening to overturn any executive order implementing such a policy. Thankfully, General Colin Powell presents you with a godsent compromise: recruiters would not ask about an individual's sexual orientation, but the military would retain the right to discharge those who are openly gay. It sounds good to just bite the bullet, but then comes the issue of pissing off the liberals and gay folk who voted for you.",
+            "description": "Your plans to allow members of the homosexual community to serve openly in the military have faced significant resistance from military leadership, as you expected, however, your being blasted from St. Louis to Baton Rouge. Now, party leaders are threatening to overturn any executive order implementing such a policy. Thankfully, General Colin Powell presents you with a compromise: recruiters would not ask about an individual's sexual orientation, but the military would retain the right to discharge those who are openly gay. It sounds good to just bite the bullet, but then comes the issue of pissing off the liberals and gay folk who voted for you.",
             "likelihood": 1
         }
     },
@@ -134,7 +134,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_7_crime",
         "fields": {
             "priority": 2,
-            "description": "It's everyday at this point that you uncover yet another issue you’ve inherited from the Bush administration, no wonder you kicked his ass so badly. The crime rate skyrocketed under Reagan and got historically worse under 41, marking our highest crime rate in US history just 3 years ago. Reno's been urging for some sort of reform, and you're finally weighing your options. What's your choice?.",
+            "description": "It's everyday at this point that you uncover yet another issue you’ve inherited from the Bush administration, no wonder you kicked his ass so badly. The crime rate skyrocketed under Reagan and got historically worse under 41, marking our highest crime rate in US history just 3 years ago. Reno's been urging some sort of reform, and you're finally weighing your options. What's your choice?.",
             "likelihood": 1
         }
     },
@@ -143,7 +143,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_8_somalia",
         "fields": {
             "priority": 2,
-            "description": "The Somali people have turned against the U.S. and UNOSOM II forces following a botched raid on a villa owned by Warlord Mohamed Aideed, which resulted in the deaths of many innocent women, children, and community leaders. The incident has well... rightfully sparked outrage from human rights organizations, labeling it a massacre. It’s clear to you that you must quickly change tactics to salvage what little support remains among the Somali population, otherwise, the situation could escalate unpredictably.",
+            "description": "The Somali people have turned against the U.S. and UNOSOM II forces following a botched raid on a villa owned by warlord Mohamed Aidid, which resulted in the deaths of many innocent women, children, and community leaders. The incident has well... rightfully sparked outrage from human rights organizations, labeling it a massacre. It’s clear to you that you must quickly change tactics to salvage what little support remains among the Somali population, otherwise, the situation could escalate unpredictably.",
             "likelihood": 1
         }
     },
@@ -152,7 +152,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_9_nafta",
         "fields": {
             "priority": 2,
-            "description": "It’s finally time to sign the North American Free Trade Agreement, a landmark, and bipartisan deal designed to lower tariffs and eliminate trade barriers between the United States, Mexico, and Canada. Besides a little push back from Perot and the Midwest, the agreement sees almost universal approval. Your taking some credit from 41 as well, who really got the ground running for this, so that's a plus. The ink on the agreement feels heavier than paper, it carries the weight of the entire continent.",
+            "description": "It’s finally time to sign the North American Free Trade Agreement, a landmark, bipartisan deal designed to lower tariffs and eliminate trade barriers between the United States, Mexico, and Canada. Besides a little pushback from Perot and the Midwest, the agreement sees almost universal approval. You're taking some credit from 41 as well, who really got the ground running for this, so that's a plus. The ink on the agreement feels heavier than paper, it carries the weight of the entire continent.",
             "likelihood": 1
         }
     },
@@ -161,7 +161,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_10_foreign_intervention",
         "fields": {
             "priority": 3,
-            "description": "Although the world looks calm and peaceful so far into the Post-Soviet era, you know damn well that's far from the truth. From genocides, to brutal civil war, fellow world leaders, particularly in third world countries, could care less about the suffering of their people. At least less than you, not you, you care about the average person on the street, you care about stopping dictators, poverty and suffering. You just need to pick and choose your battles.",
+            "description": "Although the world looks calm and peaceful so far going into the Post-Soviet era, you know damn well that's far from the truth. From genocides, to brutal civil war, fellow world leaders, particularly in third world countries, could care less about the suffering of their people. But not you. You care about the average person on the street, you care about stopping dictators, poverty and suffering. You just need to pick and choose your battles.",
             "likelihood": 1
         }
     },
@@ -197,7 +197,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_14_oklahoma_bombing",
         "fields": {
             "priority": 3,
-            "description": "It's April 19th 1995. Your out with your family, trying to enjoy one of the few days you get to spend with them. All is well until you get a call from Reno, she tells you the Alfred P. Murrah Federal Building in Oklahoma City has been attacked by a truck bomb, and the 24/7 news coverage is escalating rapidly, and aggressively. Just as you hang up the call, you and Hillary are immedietely usherd back in D.C., and your back to work. What is your response to this horrific tragedy?",
+            "description": "It's April 19th 1995. You're out with your family, trying to enjoy one of the few days you get to spend with them. All is well until you get a call from Reno, she tells you the Alfred P. Murrah Federal Building in Oklahoma City has been attacked by a truck bomb, and the 24/7 news coverage is escalating rapidly, and aggressively. Just as you hang up the call, you and Hillary are immediately ushered back in D.C., and you're back to work. What is your response to this horrific tragedy?",
             "likelihood": 1
         }
     },
@@ -215,7 +215,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_16_monica",
         "fields": {
             "priority": 3,
-            "description": "You're behind the resolute desk, the weight of your office pressing down, as the staff and the Vice President gather. ''Mr. President,'' Dick Morris says, ''we need to map out the re-election strategy. I’m confident we’ll win.'' Al chips in,''But things shift fast. We don’t want to end up like Dewey, blindsided...'' Your not listening. Someone catches your eye, and you can't stop looking. ''Wait, what are you looking at?'' The room falls silent, all eyes on you as your focus drifts for a moment. ",
+            "description": "You're behind the resolute desk, the weight of your office pressing down, as the staff and the Vice President gather. ''Mr. President,'' Dick Morris says, ''we need to map out the re-election strategy. I’m confident we’ll win.'' Al chips in,''But things shift fast. We don’t want to end up like Dewey, blindsided...'' You're not listening. Someone catches your eye, and you can't stop looking. ''Wait, what are you looking at?'' The room falls silent, all eyes on you as your focus drifts for a moment. ",
             "likelihood": 1
         }
     },
@@ -224,7 +224,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_16.5_jones_case",
         "fields": {
             "priority": 0,
-            "description": "Well, it's been a week since you've done what you've had to do with Monica. You can't save your mind from the racing thoughts. What were you thinking? How could you cheat on your own wife, a woman that's been so loyal to you for all those years, oh wait, don't play dumb. This isn't the first time, and you know it. You're still fighting the Paula Jones case in court, hoping the Supreme Court doesn't catch wind. You feel like the best course is to settle, but you feel like paying her off would just enable any suspicions on said matter to be true, God forbid if your actions with Ms. Lewinsky come to light. What are you going to do?",
+            "description": "Well, it's been a week since you've done what you've had to do with Monica. You can't save your mind from the racing thoughts. What were you thinking? How could you cheat on your own wife, a woman that's been so loyal to you for all those years...Oh, don't play dumb. This isn't the first time, and you know it. You're still fighting the Paula Jones case in court, hoping the Supreme Court doesn't catch wind. You feel like the best course is to settle, but you feel like paying her off would just enable any suspicions on said matter to be true, God forbid if your actions with Ms. Lewinsky come to light. What are you going to do?",
             "likelihood": 1
         }
     },
@@ -233,7 +233,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_17_yugoslavia",
         "fields": {
             "priority": 3,
-            "description": "You find yourself facing a difficult choice: to end years of war in the Balkans, with Serbia, Croatia, and Bosnia, or to continue the conflict until the last breath is drawn on the battlefield. As you grip the pen, ready to sign, you hesitate. You drop it. This cycle repeats, and time continues to slip by. It's getting late now. Please, sign the bill.",
+            "description": "You find yourself facing a difficult choice: to end years of war in the Balkans, with Serbia, Croatia, and Bosnia, or to continue the conflict until the last breath is drawn on the battlefield. As you grip the pen, ready to sign, you hesitate. You drop it. This cycle repeats, and time continues to slip by. It's getting late now. What's the move? ",
             "likelihood": 1
         }
     },
@@ -269,7 +269,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_21_1996_election",
         "fields": {
             "priority": -1,
-            "description": "It's the morning of November 4th, 1996. You can't stop thinking about how far you've came since 1978. Once a bright young Attorney General hoping to become his states Governor, now running for re-election as president, in the same position 41 was in when he lost to you. You've thought of the relief of reliving that winning feeling again, but the pain of reliviing that bitter losing feeling, and all the tears you cried back in 1980. With that in mind, what will be your final message to the American people as they head to the polls tomorrow?",
+            "description": "It's the morning of November 4th, 1996. You can't stop thinking about how far you've came since 1978. Once a bright young Attorney General hoping to become his states Governor, now running for re-election as president, in the same position 41 was in when he lost to you. You've thought of the relief of reliving that winning feeling again, but the pain of reliving that bitter losing feeling, and all the tears you cried back in 1980. With that in mind, what will be your final message to the American people as they head to the polls tomorrow?",
             "likelihood": 1
         }
     },
@@ -296,7 +296,7 @@ campaignTrail_temp.questions_json = [
         "pk": "insert_health_insurance",
         "fields": {
             "priority": 2,
-            "description": "Your in the Oval Office, doing paperwork, when Mitchell and Foley stride into the room, relating to the healthcare reform. They inform you what there plans are, consisting of mandating insurence,  businesses being forced to give employees insurance, and subsidizing for people on the short end of the stick. It's rather moderate, but they're confident this is what can be passed with relative ease. You, staying true to Hillary's dreams, feel this preposal is a bit too watered down for a 'reform', but at the same time, there's the mater of geting something passed. They ask for your opinions, but they've already made what they wanted to do clear, but you know best, don't you, Slick?",
+            "description": "You're in the Oval Office, doing paperwork, when Mitchell and Foley stride into the room, relating to the healthcare reform. They inform you what their plans are, consisting of mandating insurance,  businesses being forced to give employees insurance, and subsidizing for people on the short end of the stick. It's rather moderate, but they're confident this is what can be passed with relative ease. You, staying true to Hillary's dreams, feel this proposal is a bit too watered down for a 'reform', but at the same time, there's the matter of getting something passed. They ask for your opinions, but they've already made what they wanted to do clear, but you know best, don't you, Slick?",
             "likelihood": 1
         }
     },
@@ -305,7 +305,7 @@ campaignTrail_temp.questions_json = [
         "pk": "insert_healthcare_disaster",
         "fields": {
             "priority": 2,
-            "description": "Your in the Oval Office when you overhear Al and Reich going balistic in the other room. ''What the hell is this!?'', you hear Al frantically gasp out, you can also hear Reich saying ''I knew this was gonna fucking happen''. You rush into the room, and they regain slight composure upon seeing you. Reich breaks the news to you that the healthcare reform has been compromised by pharmaceutical corporations and the GOP. They just took almost all talking points from the HEART Act, and just slapped on more tax breaks for healthcare buisnesses. Your enraged, your not letting this shit see the house floor, so you might as well kill it before it gets the chance.",
+            "description": "You're in the Oval Office when you overhear Al and Reich going ballistic in the other room. ''What the hell is this!?'', you hear Al frantically gasp out, you can also hear Reich saying ''I knew this was gonna fucking happen.'' You rush into the room, and they slightly regain their composure upon seeing you. Reich breaks the news to you that the healthcare reform has been compromised by pharmaceutical corporations and the GOP. They just took almost all the talking points from the HEART Act, and just slapped on more tax breaks for healthcare businesses. You're enraged, you're not letting this shit see the house floor, so you might as well kill it before it gets the chance.",
             "likelihood": 1
         }
     },
@@ -314,7 +314,7 @@ campaignTrail_temp.questions_json = [
         "pk": "healthcare_vote_win",
         "fields": {
             "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillay to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
+            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right beside you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
             "likelihood": 1
         }
     },
@@ -323,7 +323,7 @@ campaignTrail_temp.questions_json = [
         "pk": "healthcare_vote_fail",
         "fields": {
             "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillay to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
+            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right beside you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
             "likelihood": 1
         }
     },
@@ -332,7 +332,7 @@ campaignTrail_temp.questions_json = [
         "pk": "healthcare_vote_refuse",
         "fields": {
             "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillay to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
+            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right beside you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
             "likelihood": 1
         }
     },
@@ -359,7 +359,7 @@ campaignTrail_temp.questions_json = [
         "pk": "midterm_gop_revolution",
         "fields": {
             "priority": 0,
-            "description": "Bad news: The Republican Party emerged as the clear winner in the 1994 Congressional elections. Some, including the incoming Speaker are even dubbing this a ''Republican Revolution.'' What will be your response?",
+            "description": "Bad news: The Republican Party emerged as the clear winner in the 1994 Congressional elections. Some, including the incoming Speaker, are even dubbing this a ''Republican Revolution.'' What will be your response?",
             "likelihood": 1
         }
     },
@@ -422,7 +422,7 @@ campaignTrail_temp.questions_json = [
         "pk": "candidate_intro_buchanan",
         "fields": {
             "priority": 3,
-            "description": "After a long, stressful day of hard work, I'm here to inform you that the Republican National Convention has officially begun. A new figure stands before the Republican delegates, speaking of a brighter future. He criticizes you for shutting down Congress, even going so far as to call you ''America's First Dictator.'' ",
+            "description": "After a long, stressful day of hard work, I'm here to inform you that the Republican National Convention has officially begun. Pat Buchanan stands before the Republican delegates, speaking of a brighter future. He criticizes you for shutting down Congress, even going so far as to call you ''America's First Dictator.'' ",
             "likelihood": 1
         }
     },
@@ -431,7 +431,7 @@ campaignTrail_temp.questions_json = [
         "pk": "candidate_intro_alexander",
         "fields": {
             "priority": 3,
-            "description": "After a long, stressful day of hard work, I'm here to inform you that the Republican National Convention has officially begun. A folksy politician stands before the Republican delegates, speaking of his vision for America. He criticizes you for governing as ''simply a liberal,'' presenting his own common-sense conservative worldview, all while weaving in anecdotes from his time as Tennessee's Governor. ",
+            "description": "After a long, stressful day of hard work, I'm here to inform you that the Republican National Convention has officially begun. Lamar Alexander stands before the Republican delegates, speaking of his vision for America. He criticizes you for governing as ''simply a liberal,'' presenting his own common-sense conservative worldview, all while weaving in anecdotes from his time as Tennessee's Governor. ",
             "likelihood": 1
         }
     },
@@ -449,7 +449,7 @@ campaignTrail_temp.questions_json = [
         "pk": "candidate_intro_gramm",
         "fields": {
             "priority": 0,
-            "description": "After a long, stressful day of hard work, I'm here to inform you that the Republican National Convention has officially begun. Governor Phil Gramm stands before the delegates. He talks about the inherent liberalism of your administration, and calls out your 'laxness' on crime. It ends with the bombastic Governor almost shouting, ''America doesn’t need more bureaucrats in Washington telling hardworking families how to live their lives!''",
+            "description": "After a long, stressful day of hard work, I'm here to inform you that the Republican National Convention has officially begun. Phil Gramm stands before the delegates. He talks about the inherent liberalism of your administration, and calls out your 'laxness' on crime. It ends with the bombastic Senator almost shouting, ''America doesn’t need more bureaucrats in Washington telling hardworking families how to live their lives!''",
             "likelihood": 1
         }
     },
@@ -503,7 +503,7 @@ campaignTrail_temp.questions_json = [
         "pk": "clinton_2nd_term_question_3",
         "fields": {
             "priority": 0,
-            "description": "On the issue of Climate Change, you've always been in support. Although you're by no means one of those tree hugging hippies, you can still understand the common-sense essence of wanting a better tomorrow. After sending Al to UN in order to figure out a resolve, you've finally sat down to read the agreement he brokered. The \"Kyoto Protocol\" looks to involve the worlds 36 richest countries, while providing enviornment-friendly economic aid to the lesser developed ones. It sounds good, but you know 90% of Republicans aren't agreeing to this. Most of them are either not informed correctly, or are completely pissed off that China isn't apart of it.",
+            "description": "You've always been in support of addressing the issue of climate change. Although you're by no means one of those tree hugging hippies, you can still understand the common-sense essence of wanting a better tomorrow. After sending Al to the UN in order to figure out a solution, you've finally sat down to read the agreement he brokered. The \"Kyoto Protocol\" looks to involve the world's 36 richest countries, while providing environmentally-friendly economic aid to the lesser developed ones. It sounds good, but you know 90% of Republicans aren't agreeing to this. Most of them are either not informed correctly, or are completely pissed off that China isn't a part of it.",
             "likelihood": 1
         }
     },
@@ -512,7 +512,7 @@ campaignTrail_temp.questions_json = [
         "pk": "clinton_2nd_term_question_3_slim_gop",
         "fields": {
             "priority": 0,
-            "description": "On the issue of Climate Change, you've always been in support. Although you're by no means one of those tree hugging hippies, you can still understand the common-sense essence of wanting a better tomorrow. After sending Al to UN in order to figure out a resolve, you've finally sat down to read the agreement he brokered. The \"Kyoto Protocol\" looks to involve the worlds 36 richest countries, while providing enviornment-friendly economic aid to the lesser developed ones. It sounds good, but you know 90% of Republicans aren't agreeing to this. Most of them are either not informed correctly, or are completely pissed off that China isn't apart of it.",
+            "description": "You've always been in support of addressing the issue of climate change. Although you're by no means one of those tree hugging hippies, you can still understand the common-sense essence of wanting a better tomorrow. After sending Al to the UN in order to figure out a solution, you've finally sat down to read the agreement he brokered. The \"Kyoto Protocol\" looks to involve the world's 36 richest countries, while providing environmentally-friendly economic aid to the lesser developed ones. It sounds good, but you know 90% of Republicans aren't agreeing to this. Most of them are either not informed correctly, or are completely pissed off that China isn't a part of it.",
             "likelihood": 1
         }
     },
@@ -551,7 +551,7 @@ campaignTrail_temp.questions_json = [
         "pk": "gore_question_2",
         "fields": {
             "priority": 0,
-            "description": "Mr. President, you've been inaugurated to a full 1st term, but theres one glaring issure: you don't have a Vice President. We need to know who you'll appoint to the position.",
+            "description": "Mr. President, you've been inaugurated to a full 1st term, but there's one glaring issue: you don't have a Vice President. We need to know who you'll appoint to the position.",
             "likelihood": 1
         }
     },
@@ -560,7 +560,7 @@ campaignTrail_temp.questions_json = [
         "pk": "gore_question_3_feinstein",
         "fields": {
             "priority": 0,
-            "description": "It's been a few weeks since you selected the first woman to serve as VP, Diane Feinstein, and we have a new development, Mr. President. We have found more information on the assassin, Osama Bin Laden; his goal is to end what he calls ‘American Imperialism’ in the Middle East. It is believed he has fled his assumed hideout in Sudan and is currently in Afghanistan. You know what to do.\n",
+            "description": "It's been a few weeks since you selected the first woman to serve as VP, DiaNne Feinstein, and we have a new development, Mr. President. We have found more information on the assassin, Osama Bin Laden; his goal is to end what he calls ‘American Imperialism’ in the Middle East. It is believed he has fled his assumed hideout in Sudan and is currently in Afghanistan. You know what to do.\n",
             "likelihood": 1
         }
     },
@@ -686,7 +686,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10004,
         "fields": {
             "question": "question_1_inauguration",
-            "description": "On behalf of our nation, I salute my predecessor, President Bush, for his half-century of dedicated service to America. I also thank the millions of men and women whose steadfastness and sacrifice enabled us to triumph over the Great Depression, Fascism, and Communism"
+            "description": "On behalf of our nation, I salute my predecessor, President Bush, for his half-century of dedicated service to America. I also thank the millions of men and women whose steadfastness and sacrifice enabled us to triumph over the Great Depression, Fascism, and Communism."
         }
     },
     {
@@ -838,7 +838,7 @@ campaignTrail_temp.answers_json = [
         "pk": 60001,
         "fields": {
             "question": "question_6_dont_show_dont_tell",
-            "description": " No dice, Powell, but I’m no fool. I’ll wait. Timing matters, and when the moment’s right, we’ll push this through again."
+            "description": " No dice. I’m no fool. I’ll wait. Timing matters, and when the moment’s right, we’ll push this through again."
         }
     },
     {
@@ -1182,7 +1182,7 @@ campaignTrail_temp.answers_json = [
         "pk": 210002,
         "fields": {
             "question": "question_21_1996_election",
-            "description": "It's time to defend our administration’s decisions. I will send Former Speaker of the House Mitchell out to campaign over the last few days. I will then send Robert Byrd to his home state of West Virginia to prevent the Republican shift happening in that state. \n"
+            "description": "It's time to defend our administration’s decisions. I will send Former Senate Majority Leader Mitchell out to campaign over the last few days. I will then send Robert Byrd to his home state of West Virginia to prevent the Republican shift happening in that state. \n"
         }
     },
     {
@@ -1238,7 +1238,7 @@ campaignTrail_temp.answers_json = [
         "pk": 230002,
         "fields": {
             "question": "question_16.5_jones_case",
-            "description": "We can end this fiasco without paying any money at all. Remind her she's not just dealing with the \"Arkansas Governor\" anymore. She's talkin' to the President. I'll have Starr get me into contact with Mrs. Jones, and I'll persuade her to drop the case."
+            "description": "We can end this fiasco without paying any money at all. Remind her she's not just dealing with the \"Arkansas Governor\" anymore. She's talking to the President. I'll have Starr get me into contact with Mrs. Jones, and I'll persuade her to drop the case."
         }
     },
     {
@@ -1246,11 +1246,11 @@ campaignTrail_temp.answers_json = [
         "pk": 230003,
         "fields": {
             "question": "question_16.5_jones_case",
-            "description": "Look, she has us beat. Do you know how bad this is gonna look if the Supreme Court picks it up? Plus i've got enough on my plate already. I'm runnin' a country for God's sake. We'll do a settlement as long as it's for a reasonable amount."
+            "description": "Look, she has us beat. Do you know how bad this is gonna look if the Supreme Court picks it up? Plus i've got enough on my plate already. I'm running a country for God's sake. We'll do a settlement as long as it's for a reasonable amount."
         }
     },
 
-	// Seperation between "regular" questions and "stored" questions.
+	// Separation between "regular" questions and "stored" questions.
 	
     {
         "model": "campaign_trail.answer",
@@ -12992,7 +12992,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 60001,
             "candidate": 77,
-            "answer_feedback": "You thought you'd be able to run away from the issue like you typically do, yet your expectations deeply underestimated how much backlash you'd get from your LGBT supporters. The Blue Dogs and conservatives are satisfied, however, and you think about how else you could've went about this."
+            "answer_feedback": "You thought you'd be able to run away from the issue like you typically do, yet your expectations deeply underestimated how much backlash you'd get from your gay supporters. The Blue Dogs and conservatives are satisfied, however, and you think about how else you could've went about this."
         }
     },
     {
@@ -13901,7 +13901,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 180002,
             "candidate": 77,
-            "answer_feedback": "With your eyes fixed on the screen in the Oval Office, you watch closely as the television announces the end of the voting. It's hard to make out the details, but you hear something like, ''I, Speaker of the House, hereby declare... to be vetoed.'' It’s likely to be overridden, but you've sent the LGBT community a message they’ll never forget."
+            "answer_feedback": "With your eyes fixed on the screen in the Oval Office, you watch closely as the television announces the end of the voting. It's hard to make out the details, but you hear something like, ''I, Speaker of the House, hereby declare... to be vetoed.'' It’s likely to be overridden, but you've sent the gay community a message they’ll never forget."
         }
     },
     {
