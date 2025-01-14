@@ -107,7 +107,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_4andahalf_supremecourt",
         "fields": {
             "priority": 2,
-            "description": "Associate Justice Byron 'Whizzer' White has announced his intention to retire. The Jack Kennedy appointee is considered a liberal and perhaps the last of an ideological generation of judges. You've had a few private discussions with some in your cabinet, including the Al, but ultimately, the choice remains firmly in your hands. What are you thinking? ",
+            "description": "Associate Justice Byron 'Whizzer' White has announced his intention to retire. The Jack Kennedy appointee is considered a liberal and perhaps the last of an ideological generation of judges. You've had a few private discussions with some in your cabinet, including Al, but ultimately, the choice remains firmly in your hands. What are you thinking? ",
             "likelihood": 1
         }
     },
@@ -215,7 +215,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_16_monica",
         "fields": {
             "priority": 3,
-            "description": "You're behind the resolute desk, the weight of your office pressing down, as the staff and the Al gather. ''Mr. President,'' Dick Morris says, ''we need to map out the re-election strategy. I’m confident we’ll win.'' Al chips in,''But things shift fast. We don’t want to end up like Dewey, blindsided...'' You're not listening. Someone catches your eye, and you can't stop looking. ''Wait, what are you looking at?'' The room falls silent, all eyes on you as your focus drifts for a moment. ",
+            "description": "You're behind the resolute desk, the weight of your office pressing down, as the staff and Al gather. ''Mr. President,'' Dick Morris says, ''we need to map out the re-election strategy. I’m confident we’ll win.'' Al chips in,''But things shift fast. We don’t want to end up like Dewey, blindsided...'' You're not listening. Someone catches your eye, and you can't stop looking. ''Wait, what are you looking at?'' The room falls silent, all eyes on you as your focus drifts for a moment. ",
             "likelihood": 1
         }
     },
@@ -13084,7 +13084,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 400015,
             "candidate": 77,
-            "answer_feedback": "You knew it was a bit risky to go with Mayor Hubbell, but you couldn't've imagined how bad the whiplash would be. He’s being pulled into the Whitewater abyss, and his entire reputation, his very being, it’s being slowly melted away. You quickly realize there's 0 way he's getting confirmed, you drop him as fast as possible and end up appointing Janie Shores, an associate judge on the Alabama Supreme Court. "
+            "answer_feedback": "You knew it was risky to go with Mayor Hubbell, but you couldn't've imagined how bad the whiplash would be. He’s being pulled into the Whitewater abyss, and his entire reputation, his very being, it’s being slowly melted away. You quickly realize there's 0 way he's getting confirmed, you drop him as fast as possible and end up appointing Janie Shores, an associate judge on the Alabama Supreme Court. "
         }
     },
     {
@@ -13498,7 +13498,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 50004,
             "candidate": 77,
-            "answer_feedback": "That’s a very technocratic move, sir. Gore, the Atari Democrats, and the so-called Clinton coalition of business and middle-class voters will certainly appreciate this approach."
+            "answer_feedback": "That’s a very technocratic move, sir. Al, the Atari Democrats, and the so-called Clinton coalition of business and middle-class voters will certainly appreciate this approach."
         }
     },
     {
@@ -13596,7 +13596,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 12333,
         "fields": {
             "answer": 55004.5,
-            "candidate": 78,
+            "candidate": 77,
             "answer_feedback": "This is the best option you could give considering this wacky turn of events. And from what you hear from the \npollsters, it resonates well."
         }
     },
@@ -13633,7 +13633,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15004.5,
             "candidate": 77,
-            "answer_feedback": "WE DID IT BILL!!!! IT PASSED!!!"
+            "answer_feedback": "Against all odds, your bill narrowly breaks the filibuster in the Senate, and passes the House soon after. You invite your Task Force to the signing ceremony, to revel in celebration."
         }
     },
     {
@@ -13651,7 +13651,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15001.5,
             "candidate": 77,
-            "answer_feedback": "Damn it, the bill failed."
+            "answer_feedback": "Jesus. An entire year of your life, plastered and filled with stab wounds are laid out in CSPAN as the bill fails in the House of Representatives. Speaker Tom Foley profusely apologizes on the phone call to you. ”I thought we had it,” he says, his voice straining. “I thought we did too,” you reply. silence “It’s okay Tom, we have other things to mind,” you barely uttered out. There’s no coming back from this one."
         }
     },
     {
