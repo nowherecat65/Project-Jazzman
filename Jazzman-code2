@@ -107,7 +107,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_4andahalf_supremecourt",
         "fields": {
             "priority": 2,
-            "description": "Associate Justice Byron 'Whizzer' White has announced his intention to retire. The Jack Kennedy appointee is considered a liberal and perhaps the last of an ideological generation of judges. You've had a few private discussions with some in your cabinet, including the Vice President, but ultimately, the choice remains firmly in your hands. What are you thinking? ",
+            "description": "Associate Justice Byron 'Whizzer' White has announced his intention to retire. The Jack Kennedy appointee is considered a liberal and perhaps the last of an ideological generation of judges. You've had a few private discussions with some in your cabinet, including the Al, but ultimately, the choice remains firmly in your hands. What are you thinking? ",
             "likelihood": 1
         }
     },
@@ -215,7 +215,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_16_monica",
         "fields": {
             "priority": 3,
-            "description": "You're behind the resolute desk, the weight of your office pressing down, as the staff and the Vice President gather. ''Mr. President,'' Dick Morris says, ''we need to map out the re-election strategy. I’m confident we’ll win.'' Al chips in,''But things shift fast. We don’t want to end up like Dewey, blindsided...'' You're not listening. Someone catches your eye, and you can't stop looking. ''Wait, what are you looking at?'' The room falls silent, all eyes on you as your focus drifts for a moment. ",
+            "description": "You're behind the resolute desk, the weight of your office pressing down, as the staff and the Al gather. ''Mr. President,'' Dick Morris says, ''we need to map out the re-election strategy. I’m confident we’ll win.'' Al chips in,''But things shift fast. We don’t want to end up like Dewey, blindsided...'' You're not listening. Someone catches your eye, and you can't stop looking. ''Wait, what are you looking at?'' The room falls silent, all eyes on you as your focus drifts for a moment. ",
             "likelihood": 1
         }
     },
