@@ -16377,36 +16377,38 @@ question_insert("question_21_iraq_airstrikes",
                 
         }
     }
-let vpName = "Monica Lewinsky Error";
-vpTable = {
-    "Bill Clinton" : "Al Gore",
-    "Al Gore" : vpName,
-
-    "Bob Dole" : "Jack Kemp",
-    "Patrick Buchanan" : "Pete Wilson",
-    "Lamar Alexander" : "John Kasich",
-    "Phil Gramm" : "Tommy Thompson",
-    "Arlen Specter" : "Carroll Campbell",
-
-    "Dan Quayle" : "John Ashcroft",
-    "Newt Gingrich" : "John Engler",
-    "George H.W. Bush" : "Tom Ridge",
-    "Oliver North" : "Don Nickles",
-    "Donald Trump" : "George Voinovich",
-    "Mitt Romney" : "Thad Cochran",
-    "Steve Forbes" : "Orrin Hatch",
-    "George W. Bush" : "Dick Cheney",
-    "Elizabeth Dole" : "Connie Mack III",
-    "Jeb Bush" : "Fred Thompson",
-    "John McCain" : "Chuck Hagel",
-
-    "Ralph Nader" : "Winona LaDuke",
-    "H. Ross Perot" : "Pat Choate",
-    "Christine Todd Whitman" : "David Boren",
-    "Pat Buchanan" : "Ezola Foster",
-    "John Hagelin" : "Nat Goldhaber",
-    "Lowell Weicker" : "Dominic Cortese", 
-}
+    let vpName = "Monica Lewinsky Error";
+    vpTable = {
+        "Bill Clinton" : "Al Gore",
+        "Al Gore" : vpName,
+    
+        "Bob Dole" : "Jack Kemp",
+        "Patrick Buchanan" : "Pete Wilson",
+        "Lamar Alexander" : "John Kasich",
+        "Phil Gramm" : "Tommy Thompson",
+        "Arlen Specter" : "Carroll Campbell",
+        "Colin Powell" : "Don Nickles",
+    
+        "Dan Quayle" : "John Ashcroft",
+        "Newt Gingrich" : "John Engler",
+        "George H.W. Bush" : "Tom Ridge",
+        "Oliver North" : "J. C. Watts",
+        "Donald Trump" : "George Voinovich",
+        "Mitt Romney" : "Thad Cochran",
+        "Steve Forbes" : "Orrin Hatch",
+        "George W. Bush" : "Dick Cheney",
+        "Elizabeth Dole" : "Connie Mack III",
+        "Jeb Bush" : "Frank Keating",
+        "John McCain" : "Chuck Hagel",
+    
+        "Ralph Nader" : "Winona LaDuke",
+        "H. Ross Perot" : "Pat Choate",
+        "Christine Todd Whitman" : "David Boren",
+        "Pat Buchanan" : "Ezola Foster",
+        "John Hagelin" : "Nat Goldhaber",
+        "Lowell Weicker" : "Dominic Cortese", 
+        "Ron Paul" : "Steve Kubby",
+    }     
 vpTableHistorical = {
     "Bill Clinton" : "Al Gore",
     "Bob Dole" : "Jack Kemp",
