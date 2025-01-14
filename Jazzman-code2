@@ -107,7 +107,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_4andahalf_supremecourt",
         "fields": {
             "priority": 2,
-            "description": "Associate Justice Byron 'Whizzer' White has announced his intention to retire. The Jack Kennedy appointee is considered a liberal and perhaps the last of an ideological generation of judges. You've had a few private discussions with some in your cabinet, including the Vice President, but ultimately, the choice remains firmly in your hands. What are you thinking, sir? ",
+            "description": "Associate Justice Byron 'Whizzer' White has announced his intention to retire. The Jack Kennedy appointee is considered a liberal and perhaps the last of an ideological generation of judges. You've had a few private discussions with some in your cabinet, including the Vice President, but ultimately, the choice remains firmly in your hands. What are you thinking? ",
             "likelihood": 1
         }
     },
@@ -134,7 +134,7 @@ campaignTrail_temp.questions_json = [
         "pk": "question_7_crime",
         "fields": {
             "priority": 2,
-            "description": "It's everyday at this point that you uncover yet another issue you’ve inherited from the Bush administration, no wonder you kicked his ass so badly. The crime rate skyrocketed under Reagan and got historically worse under 41, marking our highest crime rate in US history just 3 years ago. Reno's been urging some sort of reform, and you're finally weighing your options. What's your choice?.",
+            "description": "It's everyday at this point that you uncover yet another issue you’ve inherited from the Bush administration, no wonder you kicked his ass so badly. The crime rate skyrocketed under Reagan and got historically worse under 41, marking our highest crime rate in US history just 3 years ago. Reno's been urging some sort of reform, and you're finally weighing your options. What's your choice?",
             "likelihood": 1
         }
     },
@@ -287,7 +287,7 @@ campaignTrail_temp.questions_json = [
         "pk": "insert_question_hillary",
         "fields": {
             "priority": 2,
-            "description": "Hillary’s been working the phones with party leaders for months now, tirelessly pushing for a healthcare plan that can actually pass. Sometimes, it feels like she’s more invested in the presidency than you are. So, where do you want her to focus her energy next?",
+            "description": "At night, when you finally get a chance to sit down and watch some TV with Hillary, she tells you about her efforts to move Congress towards her healthcare reform. She rants about ''Not being treated like the politician she is'' or something around that, and how she believed that despite this, her efforts were going well. Obviously, you really didn't believe this, yet you were going to trust your wife on this. She asks you for any input with who to work with, but you know what to do, Slick.",
             "likelihood": 1
         }
     },
@@ -783,7 +783,7 @@ campaignTrail_temp.answers_json = [
         "pk": 400015,
         "fields": {
             "question": "question_4andahalf_supremecourt",
-            "description": "I'm going with Webster Hubbell. I know we had him in mind for Associate Attorney General, and I’m sure Janet wouldn’t mind, haha... -He’s someone I can trust, and, you know, he’s a good ol' boy from back home. He’s got the right instincts and the right heart for the job "
+            "description": "I'm going with Webster Hubbell. I know we had him in mind for Associate Attorney General, and I’m sure Janet wouldn’t mind, haha... -He’s someone I can trust, and, you know, he’s a good ol' boy from back home. He’s got the right instincts and the right heart for the job. "
         }
     },
     {
@@ -13084,7 +13084,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 400015,
             "candidate": 77,
-            "answer_feedback": "You knew it was a bit risky to go with Mayor Hubbell, but you couldn't've imagined how bad the whiplash would be. He’s being pulled into the Whitewater abyss, and his entire reputation, his very being, it’s being slowly melted away. You quickly realize there's 0 way he's getting confirmed, and with a bruise on your face, you end up appointing Janie Shores, an associate judge on the Alabama Supreme Court. "
+            "answer_feedback": "You knew it was a bit risky to go with Mayor Hubbell, but you couldn't've imagined how bad the whiplash would be. He’s being pulled into the Whitewater abyss, and his entire reputation, his very being, it’s being slowly melted away. You quickly realize there's 0 way he's getting confirmed, you drop him as fast as possible and end up appointing Janie Shores, an associate judge on the Alabama Supreme Court. "
         }
     },
     {
@@ -13120,7 +13120,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 70003,
             "candidate": 77,
-            "answer_feedback": "You bite your tounge and commit to reform later. As the crime rates continue to raise, many call you deaf-eared, and say you don't truly hear the American people. They don't understand, they never have, they never will. You slam down the news papers and burry your head in your hands."
+            "answer_feedback": "You bite your tongue and commit to reform later. As the crime rates continue to raise, many call you deaf-eared, and say you don't truly hear the American people. They don't understand, they never have, they never will. You slam down the news papers and burry your head in your hands."
         }
     },
     {
@@ -13156,7 +13156,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 50001,
             "candidate": 77,
-            "answer_feedback": "Kennedy exlains he's not compromising. You knew this, you just thought you could persuade him, like you've done with almost everyone. Though he'd be glad to help, he’ll stop at nothing to get universal healthcare passed. It's his world on this front, and your just along for the ride."
+            "answer_feedback": "Kennedy explains he's not compromising. You knew this, you just thought you could persuade him, like you've done with almost everyone. Though he'd be glad to help, he’ll stop at nothing to get universal healthcare passed. It's his world on this front, and your just along for the ride."
         }
     },
     {
@@ -13210,7 +13210,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 110001,
             "candidate": 77,
-            "answer_feedback": "Governor Richards appreciates the visit, and you think your rally went well. But as the presidential motorcade drives around Austin, you can't help but feel as if you're not welcome. "
+            "answer_feedback": "Governor Richards appreciates the visit, and you think you're rally went well. But as the presidential motorcade drives around Austin, you can't help but feel as if you're not welcome. "
         }
     },
     {
@@ -13237,7 +13237,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 110004,
             "candidate": 77,
-            "answer_feedback": "Your visits was met with warm welcomes, and the signs reading \"We love Billy Clinton\" always warm your heart. You exchange meetings with Governors Miller, Tucker, and Folson as you sweep your way through the south, and for once, you finally feel at home."
+            "answer_feedback": "Your visits was met with warm welcomes, and the signs reading \"We love Billy Clinton\" always warm your heart. You exchange meetings with Governors Miller, Tucker, and Folsom as you sweep your way through the south, and for once, you finally feel at home."
         }
     },
     {
@@ -15620,11 +15620,11 @@ resetVariables(resetCondition);
     if (ans == 70002){
     LibSocial += 1;
     }
-    //If you vetoo welfare reform
+    //If you veto welfare reform
     if (ans == 190002){
     LibSocial += 1;
     }
-    //reichs plan
+    //Reichs plan
     if (ans == 30001){
     LibSocial += 1;
     }
