@@ -1,3 +1,4 @@
+
 e = campaignTrail_temp;
 campaignTrail_temp.cyoa = true;
 const customStyling = document.createElement("style");
@@ -13651,7 +13652,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15001.5,
             "candidate": 77,
-            "answer_feedback": "Jesus. An entire year of your life, plastered and filled with stab wounds are laid out in CSPAN as the bill fails in the House of Representatives. Speaker Tom Foley profusely apologizes on the phone call to you. ”I thought we had it,” he says, his voice straining. “I thought we did too,” you reply. silence “It’s okay Tom, we have other things to mind,” you barely uttered out. There’s no coming back from this one."
+            "answer_feedback": "Jesus. An entire year of your life, plastered and filled with stab wounds are laid out in CSPAN as the bill fails in the House of Representatives. Foley profusely apologizes on the phone call to you. ”I thought we had it,” he says, his voice straining. “I thought we did too,” you reply. silence “It’s okay Tom, we have other things to mind,” you barely uttered out. There’s no coming back from this one."
         }
     },
     {
@@ -16592,6 +16593,7 @@ e.pages = []
 e.header = "";
 e.executable = []
 nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+//Dole win
 if (Dolewin === true && Buchananwin === false && Specterwin === false && Lamarwin === false && Grammwin === false) {
   e.pages.push(`<h3>''CNN CAN NOW PROJECT BOB DOLE THE 43RD PRESIDENT OF THE UNITED STATES, DEFATING PRESIDENT CLINTON''</h3>
           <p> That was that. All the hard work, effort and progres you made, gone in one night. You sat in a corner of the ballroom at the Excelsior Hotel in Little Rock, staring blankly at the television screen. Around, you could hear aides whisper quietly, some avoiding your gaze, others casting anxious glances in your direction. The party had started with cautious optimism. Sure, the economy had its ups and downs, and the Republicans had hammered you relentlessly on Whitewater and your personal scandals, but there had been hope. Now, that hope was gone.<br><br>The screen flickered with images of cheering crowds in Kansas, in Indiana, in Ohio—states that had been expected to lean Republican but had turned out in force for the GOP. The electoral map was painted a harsh red across the Midwest and much of the South, with only a few splashes of blue along the coasts and in Illinois. It didn’t matter how much he won by, it was still decisive enough to leave no doubt, at least in your own mind, that you were a failiure. States that you won easily in ’92, flipped. The ''Third Way Democrat'' movement that you spearheaded seems to be permanently dead.<br><br>You rubbed your temple, trying to find some sort of moment for relaxation. The moments of triumph from four years ago seemed distant now. The young, energetic candidate who had promised to build a bridge to the 21st century was now a man weighed down by defeats and mistakes, real and perceived. You were confident, maybe too confident. You’d told yourself that the debates had gone well, that the voters cared more about jobs and health care than your personal life. But in the end, you weren’t been able to overcome the relentless drumbeat of Republican attacks or the weariness of an electorate ready for change.<br><br>Hillary sat beside you, her hand resting on your knee. She was quiet, but her presence steadied you, as it always has. You glanced at her, seeing in her eyes a mixture of sorrow and determination. ''She’ gonna keep fightin’, that’s my girl.'', you said in your head. She always did.<br><br>You took a deep breath and stood, smoothing your tie. You knew what you had to do. It wasn’t the first time you faced defeat, but it was the hardest. As you walked to the stage, you could feel the weight of the moment pressing down on you. You made a simple speech about accepting the results of the election, and continuing the fight, even outside of the Oval Office. Although the crowd cheered, you felt as if it was almost out of pitty. You still felt like there was work to do, and that the American people cut you short. As you left the stage, the applause fading behind you, you couldn’t shake the feeling that your time in the spotlight had come to an end.<br></p>`)
@@ -16608,17 +16610,18 @@ e.pages.push(`<h3>''PRESIDENT DOLE TO NOT RUN FOR REELECTION''</h3>
 //e.image = ""
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/3ePA2rt.png'})])
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2000</option></select><br><img src=https://i.imgur.com/OS3IPJH.png>	<br>Vice President Jack Kemp attempts to unite his party following a contentius primary, while Senator Hillary Clinton needs to differentiate herself from her failed husband, while also driving mass female turnout.<br>Vice President Kemp is riding of the coattails of a relatively average Bob Dole presidency, and must bring his party together if he wants any chance of continuing the last 20 years of Republican dominance.<br>Hillary Clinton must beat the odds, and become the first female president, while also balancing comparisons to her husband and his one term in office.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2000</option></select><br><img src=https://i.imgur.com/OS3IPJH.png>	<br>Vice President Jack Kemp attempts to unite his party following a contentius primary, while Senator Hillary Clinton needs to differentiate herself from her failed husband, while also driving mass female turnout. <ul><li>Vice President Kemp is riding of the coattails of a relatively average Bob Dole presidency, and must bring his party together if he wants any chance of continuing the last 20 years of Republican dominance.<ul><li>Hillary Clinton must beat the odds, and become the first female president, while also balancing comparisons to her husband and his one term in office.<br><button>Continue</button></p>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
-    const billLoss = new Playlist();
-  const billLossSong = new Song(
-    "Yesterday",
-    "The Beatles",
-    "https://audio.jukehost.co.uk/IdJGTg3MS3Zms0asqg2llSUV3TWW7KuY"
+    const doleWin = new Playlist();
+  const doleWinSong = new Song(
+    "Help The Aged",
+    "Pulp",
+    "https://audio.jukehost.co.uk/eMepnyPjYbxvEZSbHwmdhmKVy6DzhRL5"
   );
-billLoss.addSong(billLossSong);
-changePlaylist(billLoss);
+doleWin.addSong(doleWinSong);
+changePlaylist(doleWin);
 ctsAchievement("Heartbreak Hotel");
+//Buchanan win
 } else if (Buchananwin === true && Specterwin === false && Dolewin === false && Lamarwin === false && Grammwin === false) {
      e.pages.push(`<h3>''CNN CAN NOW PROJECT PAT BUCHANAN THE 43RD PRESIDENT OF THE UNITED STATES, DEFEATING PRESIDENT CLINTON''</h3>
           <p> That was that. All the hard work, effort and progress you made, gone in one night. You sat in a corner of the ballroom at the Excelsior Hotel in Little Rock, staring blankly at the television screen. Around, you could hear aides whisper quietly, some avoiding your gaze, others casting anxious glances in your direction. The party had started with cautious optimism. Sure, the economy had its ups and downs, and the Republicans had hammered you relentlessly on Whitewater and your personal scandals, but there had been hope. Now, that hope was gone.<br><br>The screen flickered with images of cheering crowds in Kansas, in Indiana, in Ohio—states that had been expected to lean Republican but had turned out in force for the GOP. The electoral map was painted a harsh red across the Midwest and much of the South, with only a few splashes of blue along the coasts and in Illinois. It didn’t matter how much he won by, it was still decisive enough to leave no doubt, at least in your own mind, that you were a failure. States that you won easily in ’92, flipped. The ''Third Way Democrat'' movement that you spearheaded seems to be permanently dead.<br><br>You rubbed your temple, trying to find some sort of moment for relaxation. The moments of triumph from four years ago seemed distant now. The young, energetic candidate who had promised to build a bridge to the 21st century was now a man weighed down by defeats and mistakes, real and perceived. You were confident, maybe too confident. You’d told yourself that the debates had gone well, that the voters cared more about jobs and health care than your personal life. But in the end, you weren’t been able to overcome the relentless drumbeat of Republican attacks or the weariness of an electorate ready for change.<br><br>Hillary sat beside you, her hand resting on your knee. She was quiet, but her presence steadied you, as it always has. You glanced at her, seeing in her eyes a mixture of sorrow and determination. ''She’s gonna keep fightin’, that’s my girl.'', you said in your head. She always did.<br><br>You took a deep breath and stood, smoothing your tie. You knew what you had to do. It wasn’t the first time you faced defeat, but it was the hardest. As you walked to the stage, you could feel the weight of the moment pressing down on you. You made a simple speech about accepting the results of the election, and continuing the fight, even outside of the Oval Office. Although the crowd cheered, you felt as if it was almost out of pity. You still felt like there was work to do, and that the American people cut you short. As you left the stage, the applause fading behind you, you couldn’t shake the feeling that your time in the spotlight had come to an end.<br></p>`)
@@ -16630,17 +16633,18 @@ e.pages.push(`<h3>''INSERT HEADLINE HERE''</h3>
 //e.image = ""
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/YHk7JCt.png'})])
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2000</option></select><br><img src=https://i.imgur.com/oe8wNIG.png>	<br>After his shock election in 1996, Pat Buchanan has become one of the most controversial presidents in American history.<br>Joe Lieberman is a moderate Democrat and a senator. If Lieberman wants to win, he must attack Buchanan on his popularity (or lack thereof) while also dodging attacks from the Buchanan campaign.<br>Pat Buchanan must convince America that he has been a good president and that he will continue to be a good president, but that is a hard task due to his unpopularity.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2000</option></select><br><img src=https://i.imgur.com/hXra0eO.png>	<br>After his shock election in 1996, Pat Buchanan has become one of the most controversial presidents in American history.<br>Joe Lieberman is a moderate Democrat and a senator.<ul><li>If Lieberman wants to win, he must attack Buchanan on his popularity (or lack thereof) while also dodging attacks from the Buchanan campaign.<ul><li>Pat Buchanan must convince America that he has been a good president and that he will continue to be a good president, but that is a hard task due to his unpopularity.<br><button>Continue</button></p>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
-    const billLoss = new Playlist();
-  const billLossSong = new Song(
-    "Yesterday",
-    "The Beatles",
-    "https://audio.jukehost.co.uk/IdJGTg3MS3Zms0asqg2llSUV3TWW7KuY"
+    const buchananWin = new Playlist();
+  const buchananWinSong = new Song(
+    "Outsider",
+    "Chumbawamba",
+    "https://audio.jukehost.co.uk/VRhNYKqeJl4C6feafP01hIEgcPdvnFDb"
   );
-billLoss.addSong(billLossSong);
-changePlaylist(billLoss);
+buchananWin.addSong(buchananWinSong);
+changePlaylist(buchananWin);
 ctsAchievement("Heartbreak Hotel");
+//Specter win
 } else if (Buchananwin === false && Specterwin === true && Dolewin === false && Lamarwin === false && Grammwin === false) {
       e.pages.push(`<h3>''CNN CAN NOW PROJECT ARLEN SPECTER THE 43RD PRESIDENT OF THE UNITED STATES, DEFEATING PRESIDENT CLINTON''</h3>
           <p> That was that. All the hard work, effort and progress you made, gone in one night. You sat in a corner of the ballroom at the Excelsior Hotel in Little Rock, staring blankly at the television screen. Around, you could hear aides whisper quietly, some avoiding your gaze, others casting anxious glances in your direction. The party had started with cautious optimism. Sure, the economy had its ups and downs, and the Republicans had hammered you relentlessly on Whitewater and your personal scandals, but there had been hope. Now, that hope was gone.<br><br>The screen flickered with images of cheering crowds in Kansas, in Indiana, in Ohio—states that had been expected to lean Republican but had turned out in force for the GOP. The electoral map was painted a harsh red across the Midwest and much of the South, with only a few splashes of blue along the coasts and in Illinois. It didn’t matter how much he won by, it was still decisive enough to leave no doubt, at least in your own mind, that you were a failure. States that you won easily in ’92, flipped. The ''Third Way Democrat'' movement that you spearheaded seems to be permanently dead.<br><br>You rubbed your temple, trying to find some sort of moment for relaxation. The moments of triumph from four years ago seemed distant now. The young, energetic candidate who had promised to build a bridge to the 21st century was now a man weighed down by defeats and mistakes, real and perceived. You were confident, maybe too confident. You’d told yourself that the debates had gone well, that the voters cared more about jobs and health care than your personal life. But in the end, you weren’t been able to overcome the relentless drumbeat of Republican attacks or the weariness of an electorate ready for change.<br><br>Hillary sat beside you, her hand resting on your knee. She was quiet, but her presence steadied you, as it always has. You glanced at her, seeing in her eyes a mixture of sorrow and determination. ''She’s gonna keep fightin’, that’s my girl.'', you said in your head. She always did.<br><br>You took a deep breath and stood, smoothing your tie. You knew what you had to do. It wasn’t the first time you faced defeat, but it was the hardest. As you walked to the stage, you could feel the weight of the moment pressing down on you. You made a simple speech about accepting the results of the election, and continuing the fight, even outside of the Oval Office. Although the crowd cheered, you felt as if it was almost out of pity. You still felt like there was work to do, and that the American people cut you short. As you left the stage, the applause fading behind you, you couldn’t shake the feeling that your time in the spotlight had come to an end.<br></p>`)
@@ -16652,11 +16656,18 @@ e.pages.push(`<h3>''SPECTER SLIDE 2''</h3>
 //e.image = ""
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/CNqLI7Y.png'})])
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2000</option></select><br><img src=https://i.imgur.com/JL2CLQy.png>	<br>Moderates in both parties breathe a sigh of relief as conservative dark horse Zell Miller champions the Democratic nomination from a slate of various progressive candidates.<br>Arlen Specter is seeking re-election and is a well-respected president among most Americans.<br>Zell Miller has moderate rapport with strong credentials, and seems to be up to the task of uniting his party.</li></ul><p>The candidates are discussing how best to handle the war in southeast Asia, the federal budget, and other issues. Specter leads in the polls, while Miller has a bit of a trust problem with the left.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2000</option></select><br><img src=https://i.imgur.com/xfGMOmw.png>	<br>Moderates in both parties breathe a sigh of relief as conservative dark horse Zell Miller champions the Democratic nomination from a slate of various progressive candidates.<br>Arlen Specter is seeking re-election and is a well-respected president among most Americans.<ul><li>Zell Miller has moderate rapport with strong credentials, and seems to be up to the task of uniting his party.</li></ul><p>The candidates are discussing how best to handle the war in southeast Asia, the federal budget, and other issues. Specter leads in the polls, while Miller has a bit of a trust problem with the left.<br><button>Continue</button></p>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
-billLoss.addSong(billLossSong);
-changePlaylist(billLoss);
+const specterWin = new Playlist();
+  const specterWinSong = new Song(
+    "The Crucifixion",
+    "Paul Ochs",
+    "https://audio.jukehost.co.uk/rgge7w0JSXm0HgLwuxGpTTmTbQSoCMOj"
+  );
+specterWin.addSong(specterWinSong);
+changePlaylist(specterWin);
 ctsAchievement("Heartbreak Hotel");
+//Alexander win
     } else if (Lamarwin === true && Specterwin === false && Dolewin === false && Buchananwin === false && Grammwin === false) {
       e.pages.push(`<h3>''CNN CAN NOW PROJECT LAMAR ALEXANDER THE 43RD PRESIDENT OF THE UNITED STATES, DEFEATING PRESIDENT CLINTON''</h3>
           <p> That was that. All the hard work, effort and progress you made, gone in one night. You sat in a corner of the ballroom at the Excelsior Hotel in Little Rock, staring blankly at the television screen. Around, you could hear aides whisper quietly, some avoiding your gaze, others casting anxious glances in your direction. The party had started with cautious optimism. Sure, the economy had its ups and downs, and the Republicans had hammered you relentlessly on Whitewater and your personal scandals, but there had been hope. Now, that hope was gone.<br><br>The screen flickered with images of cheering crowds in Kansas, in Indiana, in Ohio—states that had been expected to lean Republican but had turned out in force for the GOP. The electoral map was painted a harsh red across the Midwest and much of the South, with only a few splashes of blue along the coasts and in Illinois. It didn’t matter how much he won by, it was still decisive enough to leave no doubt, at least in your own mind, that you were a failure. States that you won easily in ’92, flipped. The ''Third Way Democrat'' movement that you spearheaded seems to be permanently dead.<br><br>You rubbed your temple, trying to find some sort of moment for relaxation. The moments of triumph from four years ago seemed distant now. The young, energetic candidate who had promised to build a bridge to the 21st century was now a man weighed down by defeats and mistakes, real and perceived. You were confident, maybe too confident. You’d told yourself that the debates had gone well, that the voters cared more about jobs and health care than your personal life. But in the end, you weren’t been able to overcome the relentless drumbeat of Republican attacks or the weariness of an electorate ready for change.<br><br>Hillary sat beside you, her hand resting on your knee. She was quiet, but her presence steadied you, as it always has. You glanced at her, seeing in her eyes a mixture of sorrow and determination. ''She’s gonna keep fightin’, that’s my girl.'', you said in your head. She always did.<br><br>You took a deep breath and stood, smoothing your tie. You knew what you had to do. It wasn’t the first time you faced defeat, but it was the hardest. As you walked to the stage, you could feel the weight of the moment pressing down on you. You made a simple speech about accepting the results of the election, and continuing the fight, even outside of the Oval Office. Although the crowd cheered, you felt as if it was almost out of pity. You still felt like there was work to do, and that the American people cut you short. As you left the stage, the applause fading behind you, you couldn’t shake the feeling that your time in the spotlight had come to an end.<br></p>`)
@@ -16668,16 +16679,17 @@ e.pages.push(`<h3>''GEE THE ECONOMY SURE IS GREAT''</h3>
 //e.image = ""
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/MXsbb5x.png'})])
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2000</option></select><br><img src=https://i.imgur.com/Xtfjkve.png>	<br>To many, Lamar Alexander's term in office has been a success. Alexander has the support of many in his party, which has caused many to think re-election will be easy for him.<br>Lamar Alexander hopes to win re-election. To do so, he must emphasize the strong economy, and the lack of division in his party.<br>Paul Wellstone has become a rising star in the Democratic party. He is a progressive which could help him with younger voters.<br><button>Continue</button></p>`)
-    const billLoss = new Playlist();
-  const billLossSong = new Song(
-    "Yesterday",
-    "The Beatles",
-    "https://audio.jukehost.co.uk/IdJGTg3MS3Zms0asqg2llSUV3TWW7KuY"
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2000</option></select><br><img src=https://i.imgur.com/EnSZFtr.png>	<br>To many, Lamar Alexander's term in office has been a success. Alexander has the support of many in his party, which has caused many to think re-election will be easy for him.<ul><li>Lamar Alexander hopes to win re-election. To do so, he must emphasize the strong economy, and the lack of division in his party.<ul><li>Paul Wellstone has become a rising star in the Democratic party. He is a progressive which could help him with younger voters.<br><button>Continue</button></p>`)
+    const alexanderWin = new Playlist();
+  const alexanderWinSong = new Song(
+    "Jeremy",
+    "Pearl Jam",
+    "https://audio.jukehost.co.uk/8MC4wUbMR7RHcKrVdczxo6OpcfxmT1Rq"
   );
-billLoss.addSong(billLossSong);
-changePlaylist(billLoss);
+alexanderWin.addSong(alexanderWinSong);
+changePlaylist(alexanderWin);
 ctsAchievement("Heartbreak Hotel");
+//Gramm win
 } else if (Lamarwin === false && Specterwin === false && Dolewin === false && Buchananwin === false && Grammwin === true) {
       e.pages.push(`<h3>''CNN CAN NOW PROJECT PHIL GRAMM THE 43RD PRESIDENT OF THE UNITED STATES, DEFEATING PRESIDENT CLINTON''</h3>
           <p> That was that. All the hard work, effort and progress you made, gone in one night. You sat in a corner of the ballroom at the Excelsior Hotel in Little Rock, staring blankly at the television screen. Around, you could hear aides whisper quietly, some avoiding your gaze, others casting anxious glances in your direction. The party had started with cautious optimism. Sure, the economy had its ups and downs, and the Republicans had hammered you relentlessly on Whitewater and your personal scandals, but there had been hope. Now, that hope was gone.<br><br>The screen flickered with images of cheering crowds in Kansas, in Indiana, in Ohio—states that had been expected to lean Republican but had turned out in force for the GOP. The electoral map was painted a harsh red across the Midwest and much of the South, with only a few splashes of blue along the coasts and in Illinois. It didn’t matter how much he won by, it was still decisive enough to leave no doubt, at least in your own mind, that you were a failure. States that you won easily in ’92, flipped. The ''Third Way Democrat'' movement that you spearheaded seems to be permanently dead.<br><br>You rubbed your temple, trying to find some sort of moment for relaxation. The moments of triumph from four years ago seemed distant now. The young, energetic candidate who had promised to build a bridge to the 21st century was now a man weighed down by defeats and mistakes, real and perceived. You were confident, maybe too confident. You’d told yourself that the debates had gone well, that the voters cared more about jobs and health care than your personal life. But in the end, you weren’t been able to overcome the relentless drumbeat of Republican attacks or the weariness of an electorate ready for change.<br><br>Hillary sat beside you, her hand resting on your knee. She was quiet, but her presence steadied you, as it always has. You glanced at her, seeing in her eyes a mixture of sorrow and determination. ''She’s gonna keep fightin’, that’s my girl.'', you said in your head. She always did.<br><br>You took a deep breath and stood, smoothing your tie. You knew what you had to do. It wasn’t the first time you faced defeat, but it was the hardest. As you walked to the stage, you could feel the weight of the moment pressing down on you. You made a simple speech about accepting the results of the election, and continuing the fight, even outside of the Oval Office. Although the crowd cheered, you felt as if it was almost out of pity. You still felt like there was work to do, and that the American people cut you short. As you left the stage, the applause fading behind you, you couldn’t shake the feeling that your time in the spotlight had come to an end.<br></p>`)
@@ -16689,16 +16701,16 @@ e.pages.push(`<h3>''GRAMM SLIDE 2''</h3>
 //e.image = ""
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/D072uCx.png'})])
 e.pages.push(`<h3>American History USA</h3>
-          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2000</option></select><br><img src=https://i.imgur.com/JL2CLQy.png>	<br>Phil Gramm's term has been interesting, to say the least. As 2000 approaches, he must defend his administration.<br>President Phil Gramm hopes to win re-election, but his conservativism might be too much for the nation. To win, he must attack Gephardt on many issues.<br>Speaker of the House Dick Gephardt hopes to tie Gramm to unpopular congressional Republicans, while trying to defend his image from any attacks Gramm sends.<br><button>Continue</button></p>`)
+          <p><i><b>THE CAMPAIGN TRAIL</i></b><br><br>Please select the election you will run in: <br><select name="election_id" id="election_id"><option value="0">2000</option></select><br><img src=https://i.imgur.com/Ioe82wI.png>	<br>Phil Gramm's term has been interesting, to say the least. As 2000 approaches, he must defend his administration.<ul><li>President Phil Gramm hopes to win re-election, but his conservativism might be too much for the nation. To win, he must attack Gephardt on many issues. <ul><li>Speaker of the House Dick Gephardt hopes to tie Gramm to unpopular congressional Republicans, while trying to defend his image from any attacks Gramm sends.<br><button>Continue</button></p>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/y4eg352.png'})])
-    const billLoss = new Playlist();
-  const billLossSong = new Song(
-    "Yesterday",
-    "The Beatles",
-    "https://audio.jukehost.co.uk/IdJGTg3MS3Zms0asqg2llSUV3TWW7KuY"
+    const grammWin = new Playlist();
+  const grammWinSong = new Song(
+    "The Sidestep",
+    "Carol Hall & Charles Durning",
+    "https://audio.jukehost.co.uk/xv7rIDCzs2EWWzbgbasiqcppHMbbnrIo"
   );
-billLoss.addSong(billLossSong);
-changePlaylist(billLoss);
+grammWin.addSong(grammWinSong);
+changePlaylist(grammWin);
 ctsAchievement("Heartbreak Hotel");
 } else {
 return "<h3>That's odd. The mod seems broken.</h3><p>Contact the creator of the mod. Congrats if you won, better luck next time if you lost.</p>"
