@@ -421,7 +421,7 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": "candidate_intro_forbes",
+        "pk": "candidate_intro_dole",
         "fields": {
             "priority": 3,
             "description": "The moment we've all been waiting for, the Grand Reveal at the Republican National Convention. You've been so focused on your duties as President that you haven’t kept track of the race. The last time you checked, Steve Forbes was leading by a wide margin. But now, you see a familiar face take the stage-one you didn’t expect to see. It’s the face of an old, tired, and grumpy man. ",
@@ -466,10 +466,10 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": "debate_forbes",
+        "pk": "debate_dole",
         "fields": {
-            "priority": -2,
-            "description": "Mr. President, it's one week before the debate. You've been swamped with work, and now you're down to the wire with little time to dive into the key issues. Will you cut your losses and wing it, or will you use every minute you have left to study as much as you can?",
+            "priority": 0,
+            "description": "You’re at Hartford, Connecticut. To your right is Senator Dole, the poor old soul. As he’s closing his opening statement, you think, why did he run? Doesn’t he see the polls? This must be one of the most lopsided elections ever, to be on the receiving end of it for all to see? Perhaps it doesn’t matter to him, maybe he sees something you don’t? If so, then you have to stop him here. For his own good, send him to retirement.\n",
             "likelihood": 1
         }
     },
@@ -1531,7 +1531,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 35007.5,
         "fields": {
-            "question": "candidate_intro_forbes",
+            "question": "candidate_intro_dole",
             "description": "It's time to roll out the ad campaign. Let's go after our opponent for being a relic of the past. We’ll rely on our appeal with the younger crowd and paint him as simply, a disconnected, out-of-touch old Republican."
         }
     },
@@ -1539,7 +1539,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 35008.5,
         "fields": {
-            "question": "candidate_intro_forbes",
+            "question": "candidate_intro_dole",
             "description": "Where do I even start with Bob Dole? The man’s a relic, a shadow of what the party needs. Frankly, the Republicans should be ashamed of themselves for picking him. I think our campaign would be well served if we talk more about our accomplishments, and less about the GOP spin-machine."
         }
     },
@@ -1547,7 +1547,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 35009.5,
         "fields": {
-            "question": "candidate_intro_forbes",
+            "question": "candidate_intro_dole",
             "description": "Alright, let’s take the high road here. No mudslinging or no low blows. We’ll focus on the real issues that matter to the American people. I’ll treat my opponent with the respect and dignity he deserves, even if we don’t agree on everything. Look at the polls, anyway, we don't need to go crazy.  "
         }
     },
@@ -1579,29 +1579,37 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 35013.5,
         "fields": {
-            "question": "debate_alexander",
-            "description": "I will use my time to focus on the subject of foreign policy, this area seems to be a place that we could make huge wins in this upcoming election. \n"
+            "question": "debate_dole",
+            "description": "You know, me and Dole agree when it comes to drug problem. It's that, we have a different approach to it. But let me remind you that my family has suffered from drug abuse. I know what it's like to see somebody you love nearly lose their lives, Senator."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 35014.5,
         "fields": {
-            "question": "debate_alexander",
-            "description": "I will stay up all night researching all of Congress’s weak spots and I will make sure to tie Alexander to them. "
+            "question": "debate_dole",
+            "description": "Building a bridge to the 21st can be achieved with a new generation of leadership. How can we trust the Senator to lead us into the next century, when he could topple over any time? I’ll tell you what, he’s lucky he made it this time, but I ask you this. Will he next time?\n"
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 35015.5,
         "fields": {
-            "question": "debate_alexander",
-            "description": "I think I will get the extra sleep. I believe that the key to a great performance at the debate is to get loads of sleep so I don't look tired and unalert like Alexander. "
+            "question": "debate_dole",
+            "description": "I’m proud of my administration’s efforts to protect rights of women and lifting children out of poverty. All of it is at risk in Dole-Gingrich’s America. They plan to cut programs that protect our children from poverty, and the take away the right to choose for women. The Dole-Gingrich way is simply backwards and inhumane.\n"
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 35016.5,
+        "fields": {
+            "question": "debate_dole",
+            "description": "I’ll keep it straight. I’ve brought us a rock solid economy, pulling it out of the GOP recession in just a short 4 years. I’m asking y’all at home a honest question, Do you really feel comfortable with the GOP with your wallet again?\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 35555.5,
         "fields": {
             "question": "debate_buchanan",
             "description": "I will use my time to focus on the subject of foreign policy, this area seems to be a place that we could make huge wins in this upcoming election. \n"
@@ -1609,7 +1617,7 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 35017.5,
+        "pk": 35556.5,
         "fields": {
             "question": "debate_buchanan",
             "description": "The reason why Buchanan has been getting so much attention is because they want an outsider that will change everything. I will begin writing my speech on why Buchanan isn't a real outsider. \n"
@@ -1617,7 +1625,7 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 35018.5,
+        "pk": 35557.5,
         "fields": {
             "question": "debate_buchanan",
             "description": "I think I will get the extra sleep. I believe that the key to a great performance at the debate is to get loads of sleep so I look more presentable than Buchanan. \n"
@@ -1625,26 +1633,26 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 35013.5,
+        "pk": 35558.5,
         "fields": {
-            "question": "debate_forbes",
+            "question": "debate_alexander",
             "description": "I will use my time to focus on the subject of foreign policy, this area seems to be a place that we could make huge wins in this upcoming election. \n"
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 35014.5,
+        "pk": 35559.5,
         "fields": {
-            "question": "debate_forbes",
-            "description": "I will stay up all night researching all of Congress’s weak spots and I will make sure to tie Dole to them. "
+            "question": "debate_alexander",
+            "description": "I will stay up all night researching all of Congress’s weak spots and I will make sure to tie Alexander to them. "
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 35015.5,
+        "pk": 35560.5,
         "fields": {
-            "question": "debate_forbes",
-            "description": "I think I will get the extra sleep. I believe that the key to a great performance at the debate is to get loads of sleep so I don't look tired and unalert like Dole. "
+            "question": "debate_alexander",
+            "description": "I think I will get the extra sleep. I believe that the key to a great performance at the debate is to get loads of sleep so I don't look tired and unalert like Alexander. "
         }
     },
     {
@@ -9172,7 +9180,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12669,
         "fields": {
-            "answer": 35016.5,
+            "answer": 35555.5,
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": -0.0711666
@@ -9182,7 +9190,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12669,
         "fields": {
-            "answer": 35016.5,
+            "answer": 35555.5,
             "candidate": 77,
             "affected_candidate": 80,
             "global_multiplier": -0.0911666
@@ -9192,7 +9200,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12669,
         "fields": {
-            "answer": 35017.5,
+            "answer": 35556.5,
             "candidate": 77,
             "affected_candidate": 80,
             "global_multiplier": -0.0911666
@@ -9202,7 +9210,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12669,
         "fields": {
-            "answer": 35018.5,
+            "answer": 35557.5,
             "candidate": 77,
             "affected_candidate": 80,
             "global_multiplier": -0.0911666
@@ -9222,7 +9230,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12669,
         "fields": {
-            "answer": 35017.5,
+            "answer": 35556.5,
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": -0.0711666
@@ -9232,7 +9240,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12669,
         "fields": {
-            "answer": 35018.5,
+            "answer": 35557.5,
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": -0.0711666
@@ -9822,7 +9830,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12747,
         "fields": {
-            "answer": 35013.5,
+            "answer": 35558.5,
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": -0.03
@@ -9832,7 +9840,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12748,
         "fields": {
-            "answer": 35013.5,
+            "answer": 35558.5,
             "candidate": 77,
             "affected_candidate": 78,
             "global_multiplier": 0.01
@@ -9842,7 +9850,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12748,
         "fields": {
-            "answer": 35013.5,
+            "answer": 35558.5,
             "candidate": 77,
             "affected_candidate": 80,
             "global_multiplier": -0.06
@@ -9852,7 +9860,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12748,
         "fields": {
-            "answer": 35014.5,
+            "answer": 35559.5,
             "candidate": 77,
             "affected_candidate": 80,
             "global_multiplier": -0.06
@@ -9862,7 +9870,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12748,
         "fields": {
-            "answer": 35015.5,
+            "answer": 35560.5,
             "candidate": 77,
             "affected_candidate": 80,
             "global_multiplier": -0.06
@@ -9872,7 +9880,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12753,
         "fields": {
-            "answer": 35014.5,
+            "answer": 35559.5,
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": 0.01
@@ -9882,7 +9890,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12754,
         "fields": {
-            "answer": 35014.5,
+            "answer": 35559.5,
             "candidate": 77,
             "affected_candidate": 78,
             "global_multiplier": -0.02
@@ -9892,7 +9900,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12759,
         "fields": {
-            "answer": 35015.5,
+            "answer": 35560.5,
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": -0.05
@@ -9912,7 +9920,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12808,
         "fields": {
-            "answer": 35015.5,
+            "answer": 35560.5,
             "candidate": 77,
             "affected_candidate": 78,
             "global_multiplier": 0.03
@@ -9932,7 +9940,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12812,
         "fields": {
-            "answer": 35016.5,
+            "answer": 35555.5,
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": -0.03
@@ -9942,7 +9950,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12813,
         "fields": {
-            "answer": 35016.5,
+            "answer": 35555.5,
             "candidate": 77,
             "affected_candidate": 78,
             "global_multiplier": 0.02
@@ -9952,7 +9960,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12816,
         "fields": {
-            "answer": 35017.5,
+            "answer": 35556.5,
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": 0.03
@@ -9972,7 +9980,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12817,
         "fields": {
-            "answer": 35017.5,
+            "answer": 35556.5,
             "candidate": 77,
             "affected_candidate": 78,
             "global_multiplier": -0.02
@@ -9982,7 +9990,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12820,
         "fields": {
-            "answer": 35018.5,
+            "answer": 35557.5,
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": -0.05
@@ -9992,7 +10000,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 12821,
         "fields": {
-            "answer": 35018.5,
+            "answer": 35557.5,
             "candidate": 77,
             "affected_candidate": 78,
             "global_multiplier": 0.03
@@ -10766,6 +10774,126 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": 0.15
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12671,
+        "fields": {
+            "answer": 35013.5,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12674,
+        "fields": {
+            "answer": 35014.5,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12675,
+        "fields": {
+            "answer": 35013.5,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12676,
+        "fields": {
+            "answer": 35013.5,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12677,
+        "fields": {
+            "answer": 35014.5,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12678,
+        "fields": {
+            "answer": 35014.5,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12680,
+        "fields": {
+            "answer": 35015.5,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12681,
+        "fields": {
+            "answer": 35015.5,
+            "candidate": 77,
+            "affected_candidate": 78,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12682,
+        "fields": {
+            "answer": 35015.5,
+            "candidate": 77,
+            "affected_candidate": 80,
+            "global_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12684,
+        "fields": {
+            "answer": 35016.5,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12685,
+        "fields": {
+            "answer": 35016.5,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12686,
+        "fields": {
+            "answer": 35016.5,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.07
         }
     }
 ]
@@ -11719,6 +11847,16 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 30,
             "issue_score": -0.7,
             "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12672,
+        "fields": {
+            "answer": 35013.5,
+            "issue": 28,
+            "issue_score": 0.3,
+            "issue_importance": 2
         }
     }
 ]
@@ -14069,7 +14207,7 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 12746,
         "fields": {
-            "answer": 35013.5,
+            "answer": 35558.5,
             "candidate": 77,
             "answer_feedback": "Revising foreign policy helped you on one question, but Dole dominated the others. It's safe to say you lost this debate."
         }
@@ -14078,7 +14216,7 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 12752,
         "fields": {
-            "answer": 35014.5,
+            "answer": 35559.5,
             "candidate": 77,
             "answer_feedback": "At first, you appeared exhausted from lack of sleep, but you defied expectations by hitting Dole where it hurts. It's safe to say you've won."
         }
@@ -14087,7 +14225,7 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 12758,
         "fields": {
-            "answer": 35015.5,
+            "answer": 35560.5,
             "candidate": 77,
             "answer_feedback": "The excuse of not getting much sleep the night before doesn’t cut it; Old Man Dole had time to rehearse, while you seemed off balance and lost your flow. And with the polls shifting in his favor, it’s clear things aren’t going your way."
         }
@@ -14096,7 +14234,7 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 12811,
         "fields": {
-            "answer": 35016.5,
+            "answer": 35555.5,
             "candidate": 77,
             "answer_feedback": "While you speak confidently about America's resolve to make the world a better place for future generations, Pat Buchanan rants about the U.S. being a ''debtor nation'' and a ''nation in decline.'' What a loon."
         }
@@ -14114,7 +14252,7 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 12815,
         "fields": {
-            "answer": 35017.5,
+            "answer": 35556.5,
             "candidate": 77,
             "answer_feedback": "The debate was apparently a resounding success, drawing in hundreds of thousands of viewers. The turning point that truly secured your victory was when you emphasized how Buchanan's policies would drag the country backward."
         }
@@ -14132,7 +14270,7 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 12819,
         "fields": {
-            "answer": 35018.5,
+            "answer": 35557.5,
             "candidate": 77,
             "answer_feedback": "The excuse of not getting much sleep the night before doesn’t cut it; Buchanan had time to rehearse, while you seemed off balance and lost your flow. And with the polls shifting in his favor, it’s clear things aren’t going your way."
         }
@@ -14739,6 +14877,42 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 10003.1,
             "candidate": 77,
             "answer_feedback": "The American people need stability, and you’ve given it to them. The hard part is keeping it. Godspeed, Mr. President."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12670,
+        "fields": {
+            "answer": 35013.5,
+            "candidate": 77,
+            "answer_feedback": "Bringing up your half-brother Rodger struggle with addiction is a perfect way to show you have a connection to the issue at hand. Dole, in comparison, looks completely out of touch. Safe to say that you won this debate handedly."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12673,
+        "fields": {
+            "answer": 35014.5,
+            "candidate": 77,
+            "answer_feedback": "What’s wrong with you? It’s one thing to imply he can’t lead at his age, that’s a reasonable question. But saying that he’ll head upstairs is unforgiving. Bob Dole knows that whatever Bob Dole says won’t matter cause he’s won the debate. But he makes the most of it, and the people agree with him. How can’t you after that comment?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12679,
+        "fields": {
+            "answer": 35015.5,
+            "candidate": 77,
+            "answer_feedback": "It’s hit or miss when you mention women’s rights in any capacity. It either brings great praise from voters or reminds them of Mrs. Flowers. But the people have shown your history with women doesn’t matter to them. It’s the right to choose that gets them riled. Dole takes advantage of your pro-choice messaging to split the post-debate poll in half."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12683,
+        "fields": {
+            "answer": 35016.5,
+            "candidate": 77,
+            "answer_feedback": "Dole chuckles, he underestimates you, bad move. When the post-debate polls come out, you dominate Dole on the economy issue. You know the saying by heart."
         }
     }
 ]
@@ -15979,7 +16153,7 @@ question_insert("question_21_iraq_airstrikes",
                 question_insert("question_21_iraq_airstrikes", 
         {
                     "model": "campaign_trail.question",
-        "pk": "debate_forbes",
+        "pk": "debate_alexander",
         "fields": {
             "priority": -2,
             "description": "Mr. President, it's one week before the debate. You've been swamped with work, and now you're down to the wire with little time to dive into the key issues. Will you cut your losses and wing it, or will you use every minute you have left to study as much as you can?",
@@ -15992,7 +16166,7 @@ question_insert("question_21_iraq_airstrikes",
                     question_insert("question_17_yugoslavia", 
                     {
                         "model": "campaign_trail.question",
-                    "pk": "candidate_intro_forbes",
+                    "pk": "candidate_intro_dole",
                     "fields": {
                         "priority": 3,
                         "description": "The moment we've all been waiting for, the Grand Reveal at the Republican National Convention. You've been so focused on your duties as President that you haven’t kept track of the race. The last time you checked, Steve Forbes was leading by a wide margin. But now, you see a familiar face take the stage-one you didn’t expect to see. It’s the face of an old, tired, and grumpy man. ",
@@ -16003,13 +16177,13 @@ question_insert("question_21_iraq_airstrikes",
                     );
                     question_insert("question_21_iraq_airstrikes", 
         {
-                    "model": "campaign_trail.question",
-        "pk": "debate_forbes",
+                   "model": "campaign_trail.question",
+        "pk": "debate_dole",
         "fields": {
-            "priority": -2,
-            "description": "Mr. President, it's one week before the debate. You've been swamped with work, and now you're down to the wire with little time to dive into the key issues. Will you cut your losses and wing it, or will you use every minute you have left to study as much as you can?",
+            "priority": 0,
+            "description": "You’re at Hartford, Connecticut. To your right is Senator Dole, the poor old soul. As he’s closing his opening statement, you think, why did he run? Doesn’t he see the polls? This must be one of the most lopsided elections ever, to be on the receiving end of it for all to see? Perhaps it doesn’t matter to him, maybe he sees something you don’t? If so, then you have to stop him here. For his own good, send him to retirement.\n",
             "likelihood": 1
-            }
+        }
         }
         );
             
