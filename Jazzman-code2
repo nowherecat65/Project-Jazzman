@@ -550,6 +550,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": "gore_chelsea_question",
+        "fields": {
+            "priority": 0,
+            "description": "Tipper walks up to you, a solemn look on her face. “Al,” You notice a shake in her voice as she continues. “It’s Chelsea. She hasn’t left her room. I don’t think she should stay with Roger, not right now. She’s scared Al, she doesn’t know what’s going to happen to her. We can’t just let her be a ward of the state, we owe it to Bill and Hillary to do that at least”, she says, barely holding in a stream of tears. You sigh, knowing how difficult this must be for her. You know what dad would do. On your way to her room, you look over the landscape of D.C., wondering if things will ever be the same.\n",
+            "likelihood": 1
+        }
+    }
+    {
+        "model": "campaign_trail.question",
         "pk": "gore_question_3_biden",
         "fields": {
             "priority": 0,
@@ -2223,6 +2232,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": "gore_question_1",
             "description": "Stability. I need to introduce myself not as Vice President Al Gore, but President. I need the people to know the chain of command remains unbroken, and I will work to my utmost ability to keep our country safe and secure.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 85020.5,
+        "fields": {
+            "question": "gore_chelsea_question",
+            "description": "“Chelsea? Can I come in?”. You can almost feel her pain from here. You hear a quiet, choked sob from the other side, and take it as permission to enter.\n"
         }
     }
 ]
@@ -14914,6 +14931,15 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 77,
             "answer_feedback": "Dole chuckles, he underestimates you, bad move. When the post-debate polls come out, you dominate Dole on the economy issue. You know the saying by heart."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12690,
+        "fields": {
+            "answer": 85020.5,
+            "candidate": 77,
+            "answer_feedback": "You sit next to her, letting her cry into your shoulder for a while. Eventually, she stops crying and gives you a hug. “I’m scared.” Those two words echo through your skull all night, and you swear to yourself you will do anything you can to comfort her, just as you would hope Bill would do for your daughters.\n\n\n"
+        }
     }
 ]
 
@@ -15351,6 +15377,17 @@ resetVariables(resetCondition);
         }
         );
         question_insert("gore_question_1", 
+            {
+                "model": "campaign_trail.question",
+                "pk": "gore_chelsea_question",
+                "fields": {
+                    "priority": 0,
+                    "description": "Tipper walks up to you, a solemn look on her face. “Al,” You notice a shake in her voice as she continues. “It’s Chelsea. She hasn’t left her room. I don’t think she should stay with Roger, not right now. She’s scared Al, she doesn’t know what’s going to happen to her. We can’t just let her be a ward of the state, we owe it to Bill and Hillary to do that at least”, she says, barely holding in a stream of tears. You sigh, knowing how difficult this must be for her. You know what dad would do. On your way to her room, you look over the landscape of D.C., wondering if things will ever be the same.\n",
+                    "likelihood": 1
+                }
+            }
+            );
+        question_insert("gore_chelsea_question", 
         {
              "model": "campaign_trail.question",
         "pk": "gore_question_2",
