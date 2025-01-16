@@ -1,4 +1,5 @@
 
+
 e = campaignTrail_temp;
 campaignTrail_temp.cyoa = true;
 const customStyling = document.createElement("style");
@@ -14985,8 +14986,7 @@ cyoAdventure = function(a) {
         );
         
     }
-    //Healthcare Vote inserter
-  if (ans == 10004) {
+	if (ans == 10004) {
         
         question_insert("question_9_nafta", 
         {
@@ -15001,366 +15001,58 @@ cyoAdventure = function(a) {
         );
         
     }
-    if (ans == 75003.5) {
-        
-        question_insert("insert_yeltsin_unfriendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_win",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
+	//Healthcare Vote inserter
+	let win_healthcare_vote_temp = {
+		"model": "campaign_trail.question",
+		"pk": "healthcare_vote_win",
+		"fields": {
+			"priority": 0,
+			"description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
+			"likelihood": 1
+		}
+	}
+	let fail_healthcare_vote_temp = {
+		"model": "campaign_trail.question",
+		"pk": "healthcare_vote_fail",
+		"fields": {
+			"priority": 0,
+			"description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
+			"likelihood": 1
+		}
+	}
+	let refuse_healthcare_vote_temp = {
+		"model": "campaign_trail.question",
+		"pk": "healthcare_vote_refuse",
+		"fields": {
+			"priority": 0,
+			"description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
+			"likelihood": 1
+		}
+	}
+	// All wins
+    if (ans == 75003.5 || ans == 55003.5) {
+        question_insert("insert_yeltsin_unfriendly",win_healthcare_vote_temp);
+		question_insert("insert_yeltsin_friendly",win_healthcare_vote_temp);
     }
-    if (ans == 75001.5) {
-            KennedyFails += 1;
-        question_insert("insert_yeltsin_unfriendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_fail",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
+	// All fails
+    if (ans == 75001.5 || ans == 55002.5 || ans == 55001.5 || ans == 65001.5 || 
+		ans == 65002.5 || ans == 65003.5) {
+        question_insert("insert_yeltsin_unfriendly",fail_healthcare_vote_temp);
+		question_insert("insert_yeltsin_friendly",fail_healthcare_vote_temp);
     }
+	// All refuses
+	if (ans == 55004.5 || ans == 55005.5 || ans == 55006.5) {
+        question_insert("insert_yeltsin_unfriendly",refuse_healthcare_vote_temp);
+		question_insert("insert_yeltsin_friendly",refuse_healthcare_vote_temp);
+    }
+	// Special cases
     if (ans == 75002.5) {
-            KennedyFails += 1;
-        question_insert("insert_yeltsin_unfriendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_fail",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
+        KennedyFails += 1;
+        question_insert("insert_yeltsin_unfriendly",fail_healthcare_vote_temp);
+		question_insert("insert_yeltsin_friendly",fail_healthcare_vote_temp);
     }
-    if (ans == 55003.5) {
-        
-        question_insert("insert_yeltsin_unfriendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_win",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
     
-    }
-    if (ans == 55002.5) {
-        
-        question_insert("insert_yeltsin_unfriendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_fail",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
     
-    }
-    if (ans == 55001.5) {
-        
-        question_insert("insert_yeltsin_unfriendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_fail",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 65001.5) {
-        
-        question_insert("insert_yeltsin_unfriendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_fail",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 65002.5) {
-        
-        question_insert("insert_yeltsin_unfriendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_fail",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 65003.5) {
-        
-        question_insert("insert_yeltsin_unfriendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_fail",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 55004.5) {
-        
-        question_insert("insert_yeltsin_unfriendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_refuse",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 55005.5) {
-        
-        question_insert("insert_yeltsin_unfriendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_refuse",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 55006.5) {
-        
-        question_insert("insert_yeltsin_unfriendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_refuse",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 75003.5) {
-        
-        question_insert("insert_yeltsin_friendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_win",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 75001.5) {
-        
-        question_insert("insert_yeltsin_friendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_fail",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 75002.5) {
-        
-        question_insert("insert_yeltsin_friendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_fail",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 55003.5) {
-        
-        question_insert("insert_yeltsin_friendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_win",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 55002.5) {
-        
-        question_insert("insert_yeltsin_friendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_fail",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 55001.5) {
-        
-        question_insert("insert_yeltsin_friendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_fail",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 65001.5) {
-        
-        question_insert("insert_yeltsin_friendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_fail",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 65002.5) {
-        
-        question_insert("insert_yeltsin_friendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_fail",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 65003.5) {
-        
-        question_insert("insert_yeltsin_friendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_fail",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 55004.5) {
-        
-        question_insert("insert_yeltsin_friendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_refuse",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 55005.5) {
-        
-        question_insert("insert_yeltsin_friendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_refuse",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
-    if (ans == 55006.5) {
-        
-        question_insert("insert_yeltsin_friendly", 
-        {
-            "model": "campaign_trail.question",
-        "pk": "healthcare_vote_refuse",
-        "fields": {
-            "priority": 0,
-            "description": "You woke up this morning possibly the most stressed you've been in this desk, and that's saying something, as you've already had a year to think things over. As you walked to the Capitol Building, you can't help but feel that all your efforts to get healthcare passed have been in vain, yet at the same time, you've done everything you could. You can't help but think of that promise you made to Hillary to get healthcare passed when you had first ran for the office, she'll be right besides you for the vote, so that gives you a little more peace.  You can back out now, or you could decide to go with the reform. Pick your move, Bill.",
-            "likelihood": 1
-            }
-        }
-        );
-    
-    }
     if (Dolewin == false && Buchananwin == false && Lamarwin == false && Specterwin == false && Grammwin == false && Legacy >= 3 && (ans == 210001 || ans == 210002 || ans == 210003)) {
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Republican Party";
 campaignTrail_temp.candidate_json[1]["fields"].color_hex = "#CD0B0A";
