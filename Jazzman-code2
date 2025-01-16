@@ -543,7 +543,7 @@ campaignTrail_temp.questions_json = [
         "pk": "gore_question_1",
         "fields": {
             "priority": 0,
-            "description": "Mr. Vice President, we have just received word that President Clinton’s motorcade has spontaneously combusted during his trip to the Philippines. He and The First Lady have been pronounced dead. It’s believed to be an assassination. We are not sure of the details behind this yet but the CIA and Secret Service are warning of potential foreign intervention. After taking the oath, you are now addressing America.\n",
+            "description": "You’re in bed, thinking to yourself that you’ve had quite a nice day. You hear the bathroom door open, and look up to smile at your wife. You immediately stand up. Her face is pure white, and she’s surrounded by Secret Service. “Al… I…” She tries to speak before breaking down in tears and rushing into your arms. One of the agents walks up to you. “Mr. Vice President, you need to come with us. The president is dead, sir”. Immediately, the world feels dizzy. You’re quickly sworn in on the steps of the White House. You have to give a speech, so you pull out a pen and write a quick outline.",
             "likelihood": 1
         }
     },
@@ -1672,38 +1672,6 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 10001.1,
-        "fields": {
-            "question": "gore_question_1",
-            "description": "The United States of America, we are. United we stand, divided we fall. During an era as dark as the one we are entering right now, we should always remember that we are here today because people United. \n"
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 10002.1,
-        "fields": {
-            "question": "gore_question_1",
-            "description": "Fuck this shit. We need to find and punish the person responsible for the death of one of America’s greatest heroes. We should take a moment to remember what a fantastic man President Bill Clinton was. The men who took Bill will never have another sleepful night in their lives ever again! \n"
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 10003.1,
-        "fields": {
-            "question": "gore_question_1",
-            "description": "Let's forget Bill for a second, although i can't deny he was a great man. How is his teenage daughter gonna grow up without either of her parents? Go into foster care? It's not fair. I want the person who did this to know they didn't just take our Commander-In-Chief, but a father, husband, son, and friend."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 10004.1,
-        "fields": {
-            "question": "gore_question_1",
-            "description": "Sure, the people need time to grieve, but we need to keep Washington moving. We will honor the legacy Bill Clinton left, while also addressing the problems that face our nation, and what my agenda will be as President."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
         "pk": 20001.1,
         "fields": {
             "question": "gore_question_2",
@@ -2224,6 +2192,30 @@ campaignTrail_temp.answers_json = [
             "description": "Let's take a different angle on this. Those big companies, they're spending a lot of money to convince these congresspeople to go against our protocal. What if we did the same? Spend as much money as they are lobbying and convincing congressmen and women to vote yes."
         }
     },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 10001.1,
+        "fields": {
+            "question": "gore_question_1",
+            "description": "Unity. We are the United States of America. United we stand, divided we fall. During a time as dark as the one we are entering right now, we will, no, must always remember that we are here today because we have remained united. Thank you, and God bless America.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 10002.1,
+        "fields": {
+            "question": "gore_question_1",
+            "description": "Retribution. I want the American people to know I will not rest for one second until we find the monster behind this attack, and bring them to justice. We will not be deterred. We are America, second to none, and I am warning you: You have awoken a giant.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 10003.1,
+        "fields": {
+            "question": "gore_question_1",
+            "description": "Stability. I need to introduce myself not as Vice President Al Gore, but President. I need the people to know the chain of command remains unbroken, and I will work to my utmost ability to keep our country safe and secure.\n"
+        }
+    }
 ]
 
 
@@ -3007,6 +2999,36 @@ campaignTrail_temp.issues_json = [
             "stance_7": "Very Popular",
             "stance_desc_7": 0,
             "election": 9
+        }
+    },
+     {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12639,
+        "fields": {
+            "answer": 10001.1,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12648,
+        "fields": {
+            "answer": 10002.1,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12657,
+        "fields": {
+            "answer": 10003.1,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.15
         }
     }
 ]
@@ -10035,36 +10057,6 @@ campaignTrail_temp.answer_score_global_json = [
             "global_multiplier": 0.015
         }
     },
-     {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1272231,
-        "fields": {
-            "answer": 10001.1,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "global_multiplier": 0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1272234,
-        "fields": {
-            "answer": 10002.1,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "global_multiplier": 0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1272238,
-        "fields": {
-            "answer": 10003.1,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "global_multiplier": 0.01
-        }
-    },
     {
         "model": "campaign_trail.answer_score_global",
         "pk": 1272241,
@@ -10400,16 +10392,6 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 1272223,
         "fields": {
             "answer": 80002.1,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 10001.1,
-        "fields": {
-            "answer": 80003.1,
             "candidate": 77,
             "affected_candidate": 77,
             "global_multiplier": -0.03
@@ -10753,6 +10735,36 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 77,
             "affected_candidate": 80,
             "global_multiplier": -0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12639,
+        "fields": {
+            "answer": 10001.1,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12648,
+        "fields": {
+            "answer": 10002.1,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12657,
+        "fields": {
+            "answer": 10003.1,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.15
         }
     }
 ]
@@ -11400,26 +11412,6 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 1272235,
-        "fields": {
-            "answer": 10002.1,
-            "issue": 30,
-            "issue_score": -0.4,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 1272247,
-        "fields": {
-            "answer": 10002.1,
-            "issue": 31,
-            "issue_score": 0.4,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 1272248,
         "fields": {
             "answer": 10004.1,
@@ -11690,16 +11682,6 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 10002.1,
-        "fields": {
-            "answer": 80003.1,
-            "issue": 30,
-            "issue_score": -0.01,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 12646,
         "fields": {
             "answer": 240001,
@@ -11726,6 +11708,16 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 28,
             "issue_score": 0.7,
             "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 12664,
+        "fields": {
+            "answer": 10002.1,
+            "issue": 30,
+            "issue_score": -0.7,
+            "issue_importance": 8
         }
     }
 ]
@@ -12895,39 +12887,6 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 77,
             "affected_candidate": 77,
             "state_multiplier": 0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 1272232,
-        "fields": {
-            "answer": 10001.1,
-            "state": 184,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "state_multiplier": -0.2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 1272236,
-        "fields": {
-            "answer": 10002.1,
-            "state": 184,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "state_multiplier": -0.2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 1272239,
-        "fields": {
-            "answer": 10003.1,
-            "state": 184,
-            "candidate": 77,
-            "affected_candidate": 77,
-            "state_multiplier": -0.2
         }
     },
     {
@@ -14232,33 +14191,6 @@ campaignTrail_temp.answer_feedback_json = [
             "answer_feedback": "''...Hillary, do you really want to take this on?” Bill asks, his eyes narrowing thoughtfully as he leans back in his chair. “Because if anyone can do it, it’s you. You’re the smartest, hardest-working person I know, and New York would be lucky to have you.''"
         }
     },
-     {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 1272230,
-        "fields": {
-            "answer": 10001.1,
-            "candidate": 77,
-            "answer_feedback": "There is no word or statement that describes the adreneline that went through your body when you made this speech. You knew the true magnitude of every word you said, and you felt a cold shiver down your spine when you spoke. The leaving ovation from everyone on the floor lasted around 20 minutes, a haunting reminder of the mantle you've just taken."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 1272233,
-        "fields": {
-            "answer": 10002.1,
-            "candidate": 77,
-            "answer_feedback": "Gingrich makes it clear to you that he''ll put aside politics to find out who did this. After the agreement, your approval rating soars up to 96%, as you have the fragile trust of all Americans in your hands. The trust that defines legacy."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 1272237,
-        "fields": {
-            "answer": 10003.1,
-            "candidate": 77,
-            "answer_feedback": "Chelsea appreciates you saying that you'll be there for her, but you can tell she'll never heal. No amount of money, shelter, or condolences you give her will ever bring back her mother and father. In deep thought about it, you almost even shed a tear."
-        }
-    },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 1272240,
@@ -14779,6 +14711,33 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 240004,
             "candidate": 77,
             "answer_feedback": "Rockefeller and his Blue Dog Democratic colleagues support your moves to put regulations on the Internet, it also allows for you to expand your support among Moderates and Independents in the Democratic Party.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12638,
+        "fields": {
+            "answer": 10001.1,
+            "candidate": 77,
+            "answer_feedback": "You give a solemn address from the oval office. As soon as the cameras are off, you begin to cry. What you don’t know is that you’ve kept a spark of Hope alive in every American household during a dark time, and they are all crying with you. Godspeed, Mr. President.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12647,
+        "fields": {
+            "answer": 10002.1,
+            "candidate": 77,
+            "answer_feedback": "It’s only a few hours before Osama Bin Laden takes credit. He’s the leader of an Afghan terror group, and you have the Joint Chiefs of Staff drawing up battle plans within hours. Godspeed, Mr. President.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12656,
+        "fields": {
+            "answer": 10003.1,
+            "candidate": 77,
+            "answer_feedback": "The American people need stability, and you’ve given it to them. The hard part is keeping it. Godspeed, Mr. President."
         }
     }
 ]
@@ -15516,13 +15475,13 @@ let resetCondition = true;
 resetVariables(resetCondition);
     question_insert("insert_bill_dies", 
         {
-             "model": "campaign_trail.question",
-        "pk": "gore_question_1",
-        "fields": {
-            "priority": 0,
-            "description": "Mr. Vice President, we have just received word that President Clinton’s motorcade has spontaneously combusted during his trip to the Philippines. He and The First Lady have been pronounced dead. It’s believed to be an assassination. We are not sure of the details behind this yet but the CIA and Secret Service are warning of potential foreign intervention. After taking the oath, you are now addressing America.\n",
-            "likelihood": 1
-        }
+            "model": "campaign_trail.question",
+            "pk": "gore_question_1",
+            "fields": {
+                "priority": 0,
+                "description": "You’re in bed, thinking to yourself that you’ve had quite a nice day. You hear the bathroom door open, and look up to smile at your wife. You immediately stand up. Her face is pure white, and she’s surrounded by Secret Service. “Al… I…” She tries to speak before breaking down in tears and rushing into your arms. One of the agents walks up to you. “Mr. Vice President, you need to come with us. The president is dead, sir”. Immediately, the world feels dizzy. You’re quickly sworn in on the steps of the White House. You have to give a speech, so you pull out a pen and write a quick outline.",
+                "likelihood": 1
+            }
         }
         );
         question_insert("gore_question_1", 
